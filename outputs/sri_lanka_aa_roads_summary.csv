@@ -1,0 +1,37 @@
+route_no,osm_ref,road_name,official_length_km,osm_length_km,diff_km,diff_pct,coverage_flag,n_junctions_total,n_aa_aa_junctions
+AA000,A0,Kollupitiya - Sri Jayewardenepura,7.12,13.329773293493943,6.209773293493943,87.2,⚠️ Over,62,5
+AA001,A1,Colombo - Kandy,115.85,233.29024216084122,117.44024216084122,101.4,⚠️ Over,211,8
+AA002,A2,Colombo - Galle - Hambantota - Wellawaya,317.78,604.0775925507897,286.2975925507898,90.1,⚠️ Over,258,7
+AA003,A3,Peliyagoda - Puttalam,126.31,253.7204563929185,127.41045639291849,100.9,⚠️ Over,104,2
+AA004,A4,Colombo - Ratnapura - Wellawaya - Batticaloa,430.57,849.1588724551932,418.5888724551932,97.2,⚠️ Over,237,12
+AA005,A5,Peradeniya - Badulla - Chenkaladi,275.64,544.783766851548,269.143766851548,97.6,⚠️ Over,63,6
+AA006,A6,Ambepussa - Kurunegala - Trincomalee,198.71,0.0,-198.71,-100.0,❌ Under,0,0
+AA007,A7,Avissawella - Hatton - Nuwara Eliya,118.7,232.11217203429769,113.41217203429768,95.5,⚠️ Over,36,2
+AA008,A8,Panadura - Nambapana - Ratnapura,67.77,134.84686453251663,67.07686453251664,99.0,⚠️ Over,18,3
+AA009,A9,Kandy - Jaffna,321.0,279.9377908958782,-41.06220910412179,-12.8,❌ Under,89,7
+AA010,A10,Katugastota - Kurunegala - Puttalam,124.58,248.70196931745164,124.12196931745164,99.6,⚠️ Over,66,2
+AA011,A11,Maradankadawela - Habarana - Tirikkondiadimadu,129.36,251.94789992503613,122.58789992503611,94.8,⚠️ Over,26,2
+AA012,A12,Puttalam - Trincomalee,176.99,143.25048821321778,-33.73951178678223,-19.1,❌ Under,44,1
+AA013,A13,Galkulama - Anuradhapura,16.64,32.85046408321976,16.21046408321976,97.4,⚠️ Over,23,0
+AA014,A14,Medawachchiya - Mannar - Talaimannar,113.84,0.0,-113.84,-100.0,❌ Under,0,0
+AA015,A15,Batticaloa - Tirikkondiadimadu - Trincomalee,130.86,0.0,-130.86,-100.0,❌ Under,0,0
+AA016,A16,Beragala - Hali-Ela,40.39,76.19516629920228,35.805166299202284,88.6,⚠️ Over,18,3
+AA017,A17,Galle - Deniyaya - Madampe,143.93,284.2533824883149,140.3233824883149,97.5,⚠️ Over,29,3
+AA018,A18,Pelmadulla - Embilipitiya - Nonagama,87.69,169.49309881587376,81.80309881587377,93.3,⚠️ Over,22,2
+AA019,A19,Polgahawela - Kegalle,11.67,23.798124177048205,12.128124177048205,103.9,⚠️ Over,17,1
+AA020,A20,Anuradhapura - Rambewa,14.48,15.873399603768213,1.3933996037682128,9.6,✅ Good,11,2
+AA021,A21,Kegalle - Bulathkohupitiya - Karawanella,42.12,83.11220658517519,40.99220658517519,97.3,⚠️ Over,34,1
+AA022,A22,Passara - Moneragala,34.11,66.85148797633484,32.74148797633484,96.0,⚠️ Over,6,3
+AA023,A23,Wellawaya - Ella - Kumbalwela,30.57,60.55236468463195,29.982364684631946,98.1,⚠️ Over,4,2
+AA024,A24,Matara - Akuressa,20.11,40.1031223837049,19.9931223837049,99.4,⚠️ Over,22,1
+AA025,A25,Siyambalanduwa - Damana - Ampara,57.12,114.56657505656165,57.44657505656165,100.6,⚠️ Over,10,3
+AA026,A26,Kandy - Mahiyangana - Padiyatalawa,105.23,201.69347052326472,96.46347052326472,91.7,⚠️ Over,32,2
+AA027,A27,Ampara - Uhana - MahaOya,57.92,0.0,-57.92,-100.0,❌ Under,0,0
+AA028,A28,Padeniya - Anuradhapura,80.52,20.73147576425563,-59.78852423574436,-74.3,❌ Under,4,1
+AA029,A29,Vavuniya - Horowopotana,46.02,0.0,-46.02,-100.0,❌ Under,0,0
+AA030,A30,Vavuniya - Parayanalankulam,35.8,0.0,-35.8,-100.0,❌ Under,0,0
+AA031,A31,Karativu - Ampara,24.14,44.616543425933735,20.476543425933734,84.8,⚠️ Over,21,3
+AA032,A32,Navakkuli - Kerativu - Mannar,98.37,155.97279606902734,57.602796069027335,58.6,⚠️ Over,2,0
+AA033,A33,Ja-Ela - Ekala - Gampaha - Yakkala,17.02,32.45595363149448,15.435953631494481,90.7,⚠️ Over,48,4
+AA034,A34,Mankulam - Mullaitivu,49.25,0.0,-49.25,-100.0,❌ Under,0,0
+AA035,A35,Paranthan - Kachchai - Mullaitivu,52.13,0.0,-52.13,-100.0,❌ Under,0,0
