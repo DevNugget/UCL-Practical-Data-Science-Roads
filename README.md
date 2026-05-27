@@ -1,5 +1,5 @@
-# 🇱🇰 Sri Lanka Class AA Road Network
-A data analysis project that maps and validates Sri Lanka’s Class AA National Road Network using OpenStreetMap data and official RDA records.
+# 🇱🇰 Sri Lanka Road Network
+A data analysis project that maps and validates Sri Lanka’s National Road Network using OpenStreetMap data and official RDA records.
 
 ## Current Features
 - **Network Analysis**: Fetches and cleans Class AA road data from OpenStreetMap.
