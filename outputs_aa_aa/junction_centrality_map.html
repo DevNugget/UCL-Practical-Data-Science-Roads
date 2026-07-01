@@ -1,0 +1,2011 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a5288bc08f3c13515fa33d39aaa7c729 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a5288bc08f3c13515fa33d39aaa7c729" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a5288bc08f3c13515fa33d39aaa7c729 = L.map(
+                "map_a5288bc08f3c13515fa33d39aaa7c729",
+                {
+                    center: [7.729984518072289, 80.56735532530121],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+
+            
+
+        
+    
+            var tile_layer_9ed5dcb77bb0ae30e184a02b9a2f49c3 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9ed5dcb77bb0ae30e184a02b9a2f49c3.addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+            var circle_marker_0092a1725d70a718e0016fe7b53d98c2 = L.circleMarker(
+                [7.264124, 80.592942],
+                {"bubblingMouseEvents": true, "color": "#108647", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#108647", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_719fe15b62ba29b45f2d01ef7be60f98 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_abe94f72797c14a8c013857558f34e7d = $(`<div id="html_abe94f72797c14a8c013857558f34e7d" style="width: 100.0%; height: 100.0%;"><b>Junction 258029156</b><br>Avg distance: 140.3 km<br>Max distance: 314.0 km<br>Reachable junctions: 82</div>`)[0];
+                popup_719fe15b62ba29b45f2d01ef7be60f98.setContent(html_abe94f72797c14a8c013857558f34e7d);
+            
+        
+
+        circle_marker_0092a1725d70a718e0016fe7b53d98c2.bindPopup(popup_719fe15b62ba29b45f2d01ef7be60f98)
+        ;
+
+        
+    
+    
+            var circle_marker_557f1915c0671e1893a2dd4d269631b1 = L.circleMarker(
+                [6.732073, 81.101954],
+                {"bubblingMouseEvents": true, "color": "#fff5ae", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff5ae", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_532be11e6636ae836b140386fb3b7751 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c388c232a357254478cad97d9d959b2d = $(`<div id="html_c388c232a357254478cad97d9d959b2d" style="width: 100.0%; height: 100.0%;"><b>Junction 44265234</b><br>Avg distance: 209.4 km<br>Max distance: 431.2 km<br>Reachable junctions: 82</div>`)[0];
+                popup_532be11e6636ae836b140386fb3b7751.setContent(html_c388c232a357254478cad97d9d959b2d);
+            
+        
+
+        circle_marker_557f1915c0671e1893a2dd4d269631b1.bindPopup(popup_532be11e6636ae836b140386fb3b7751)
+        ;
+
+        
+    
+    
+            var circle_marker_3ef294c652cf5c9eae9ee2144a0fbb03 = L.circleMarker(
+                [6.731658, 81.099805],
+                {"bubblingMouseEvents": true, "color": "#fff5ae", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff5ae", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_446b43679bf27bb6e1a7833ed5db530d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c8916d3a59f3129d0ca7d278d8168fd = $(`<div id="html_4c8916d3a59f3129d0ca7d278d8168fd" style="width: 100.0%; height: 100.0%;"><b>Junction 603240642</b><br>Avg distance: 209.3 km<br>Max distance: 431.2 km<br>Reachable junctions: 82</div>`)[0];
+                popup_446b43679bf27bb6e1a7833ed5db530d.setContent(html_4c8916d3a59f3129d0ca7d278d8168fd);
+            
+        
+
+        circle_marker_3ef294c652cf5c9eae9ee2144a0fbb03.bindPopup(popup_446b43679bf27bb6e1a7833ed5db530d)
+        ;
+
+        
+    
+    
+            var circle_marker_3b5673854dfce5c0bbeb73789c1ffa9b = L.circleMarker(
+                [6.873478, 81.031248],
+                {"bubblingMouseEvents": true, "color": "#e0f295", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e0f295", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_3b77c5ed0a762c3ed025fa5210d27416 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a63f81862400f5d98bbbfbd5b2e26ca = $(`<div id="html_2a63f81862400f5d98bbbfbd5b2e26ca" style="width: 100.0%; height: 100.0%;"><b>Junction 49364356</b><br>Avg distance: 193.0 km<br>Max distance: 400.9 km<br>Reachable junctions: 82</div>`)[0];
+                popup_3b77c5ed0a762c3ed025fa5210d27416.setContent(html_2a63f81862400f5d98bbbfbd5b2e26ca);
+            
+        
+
+        circle_marker_3b5673854dfce5c0bbeb73789c1ffa9b.bindPopup(popup_3b77c5ed0a762c3ed025fa5210d27416)
+        ;
+
+        
+    
+    
+            var circle_marker_707ad9413b0c3fcb3d23ee059b4640c9 = L.circleMarker(
+                [6.032158, 80.239635],
+                {"bubblingMouseEvents": true, "color": "#dd3d2d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dd3d2d", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_32d2fa1c8776a19cc30a0ef78d601300 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0acc6f3ba85003e9a2834f694ee6c499 = $(`<div id="html_0acc6f3ba85003e9a2834f694ee6c499" style="width: 100.0%; height: 100.0%;"><b>Junction 59947552</b><br>Avg distance: 260.5 km<br>Max distance: 466.3 km<br>Reachable junctions: 82</div>`)[0];
+                popup_32d2fa1c8776a19cc30a0ef78d601300.setContent(html_0acc6f3ba85003e9a2834f694ee6c499);
+            
+        
+
+        circle_marker_707ad9413b0c3fcb3d23ee059b4640c9.bindPopup(popup_32d2fa1c8776a19cc30a0ef78d601300)
+        ;
+
+        
+    
+    
+            var circle_marker_f820546ef64749c80a65b62c80a0c2cc = L.circleMarker(
+                [6.960735, 80.769262],
+                {"bubblingMouseEvents": true, "color": "#b3df72", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b3df72", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_858972c01bcb6d54a1aed162d6c5e18b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d17373d0c282f0b4dcbd75483c94e082 = $(`<div id="html_d17373d0c282f0b4dcbd75483c94e082" style="width: 100.0%; height: 100.0%;"><b>Junction 3390634865</b><br>Avg distance: 179.0 km<br>Max distance: 381.5 km<br>Reachable junctions: 82</div>`)[0];
+                popup_858972c01bcb6d54a1aed162d6c5e18b.setContent(html_d17373d0c282f0b4dcbd75483c94e082);
+            
+        
+
+        circle_marker_f820546ef64749c80a65b62c80a0c2cc.bindPopup(popup_858972c01bcb6d54a1aed162d6c5e18b)
+        ;
+
+        
+    
+    
+            var circle_marker_eeb9a49add92891b5d8a0ba142b48050 = L.circleMarker(
+                [6.090296, 80.476194],
+                {"bubblingMouseEvents": true, "color": "#c01a27", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c01a27", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_5f1ee1d32d19f3ce1c14402f43ee65ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86b95a0a7df15f58d088079944fbceef = $(`<div id="html_86b95a0a7df15f58d088079944fbceef" style="width: 100.0%; height: 100.0%;"><b>Junction 98554769</b><br>Avg distance: 270.2 km<br>Max distance: 496.2 km<br>Reachable junctions: 82</div>`)[0];
+                popup_5f1ee1d32d19f3ce1c14402f43ee65ef.setContent(html_86b95a0a7df15f58d088079944fbceef);
+            
+        
+
+        circle_marker_eeb9a49add92891b5d8a0ba142b48050.bindPopup(popup_5f1ee1d32d19f3ce1c14402f43ee65ef)
+        ;
+
+        
+    
+    
+            var circle_marker_29b79fb36729eb7ea231fe18381761fb = L.circleMarker(
+                [7.293033, 80.637749],
+                {"bubblingMouseEvents": true, "color": "#108647", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#108647", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_7b4e8020b76010346fed382795476800 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d70c9657bbca96f24e9849365807c5d2 = $(`<div id="html_d70c9657bbca96f24e9849365807c5d2" style="width: 100.0%; height: 100.0%;"><b>Junction 5693657962</b><br>Avg distance: 139.8 km<br>Max distance: 309.2 km<br>Reachable junctions: 82</div>`)[0];
+                popup_7b4e8020b76010346fed382795476800.setContent(html_d70c9657bbca96f24e9849365807c5d2);
+            
+        
+
+        circle_marker_29b79fb36729eb7ea231fe18381761fb.bindPopup(popup_7b4e8020b76010346fed382795476800)
+        ;
+
+        
+    
+    
+            var circle_marker_55e3f2eb7c077e3a3b4a9e7555848147 = L.circleMarker(
+                [6.685328, 80.396078],
+                {"bubblingMouseEvents": true, "color": "#cdea83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cdea83", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_51be81c100e49f0cc3ac3a1bea2bb0b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c03282ed5c07b87edec36e97a676934 = $(`<div id="html_2c03282ed5c07b87edec36e97a676934" style="width: 100.0%; height: 100.0%;"><b>Junction 310860950</b><br>Avg distance: 186.1 km<br>Max distance: 407.9 km<br>Reachable junctions: 82</div>`)[0];
+                popup_51be81c100e49f0cc3ac3a1bea2bb0b7.setContent(html_2c03282ed5c07b87edec36e97a676934);
+            
+        
+
+        circle_marker_55e3f2eb7c077e3a3b4a9e7555848147.bindPopup(popup_51be81c100e49f0cc3ac3a1bea2bb0b7)
+        ;
+
+        
+    
+    
+            var circle_marker_240d45889b761460581940aa6187f73a = L.circleMarker(
+                [8.127337, 80.562747],
+                {"bubblingMouseEvents": true, "color": "#0e8245", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0e8245", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_05f86af37031ce31493909d588cf7fd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e4ab7b3e9dcd8743eb744a64bfb6187 = $(`<div id="html_8e4ab7b3e9dcd8743eb744a64bfb6187" style="width: 100.0%; height: 100.0%;"><b>Junction 8014319683</b><br>Avg distance: 138.7 km<br>Max distance: 316.1 km<br>Reachable junctions: 82</div>`)[0];
+                popup_05f86af37031ce31493909d588cf7fd7.setContent(html_8e4ab7b3e9dcd8743eb744a64bfb6187);
+            
+        
+
+        circle_marker_240d45889b761460581940aa6187f73a.bindPopup(popup_05f86af37031ce31493909d588cf7fd7)
+        ;
+
+        
+    
+    
+            var circle_marker_d7007aa2162b8b435243fa3dcfe1b26d = L.circleMarker(
+                [6.763807, 80.913127],
+                {"bubblingMouseEvents": true, "color": "#f4fab0", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f4fab0", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_cc25b004442774652de6ca4e06c2b22f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc8735e8a42530c7404fa59316ed9752 = $(`<div id="html_fc8735e8a42530c7404fa59316ed9752" style="width: 100.0%; height: 100.0%;"><b>Junction 603240427</b><br>Avg distance: 200.1 km<br>Max distance: 425.8 km<br>Reachable junctions: 82</div>`)[0];
+                popup_cc25b004442774652de6ca4e06c2b22f.setContent(html_fc8735e8a42530c7404fa59316ed9752);
+            
+        
+
+        circle_marker_d7007aa2162b8b435243fa3dcfe1b26d.bindPopup(popup_cc25b004442774652de6ca4e06c2b22f)
+        ;
+
+        
+    
+    
+            var circle_marker_d6ea23c3f5ef2bb94e01fadb01a71891 = L.circleMarker(
+                [7.241352, 80.211272],
+                {"bubblingMouseEvents": true, "color": "#18954f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#18954f", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_38aabef82ad5a399cbc53731b2498c16 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91b1968ea49af5482995b262fe8be71a = $(`<div id="html_91b1968ea49af5482995b262fe8be71a" style="width: 100.0%; height: 100.0%;"><b>Junction 617967952</b><br>Avg distance: 144.7 km<br>Max distance: 327.6 km<br>Reachable junctions: 82</div>`)[0];
+                popup_38aabef82ad5a399cbc53731b2498c16.setContent(html_91b1968ea49af5482995b262fe8be71a);
+            
+        
+
+        circle_marker_d6ea23c3f5ef2bb94e01fadb01a71891.bindPopup(popup_38aabef82ad5a399cbc53731b2498c16)
+        ;
+
+        
+    
+    
+            var circle_marker_32ee374914416b83626044e67bd1056c = L.circleMarker(
+                [7.241308, 80.211446],
+                {"bubblingMouseEvents": true, "color": "#18954f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#18954f", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_26a5caf7883b3afa06aa84e4ab970e07 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9246a5b823f858ecf6a9453114c7ff6b = $(`<div id="html_9246a5b823f858ecf6a9453114c7ff6b" style="width: 100.0%; height: 100.0%;"><b>Junction 7087535778</b><br>Avg distance: 144.7 km<br>Max distance: 327.6 km<br>Reachable junctions: 82</div>`)[0];
+                popup_26a5caf7883b3afa06aa84e4ab970e07.setContent(html_9246a5b823f858ecf6a9453114c7ff6b);
+            
+        
+
+        circle_marker_32ee374914416b83626044e67bd1056c.bindPopup(popup_26a5caf7883b3afa06aa84e4ab970e07)
+        ;
+
+        
+    
+    
+            var circle_marker_b10275e2ca26cc81e4c9178ba9a3ff86 = L.circleMarker(
+                [7.250859, 80.332131],
+                {"bubblingMouseEvents": true, "color": "#138c4a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#138c4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_13e7bdd435c2ceb4e349dfd716eb54a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5b438e25b102ad126855c222638b807 = $(`<div id="html_e5b438e25b102ad126855c222638b807" style="width: 100.0%; height: 100.0%;"><b>Junction 617968149</b><br>Avg distance: 141.8 km<br>Max distance: 324.2 km<br>Reachable junctions: 82</div>`)[0];
+                popup_13e7bdd435c2ceb4e349dfd716eb54a6.setContent(html_e5b438e25b102ad126855c222638b807);
+            
+        
+
+        circle_marker_b10275e2ca26cc81e4c9178ba9a3ff86.bindPopup(popup_13e7bdd435c2ceb4e349dfd716eb54a6)
+        ;
+
+        
+    
+    
+            var circle_marker_1b7c469c156f7a70286015186b2b7f07 = L.circleMarker(
+                [9.129259, 80.446796],
+                {"bubblingMouseEvents": true, "color": "#fff7b2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff7b2", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_1e9c909e02179be19170f807cf7abbd1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb95df6651284369e9b14e1dedc4943c = $(`<div id="html_fb95df6651284369e9b14e1dedc4943c" style="width: 100.0%; height: 100.0%;"><b>Junction 634172980</b><br>Avg distance: 208.5 km<br>Max distance: 432.5 km<br>Reachable junctions: 82</div>`)[0];
+                popup_1e9c909e02179be19170f807cf7abbd1.setContent(html_fb95df6651284369e9b14e1dedc4943c);
+            
+        
+
+        circle_marker_1b7c469c156f7a70286015186b2b7f07.bindPopup(popup_1e9c909e02179be19170f807cf7abbd1)
+        ;
+
+        
+    
+    
+            var circle_marker_98e50e0f066addb938e5246c2a046ef6 = L.circleMarker(
+                [6.911433, 79.849602],
+                {"bubblingMouseEvents": true, "color": "#abdb6d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#abdb6d", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_22722730758aa0a1569e4433aeea8e52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9bcfbed1d039c07b968628f7fe9781a = $(`<div id="html_a9bcfbed1d039c07b968628f7fe9781a" style="width: 100.0%; height: 100.0%;"><b>Junction 665214512</b><br>Avg distance: 176.4 km<br>Max distance: 351.0 km<br>Reachable junctions: 82</div>`)[0];
+                popup_22722730758aa0a1569e4433aeea8e52.setContent(html_a9bcfbed1d039c07b968628f7fe9781a);
+            
+        
+
+        circle_marker_98e50e0f066addb938e5246c2a046ef6.bindPopup(popup_22722730758aa0a1569e4433aeea8e52)
+        ;
+
+        
+    
+    
+            var circle_marker_4857adedf6441e73e60a2c8a25101e92 = L.circleMarker(
+                [6.91178, 79.850089],
+                {"bubblingMouseEvents": true, "color": "#abdb6d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#abdb6d", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_c9070eb529fa4f28b36e9b3d4d8956df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a49b38273798cb7894bb68acfaae17e = $(`<div id="html_4a49b38273798cb7894bb68acfaae17e" style="width: 100.0%; height: 100.0%;"><b>Junction 665214513</b><br>Avg distance: 176.4 km<br>Max distance: 351.0 km<br>Reachable junctions: 82</div>`)[0];
+                popup_c9070eb529fa4f28b36e9b3d4d8956df.setContent(html_4a49b38273798cb7894bb68acfaae17e);
+            
+        
+
+        circle_marker_4857adedf6441e73e60a2c8a25101e92.bindPopup(popup_c9070eb529fa4f28b36e9b3d4d8956df)
+        ;
+
+        
+    
+    
+            var circle_marker_3b90483a4b741189e3e0ccbd42154307 = L.circleMarker(
+                [9.662059, 80.081689],
+                {"bubblingMouseEvents": true, "color": "#a50026", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a50026", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_aa9e9831a301d50c9bc6f5b59e588ef1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b98ad85efb159ddf0d0120d81e9751ee = $(`<div id="html_b98ad85efb159ddf0d0120d81e9751ee" style="width: 100.0%; height: 100.0%;"><b>Junction 4136824664</b><br>Avg distance: 278.9 km<br>Max distance: 512.2 km<br>Reachable junctions: 82</div>`)[0];
+                popup_aa9e9831a301d50c9bc6f5b59e588ef1.setContent(html_b98ad85efb159ddf0d0120d81e9751ee);
+            
+        
+
+        circle_marker_3b90483a4b741189e3e0ccbd42154307.bindPopup(popup_aa9e9831a301d50c9bc6f5b59e588ef1)
+        ;
+
+        
+    
+    
+            var circle_marker_efd3a47708c9435b860e07e7199b2708 = L.circleMarker(
+                [7.885072, 80.651668],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_377520ea802163dc9bed9e3b863a8ba4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb6948d9ea7410f556b3333972d9082c = $(`<div id="html_fb6948d9ea7410f556b3333972d9082c" style="width: 100.0%; height: 100.0%;"><b>Junction 7599684152</b><br>Avg distance: 130.7 km<br>Max distance: 287.2 km<br>Reachable junctions: 82</div>`)[0];
+                popup_377520ea802163dc9bed9e3b863a8ba4.setContent(html_fb6948d9ea7410f556b3333972d9082c);
+            
+        
+
+        circle_marker_efd3a47708c9435b860e07e7199b2708.bindPopup(popup_377520ea802163dc9bed9e3b863a8ba4)
+        ;
+
+        
+    
+    
+            var circle_marker_e4cdb984d9ca269c91b060b8ea51f914 = L.circleMarker(
+                [8.5817, 81.189168],
+                {"bubblingMouseEvents": true, "color": "#c1e57b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1e57b", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_d0e6acf2ef7ebaf93d7f6a0c840397bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_770b5709dc1de1085745a2ff7942c9d3 = $(`<div id="html_770b5709dc1de1085745a2ff7942c9d3" style="width: 100.0%; height: 100.0%;"><b>Junction 6537569534</b><br>Avg distance: 183.1 km<br>Max distance: 387.7 km<br>Reachable junctions: 82</div>`)[0];
+                popup_d0e6acf2ef7ebaf93d7f6a0c840397bd.setContent(html_770b5709dc1de1085745a2ff7942c9d3);
+            
+        
+
+        circle_marker_e4cdb984d9ca269c91b060b8ea51f914.bindPopup(popup_d0e6acf2ef7ebaf93d7f6a0c840397bd)
+        ;
+
+        
+    
+    
+            var circle_marker_83ab448dbc581613d17a14cca41c41d8 = L.circleMarker(
+                [9.662098, 80.081465],
+                {"bubblingMouseEvents": true, "color": "#a50026", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a50026", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_08e2f255736bf0c9a578be771f4c6c73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_532872769cd32f63f9d8cd1df861f218 = $(`<div id="html_532872769cd32f63f9d8cd1df861f218" style="width: 100.0%; height: 100.0%;"><b>Junction 4136824665</b><br>Avg distance: 278.9 km<br>Max distance: 512.2 km<br>Reachable junctions: 82</div>`)[0];
+                popup_08e2f255736bf0c9a578be771f4c6c73.setContent(html_532872769cd32f63f9d8cd1df861f218);
+            
+        
+
+        circle_marker_83ab448dbc581613d17a14cca41c41d8.bindPopup(popup_08e2f255736bf0c9a578be771f4c6c73)
+        ;
+
+        
+    
+    
+            var circle_marker_3ba51b2dbf49a45c6d703bd8993994f5 = L.circleMarker(
+                [7.335389, 80.300183],
+                {"bubblingMouseEvents": true, "color": "#0f8446", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0f8446", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_d9406a7b59bed5e0a8607e8b1f7d08f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_009f745ee9d2ebc281d4fec3efd50e96 = $(`<div id="html_009f745ee9d2ebc281d4fec3efd50e96" style="width: 100.0%; height: 100.0%;"><b>Junction 3174892783</b><br>Avg distance: 139.6 km<br>Max distance: 312.5 km<br>Reachable junctions: 82</div>`)[0];
+                popup_d9406a7b59bed5e0a8607e8b1f7d08f1.setContent(html_009f745ee9d2ebc281d4fec3efd50e96);
+            
+        
+
+        circle_marker_3ba51b2dbf49a45c6d703bd8993994f5.bindPopup(popup_d9406a7b59bed5e0a8607e8b1f7d08f1)
+        ;
+
+        
+    
+    
+            var circle_marker_6a8db0e86c9a35430ff3dae095b4518d = L.circleMarker(
+                [7.335436, 80.300262],
+                {"bubblingMouseEvents": true, "color": "#0f8446", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0f8446", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_e51cc4f89c2956dc50e76e907954dde8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eaa1d5e153c514e49441db81bc0139be = $(`<div id="html_eaa1d5e153c514e49441db81bc0139be" style="width: 100.0%; height: 100.0%;"><b>Junction 1239489717</b><br>Avg distance: 139.6 km<br>Max distance: 312.4 km<br>Reachable junctions: 82</div>`)[0];
+                popup_e51cc4f89c2956dc50e76e907954dde8.setContent(html_eaa1d5e153c514e49441db81bc0139be);
+            
+        
+
+        circle_marker_6a8db0e86c9a35430ff3dae095b4518d.bindPopup(popup_e51cc4f89c2956dc50e76e907954dde8)
+        ;
+
+        
+    
+    
+            var circle_marker_70bf6f23ac84e272f4cef18e01f7a332 = L.circleMarker(
+                [8.587214, 81.206514],
+                {"bubblingMouseEvents": true, "color": "#c5e67e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c5e67e", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_a02fd9f6316705d0e8bdf9725c2a7629 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21b3475755a919724b720baf92c72edf = $(`<div id="html_21b3475755a919724b720baf92c72edf" style="width: 100.0%; height: 100.0%;"><b>Junction 1242694031</b><br>Avg distance: 184.0 km<br>Max distance: 390.1 km<br>Reachable junctions: 82</div>`)[0];
+                popup_a02fd9f6316705d0e8bdf9725c2a7629.setContent(html_21b3475755a919724b720baf92c72edf);
+            
+        
+
+        circle_marker_70bf6f23ac84e272f4cef18e01f7a332.bindPopup(popup_a02fd9f6316705d0e8bdf9725c2a7629)
+        ;
+
+        
+    
+    
+            var circle_marker_a141e81f9374efa0345eff945f2a2a7b = L.circleMarker(
+                [8.587268, 81.206204],
+                {"bubblingMouseEvents": true, "color": "#c5e67e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c5e67e", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_bc148c5c601197183f888129671f4bdc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81835d5d97191179a54c122b4adb2c2f = $(`<div id="html_81835d5d97191179a54c122b4adb2c2f" style="width: 100.0%; height: 100.0%;"><b>Junction 4139418521</b><br>Avg distance: 183.9 km<br>Max distance: 390.0 km<br>Reachable junctions: 82</div>`)[0];
+                popup_bc148c5c601197183f888129671f4bdc.setContent(html_81835d5d97191179a54c122b4adb2c2f);
+            
+        
+
+        circle_marker_a141e81f9374efa0345eff945f2a2a7b.bindPopup(popup_bc148c5c601197183f888129671f4bdc)
+        ;
+
+        
+    
+    
+            var circle_marker_314da80dbec821de09a85906174a0670 = L.circleMarker(
+                [7.080854, 79.890786],
+                {"bubblingMouseEvents": true, "color": "#84ca66", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#84ca66", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_c1060123011832e711a2467639b3d68f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c10805bcf8fa6bf665e9134ca77d7949 = $(`<div id="html_c10805bcf8fa6bf665e9134ca77d7949" style="width: 100.0%; height: 100.0%;"><b>Junction 2155580115</b><br>Avg distance: 167.4 km<br>Max distance: 328.9 km<br>Reachable junctions: 82</div>`)[0];
+                popup_c1060123011832e711a2467639b3d68f.setContent(html_c10805bcf8fa6bf665e9134ca77d7949);
+            
+        
+
+        circle_marker_314da80dbec821de09a85906174a0670.bindPopup(popup_c1060123011832e711a2467639b3d68f)
+        ;
+
+        
+    
+    
+            var circle_marker_fe5650dec9197fcfd173991f8cb0f5d2 = L.circleMarker(
+                [6.911894, 79.856566],
+                {"bubblingMouseEvents": true, "color": "#a9da6c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a9da6c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_37dc4384570169f42da1f7442386d91e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83b335a5fc2038788e9b65d262389efc = $(`<div id="html_83b335a5fc2038788e9b65d262389efc" style="width: 100.0%; height: 100.0%;"><b>Junction 6524681177</b><br>Avg distance: 175.9 km<br>Max distance: 350.4 km<br>Reachable junctions: 82</div>`)[0];
+                popup_37dc4384570169f42da1f7442386d91e.setContent(html_83b335a5fc2038788e9b65d262389efc);
+            
+        
+
+        circle_marker_fe5650dec9197fcfd173991f8cb0f5d2.bindPopup(popup_37dc4384570169f42da1f7442386d91e)
+        ;
+
+        
+    
+    
+            var circle_marker_00d6ffe334a0c57a533d3ee82fd56680 = L.circleMarker(
+                [9.262575, 80.811265],
+                {"bubblingMouseEvents": true, "color": "#fdb365", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fdb365", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_929fe66df8961270ad8c9e052f6a00eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac099c7c366f658b15f4f0caf99bf069 = $(`<div id="html_ac099c7c366f658b15f4f0caf99bf069" style="width: 100.0%; height: 100.0%;"><b>Junction 5217538839</b><br>Avg distance: 232.8 km<br>Max distance: 459.8 km<br>Reachable junctions: 82</div>`)[0];
+                popup_929fe66df8961270ad8c9e052f6a00eb.setContent(html_ac099c7c366f658b15f4f0caf99bf069);
+            
+        
+
+        circle_marker_00d6ffe334a0c57a533d3ee82fd56680.bindPopup(popup_929fe66df8961270ad8c9e052f6a00eb)
+        ;
+
+        
+    
+    
+            var circle_marker_eb297c2602cc7f7c0bba0f8004e9f01d = L.circleMarker(
+                [9.43655, 80.407655],
+                {"bubblingMouseEvents": true, "color": "#fca55d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca55d", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_9371408dd2512d7ddae7ffa931e2c314 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54235d1e54704bf63956c34af48c8d72 = $(`<div id="html_54235d1e54704bf63956c34af48c8d72" style="width: 100.0%; height: 100.0%;"><b>Junction 7042347620</b><br>Avg distance: 236.5 km<br>Max distance: 467.2 km<br>Reachable junctions: 82</div>`)[0];
+                popup_9371408dd2512d7ddae7ffa931e2c314.setContent(html_54235d1e54704bf63956c34af48c8d72);
+            
+        
+
+        circle_marker_eb297c2602cc7f7c0bba0f8004e9f01d.bindPopup(popup_9371408dd2512d7ddae7ffa931e2c314)
+        ;
+
+        
+    
+    
+            var circle_marker_aab5f53a8c345d0e560f44ac7548e9f1 = L.circleMarker(
+                [7.784987, 81.591193],
+                {"bubblingMouseEvents": true, "color": "#fffbb8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fffbb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_827b1a11b1ad5a923cf813694ff21258 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e574fc8bd5881d39679a6486fa308d7d = $(`<div id="html_e574fc8bd5881d39679a6486fa308d7d" style="width: 100.0%; height: 100.0%;"><b>Junction 13743364556</b><br>Avg distance: 206.7 km<br>Max distance: 344.6 km<br>Reachable junctions: 82</div>`)[0];
+                popup_827b1a11b1ad5a923cf813694ff21258.setContent(html_e574fc8bd5881d39679a6486fa308d7d);
+            
+        
+
+        circle_marker_aab5f53a8c345d0e560f44ac7548e9f1.bindPopup(popup_827b1a11b1ad5a923cf813694ff21258)
+        ;
+
+        
+    
+    
+            var circle_marker_e582c2904acbfbad3dd34a0a2486ba1f = L.circleMarker(
+                [7.292745, 81.687055],
+                {"bubblingMouseEvents": true, "color": "#fdb365", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fdb365", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_b6874c2d1fdc7c6b8bf0932a3b191ed6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19565430ef99b1d26079abb06e12d7f4 = $(`<div id="html_19565430ef99b1d26079abb06e12d7f4" style="width: 100.0%; height: 100.0%;"><b>Junction 1684534515</b><br>Avg distance: 232.7 km<br>Max distance: 410.3 km<br>Reachable junctions: 82</div>`)[0];
+                popup_b6874c2d1fdc7c6b8bf0932a3b191ed6.setContent(html_19565430ef99b1d26079abb06e12d7f4);
+            
+        
+
+        circle_marker_e582c2904acbfbad3dd34a0a2486ba1f.bindPopup(popup_b6874c2d1fdc7c6b8bf0932a3b191ed6)
+        ;
+
+        
+    
+    
+            var circle_marker_d53fae5706a75f0d7d8a1329f3d999a2 = L.circleMarker(
+                [7.292754, 81.687002],
+                {"bubblingMouseEvents": true, "color": "#fdb365", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fdb365", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_eab0974785e696613b85026e94a9327e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01160b5197727b6ffb1c04678ab58718 = $(`<div id="html_01160b5197727b6ffb1c04678ab58718" style="width: 100.0%; height: 100.0%;"><b>Junction 11715824040</b><br>Avg distance: 232.7 km<br>Max distance: 410.3 km<br>Reachable junctions: 82</div>`)[0];
+                popup_eab0974785e696613b85026e94a9327e.setContent(html_01160b5197727b6ffb1c04678ab58718);
+            
+        
+
+        circle_marker_d53fae5706a75f0d7d8a1329f3d999a2.bindPopup(popup_eab0974785e696613b85026e94a9327e)
+        ;
+
+        
+    
+    
+            var circle_marker_5ab0336bcc6c2adbe32dcdb58c9e315b = L.circleMarker(
+                [6.854211, 81.338475],
+                {"bubblingMouseEvents": true, "color": "#fffbb8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fffbb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_fefa16afa619930c29882cc207d84c10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8136f347378a40d2b9b0f7d9b52e12b3 = $(`<div id="html_8136f347378a40d2b9b0f7d9b52e12b3" style="width: 100.0%; height: 100.0%;"><b>Junction 1809805397</b><br>Avg distance: 206.7 km<br>Max distance: 409.1 km<br>Reachable junctions: 82</div>`)[0];
+                popup_fefa16afa619930c29882cc207d84c10.setContent(html_8136f347378a40d2b9b0f7d9b52e12b3);
+            
+        
+
+        circle_marker_5ab0336bcc6c2adbe32dcdb58c9e315b.bindPopup(popup_fefa16afa619930c29882cc207d84c10)
+        ;
+
+        
+    
+    
+            var circle_marker_a13aaa6143733323775ebfaac9db31b5 = L.circleMarker(
+                [8.761376, 80.498631],
+                {"bubblingMouseEvents": true, "color": "#a0d669", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a0d669", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_05485467058ec7b679b32a12128615e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b22c6ed0ec6ccdc280d1ed0c0bed3f1e = $(`<div id="html_b22c6ed0ec6ccdc280d1ed0c0bed3f1e" style="width: 100.0%; height: 100.0%;"><b>Junction 1728838958</b><br>Avg distance: 173.5 km<br>Max distance: 387.3 km<br>Reachable junctions: 82</div>`)[0];
+                popup_05485467058ec7b679b32a12128615e2.setContent(html_b22c6ed0ec6ccdc280d1ed0c0bed3f1e);
+            
+        
+
+        circle_marker_a13aaa6143733323775ebfaac9db31b5.bindPopup(popup_05485467058ec7b679b32a12128615e2)
+        ;
+
+        
+    
+    
+            var circle_marker_03899d9be01e7f09b4455c80666a740a = L.circleMarker(
+                [8.761249, 80.498768],
+                {"bubblingMouseEvents": true, "color": "#a0d669", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a0d669", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_302beda319ec870e22b6a42af480a5f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57089babfa16014b4695557e91c63b9f = $(`<div id="html_57089babfa16014b4695557e91c63b9f" style="width: 100.0%; height: 100.0%;"><b>Junction 7085505934</b><br>Avg distance: 173.5 km<br>Max distance: 387.3 km<br>Reachable junctions: 82</div>`)[0];
+                popup_302beda319ec870e22b6a42af480a5f7.setContent(html_57089babfa16014b4695557e91c63b9f);
+            
+        
+
+        circle_marker_03899d9be01e7f09b4455c80666a740a.bindPopup(popup_302beda319ec870e22b6a42af480a5f7)
+        ;
+
+        
+    
+    
+            var circle_marker_e65dca4e5a81380a8a998fad8414d285 = L.circleMarker(
+                [8.749919, 80.183496],
+                {"bubblingMouseEvents": true, "color": "#dff293", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dff293", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_3bffbb094293f0f7e5abc62ebb9d1de9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_042e6ecc6d4b7983c9ec6f3c55dd981d = $(`<div id="html_042e6ecc6d4b7983c9ec6f3c55dd981d" style="width: 100.0%; height: 100.0%;"><b>Junction 1732642149</b><br>Avg distance: 192.1 km<br>Max distance: 403.5 km<br>Reachable junctions: 82</div>`)[0];
+                popup_3bffbb094293f0f7e5abc62ebb9d1de9.setContent(html_042e6ecc6d4b7983c9ec6f3c55dd981d);
+            
+        
+
+        circle_marker_e65dca4e5a81380a8a998fad8414d285.bindPopup(popup_3bffbb094293f0f7e5abc62ebb9d1de9)
+        ;
+
+        
+    
+    
+            var circle_marker_dede8886df42c9118562cc8ac0f72436 = L.circleMarker(
+                [8.441616, 80.506476],
+                {"bubblingMouseEvents": true, "color": "#3ca959", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3ca959", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_99beb210978e612354842b1b2e3a94a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d66d8d75f2aad042ef4f7fe9550280a0 = $(`<div id="html_d66d8d75f2aad042ef4f7fe9550280a0" style="width: 100.0%; height: 100.0%;"><b>Junction 1886079221</b><br>Avg distance: 152.4 km<br>Max distance: 350.1 km<br>Reachable junctions: 82</div>`)[0];
+                popup_99beb210978e612354842b1b2e3a94a5.setContent(html_d66d8d75f2aad042ef4f7fe9550280a0);
+            
+        
+
+        circle_marker_dede8886df42c9118562cc8ac0f72436.bindPopup(popup_99beb210978e612354842b1b2e3a94a5)
+        ;
+
+        
+    
+    
+            var circle_marker_b80a36f56520670c9c3037479dd63cb0 = L.circleMarker(
+                [9.436373, 80.407658],
+                {"bubblingMouseEvents": true, "color": "#fca55d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca55d", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_053d54c0d9765cafb522d87c80e791d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7199f244c604abcfcab322858b521dd5 = $(`<div id="html_7199f244c604abcfcab322858b521dd5" style="width: 100.0%; height: 100.0%;"><b>Junction 1735981103</b><br>Avg distance: 236.5 km<br>Max distance: 467.2 km<br>Reachable junctions: 82</div>`)[0];
+                popup_053d54c0d9765cafb522d87c80e791d4.setContent(html_7199f244c604abcfcab322858b521dd5);
+            
+        
+
+        circle_marker_b80a36f56520670c9c3037479dd63cb0.bindPopup(popup_053d54c0d9765cafb522d87c80e791d4)
+        ;
+
+        
+    
+    
+            var circle_marker_4da3c431f9a51c016ecb7605a3f02cdd = L.circleMarker(
+                [9.436304, 80.407659],
+                {"bubblingMouseEvents": true, "color": "#fca55d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca55d", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_ef8228f1d93092a32b40b9703bf83b4f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d8ce63a98a139e65a275336b20df600 = $(`<div id="html_8d8ce63a98a139e65a275336b20df600" style="width: 100.0%; height: 100.0%;"><b>Junction 7042347632</b><br>Avg distance: 236.5 km<br>Max distance: 467.2 km<br>Reachable junctions: 82</div>`)[0];
+                popup_ef8228f1d93092a32b40b9703bf83b4f.setContent(html_8d8ce63a98a139e65a275336b20df600);
+            
+        
+
+        circle_marker_4da3c431f9a51c016ecb7605a3f02cdd.bindPopup(popup_ef8228f1d93092a32b40b9703bf83b4f)
+        ;
+
+        
+    
+    
+            var circle_marker_b7b43075ca8879a102f3c2c5b9dd9d27 = L.circleMarker(
+                [8.550102, 80.832647],
+                {"bubblingMouseEvents": true, "color": "#89cc67", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#89cc67", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_0f75806af97ff763c53b286de8b45000 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ae8d85e3dcfc99ae96488f79a2d4c18 = $(`<div id="html_1ae8d85e3dcfc99ae96488f79a2d4c18" style="width: 100.0%; height: 100.0%;"><b>Junction 1740742111</b><br>Avg distance: 168.1 km<br>Max distance: 373.8 km<br>Reachable junctions: 82</div>`)[0];
+                popup_0f75806af97ff763c53b286de8b45000.setContent(html_1ae8d85e3dcfc99ae96488f79a2d4c18);
+            
+        
+
+        circle_marker_b7b43075ca8879a102f3c2c5b9dd9d27.bindPopup(popup_0f75806af97ff763c53b286de8b45000)
+        ;
+
+        
+    
+    
+            var circle_marker_fc43565c0acd1051302338a56f7c7b1b = L.circleMarker(
+                [6.534034, 80.593143],
+                {"bubblingMouseEvents": true, "color": "#fffbb8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fffbb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_c9cceed3f9ec6132d493db3fdfc622ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4a9aaf2fbcdd1046633c61ed4835e53 = $(`<div id="html_a4a9aaf2fbcdd1046633c61ed4835e53" style="width: 100.0%; height: 100.0%;"><b>Junction 1750869639</b><br>Avg distance: 206.5 km<br>Max distance: 440.4 km<br>Reachable junctions: 82</div>`)[0];
+                popup_c9cceed3f9ec6132d493db3fdfc622ce.setContent(html_a4a9aaf2fbcdd1046633c61ed4835e53);
+            
+        
+
+        circle_marker_fc43565c0acd1051302338a56f7c7b1b.bindPopup(popup_c9cceed3f9ec6132d493db3fdfc622ce)
+        ;
+
+        
+    
+    
+            var circle_marker_df27b8de1f54a0d0b0478796e95fe87d = L.circleMarker(
+                [7.383205, 81.228194],
+                {"bubblingMouseEvents": true, "color": "#a7d96b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a7d96b", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_38db0ed5345767cbb1d4e707fd2dc69c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7bc41ddcd108e6153560b1b2550a9f20 = $(`<div id="html_7bc41ddcd108e6153560b1b2550a9f20" style="width: 100.0%; height: 100.0%;"><b>Junction 1783974992</b><br>Avg distance: 175.6 km<br>Max distance: 349.2 km<br>Reachable junctions: 82</div>`)[0];
+                popup_38db0ed5345767cbb1d4e707fd2dc69c.setContent(html_7bc41ddcd108e6153560b1b2550a9f20);
+            
+        
+
+        circle_marker_df27b8de1f54a0d0b0478796e95fe87d.bindPopup(popup_38db0ed5345767cbb1d4e707fd2dc69c)
+        ;
+
+        
+    
+    
+            var circle_marker_cd77d0c344230c4b1f9c1028dc00a452 = L.circleMarker(
+                [7.383154, 81.228134],
+                {"bubblingMouseEvents": true, "color": "#a7d96b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a7d96b", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_bb15e5a28c3f8f7f5972d876594f321f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77082be1cb6dcbd2f6957fd6bec95767 = $(`<div id="html_77082be1cb6dcbd2f6957fd6bec95767" style="width: 100.0%; height: 100.0%;"><b>Junction 10016226413</b><br>Avg distance: 175.6 km<br>Max distance: 349.2 km<br>Reachable junctions: 82</div>`)[0];
+                popup_bb15e5a28c3f8f7f5972d876594f321f.setContent(html_77082be1cb6dcbd2f6957fd6bec95767);
+            
+        
+
+        circle_marker_cd77d0c344230c4b1f9c1028dc00a452.bindPopup(popup_bb15e5a28c3f8f7f5972d876594f321f)
+        ;
+
+        
+    
+    
+            var circle_marker_d8d376c8d3d3765ba4b742210d4afdc7 = L.circleMarker(
+                [6.854383, 81.338564],
+                {"bubblingMouseEvents": true, "color": "#fffbb8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fffbb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_1286367d0ac934541f457f263bce9e56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8fcb0bb9362ae7d2f5619e7201a9d2d2 = $(`<div id="html_8fcb0bb9362ae7d2f5619e7201a9d2d2" style="width: 100.0%; height: 100.0%;"><b>Junction 1945675344</b><br>Avg distance: 206.7 km<br>Max distance: 409.1 km<br>Reachable junctions: 82</div>`)[0];
+                popup_1286367d0ac934541f457f263bce9e56.setContent(html_8fcb0bb9362ae7d2f5619e7201a9d2d2);
+            
+        
+
+        circle_marker_d8d376c8d3d3765ba4b742210d4afdc7.bindPopup(popup_1286367d0ac934541f457f263bce9e56)
+        ;
+
+        
+    
+    
+            var circle_marker_844574a1ada409c0a15b522b8bbae882 = L.circleMarker(
+                [6.953222, 80.212372],
+                {"bubblingMouseEvents": true, "color": "#78c565", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#78c565", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_6be37296d748f94255a70e7187ffe847 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc60bbefaf4afd7930d6ada91747d815 = $(`<div id="html_dc60bbefaf4afd7930d6ada91747d815" style="width: 100.0%; height: 100.0%;"><b>Junction 1797964180</b><br>Avg distance: 164.3 km<br>Max distance: 368.7 km<br>Reachable junctions: 82</div>`)[0];
+                popup_6be37296d748f94255a70e7187ffe847.setContent(html_dc60bbefaf4afd7930d6ada91747d815);
+            
+        
+
+        circle_marker_844574a1ada409c0a15b522b8bbae882.bindPopup(popup_6be37296d748f94255a70e7187ffe847)
+        ;
+
+        
+    
+    
+            var circle_marker_70e60d495bc7212ac219fb544b49aa9f = L.circleMarker(
+                [7.54591, 81.377528],
+                {"bubblingMouseEvents": true, "color": "#d3ec87", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d3ec87", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_821f765d34241a42d8abea287ddadc4b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_806853ff7cd9cd016c2abc1d7d5d59f8 = $(`<div id="html_806853ff7cd9cd016c2abc1d7d5d59f8" style="width: 100.0%; height: 100.0%;"><b>Junction 4959610635</b><br>Avg distance: 187.9 km<br>Max distance: 351.1 km<br>Reachable junctions: 82</div>`)[0];
+                popup_821f765d34241a42d8abea287ddadc4b.setContent(html_806853ff7cd9cd016c2abc1d7d5d59f8);
+            
+        
+
+        circle_marker_70e60d495bc7212ac219fb544b49aa9f.bindPopup(popup_821f765d34241a42d8abea287ddadc4b)
+        ;
+
+        
+    
+    
+            var circle_marker_7cc1e800c6878811dd69826f4c1c38bc = L.circleMarker(
+                [6.113641, 80.991506],
+                {"bubblingMouseEvents": true, "color": "#de402e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#de402e", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_1a0bdd28ed03fead6553e4c75aa5178f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb2b14f5d897102d1061d97ba940fe30 = $(`<div id="html_bb2b14f5d897102d1061d97ba940fe30" style="width: 100.0%; height: 100.0%;"><b>Junction 1985676681</b><br>Avg distance: 259.8 km<br>Max distance: 512.2 km<br>Reachable junctions: 82</div>`)[0];
+                popup_1a0bdd28ed03fead6553e4c75aa5178f.setContent(html_bb2b14f5d897102d1061d97ba940fe30);
+            
+        
+
+        circle_marker_7cc1e800c6878811dd69826f4c1c38bc.bindPopup(popup_1a0bdd28ed03fead6553e4c75aa5178f)
+        ;
+
+        
+    
+    
+            var circle_marker_73ac39a6f7fe0254546b986991ec280e = L.circleMarker(
+                [8.441418, 80.506412],
+                {"bubblingMouseEvents": true, "color": "#3ca959", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3ca959", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_a5de9076ec1534cccd894c794d538f3e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5924c0caf7c710bb47229905cd441f40 = $(`<div id="html_5924c0caf7c710bb47229905cd441f40" style="width: 100.0%; height: 100.0%;"><b>Junction 13749558430</b><br>Avg distance: 152.4 km<br>Max distance: 350.0 km<br>Reachable junctions: 82</div>`)[0];
+                popup_a5de9076ec1534cccd894c794d538f3e.setContent(html_5924c0caf7c710bb47229905cd441f40);
+            
+        
+
+        circle_marker_73ac39a6f7fe0254546b986991ec280e.bindPopup(popup_a5de9076ec1534cccd894c794d538f3e)
+        ;
+
+        
+    
+    
+            var circle_marker_758d7b9cdb52b085ed53ce958aac89db = L.circleMarker(
+                [7.785088, 81.591057],
+                {"bubblingMouseEvents": true, "color": "#fffbb8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fffbb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_3a12ab2e8913e6efd881b711280af502 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_218255f291fb99f4cf30476be8e1072d = $(`<div id="html_218255f291fb99f4cf30476be8e1072d" style="width: 100.0%; height: 100.0%;"><b>Junction 4212767857</b><br>Avg distance: 206.7 km<br>Max distance: 344.6 km<br>Reachable junctions: 82</div>`)[0];
+                popup_3a12ab2e8913e6efd881b711280af502.setContent(html_218255f291fb99f4cf30476be8e1072d);
+            
+        
+
+        circle_marker_758d7b9cdb52b085ed53ce958aac89db.bindPopup(popup_3a12ab2e8913e6efd881b711280af502)
+        ;
+
+        
+    
+    
+            var circle_marker_4edfcade846b2dd4cfdb5a960a3aa0b2 = L.circleMarker(
+                [6.939648, 81.175411],
+                {"bubblingMouseEvents": true, "color": "#f4fab0", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f4fab0", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_21931cda7e100490f5961ae4a8cf50df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45453693c82b70b9844a1f947071cffe = $(`<div id="html_45453693c82b70b9844a1f947071cffe" style="width: 100.0%; height: 100.0%;"><b>Junction 3527283166</b><br>Avg distance: 200.5 km<br>Max distance: 403.6 km<br>Reachable junctions: 82</div>`)[0];
+                popup_21931cda7e100490f5961ae4a8cf50df.setContent(html_45453693c82b70b9844a1f947071cffe);
+            
+        
+
+        circle_marker_4edfcade846b2dd4cfdb5a960a3aa0b2.bindPopup(popup_21931cda7e100490f5961ae4a8cf50df)
+        ;
+
+        
+    
+    
+            var circle_marker_d0266734e09a091786f0584b5f0ab61e = L.circleMarker(
+                [7.88513, 80.651621],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_13227b5e8dfc95a65e738c42a35f7e6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e74024e52faff2afb949f540b2ed9266 = $(`<div id="html_e74024e52faff2afb949f540b2ed9266" style="width: 100.0%; height: 100.0%;"><b>Junction 1981147403</b><br>Avg distance: 130.7 km<br>Max distance: 287.2 km<br>Reachable junctions: 82</div>`)[0];
+                popup_13227b5e8dfc95a65e738c42a35f7e6c.setContent(html_e74024e52faff2afb949f540b2ed9266);
+            
+        
+
+        circle_marker_d0266734e09a091786f0584b5f0ab61e.bindPopup(popup_13227b5e8dfc95a65e738c42a35f7e6c)
+        ;
+
+        
+    
+    
+            var circle_marker_f6fa8893d4de49a8991115223795c09d = L.circleMarker(
+                [6.955391, 81.031488],
+                {"bubblingMouseEvents": true, "color": "#d3ec87", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d3ec87", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_075e5839a6ccccd2e5b5690850fe4a5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62549c937edfdba240ab5a98f3d868c1 = $(`<div id="html_62549c937edfdba240ab5a98f3d868c1" style="width: 100.0%; height: 100.0%;"><b>Junction 2011981296</b><br>Avg distance: 188.2 km<br>Max distance: 387.5 km<br>Reachable junctions: 82</div>`)[0];
+                popup_075e5839a6ccccd2e5b5690850fe4a5f.setContent(html_62549c937edfdba240ab5a98f3d868c1);
+            
+        
+
+        circle_marker_f6fa8893d4de49a8991115223795c09d.bindPopup(popup_075e5839a6ccccd2e5b5690850fe4a5f)
+        ;
+
+        
+    
+    
+            var circle_marker_daa73a0ac24cc3a7309ab32f0de7ade1 = L.circleMarker(
+                [6.933767, 79.846893],
+                {"bubblingMouseEvents": true, "color": "#a7d96b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a7d96b", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_82ab43d62c1f428aa201ec15ce060093 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_abc6d9133964e92ad2c6a1c705a7b182 = $(`<div id="html_abc6d9133964e92ad2c6a1c705a7b182" style="width: 100.0%; height: 100.0%;"><b>Junction 5372968715</b><br>Avg distance: 175.1 km<br>Max distance: 348.6 km<br>Reachable junctions: 82</div>`)[0];
+                popup_82ab43d62c1f428aa201ec15ce060093.setContent(html_abc6d9133964e92ad2c6a1c705a7b182);
+            
+        
+
+        circle_marker_daa73a0ac24cc3a7309ab32f0de7ade1.bindPopup(popup_82ab43d62c1f428aa201ec15ce060093)
+        ;
+
+        
+    
+    
+            var circle_marker_9216e115602a8ccb74c3dba1931ef8ef = L.circleMarker(
+                [7.252924, 80.343195],
+                {"bubblingMouseEvents": true, "color": "#138c4a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#138c4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_5b46cb323eaa6818fb6a7ae804e131e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d28ca7f0c375a8803b4b8ca88edc5f8 = $(`<div id="html_0d28ca7f0c375a8803b4b8ca88edc5f8" style="width: 100.0%; height: 100.0%;"><b>Junction 3794035028</b><br>Avg distance: 141.8 km<br>Max distance: 324.4 km<br>Reachable junctions: 82</div>`)[0];
+                popup_5b46cb323eaa6818fb6a7ae804e131e9.setContent(html_0d28ca7f0c375a8803b4b8ca88edc5f8);
+            
+        
+
+        circle_marker_9216e115602a8ccb74c3dba1931ef8ef.bindPopup(popup_5b46cb323eaa6818fb6a7ae804e131e9)
+        ;
+
+        
+    
+    
+            var circle_marker_42025ed0057d13e167cf9c384e8e714f = L.circleMarker(
+                [7.081141, 79.890842],
+                {"bubblingMouseEvents": true, "color": "#84ca66", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#84ca66", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_9adc69ffaf31b88023fda2206ab10a54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c95c3fd0742d8f14facfe57746d55c1d = $(`<div id="html_c95c3fd0742d8f14facfe57746d55c1d" style="width: 100.0%; height: 100.0%;"><b>Junction 3849049820</b><br>Avg distance: 167.3 km<br>Max distance: 328.9 km<br>Reachable junctions: 82</div>`)[0];
+                popup_9adc69ffaf31b88023fda2206ab10a54.setContent(html_c95c3fd0742d8f14facfe57746d55c1d);
+            
+        
+
+        circle_marker_42025ed0057d13e167cf9c384e8e714f.bindPopup(popup_9adc69ffaf31b88023fda2206ab10a54)
+        ;
+
+        
+    
+    
+            var circle_marker_e4f18f279d13ff82aabbcece040cf866 = L.circleMarker(
+                [6.712438, 79.907538],
+                {"bubblingMouseEvents": true, "color": "#dcf08f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dcf08f", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_97011f008f40b346903bb9830cc59594 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1e2d6dd6c5124652b6b20081e91d6d5 = $(`<div id="html_d1e2d6dd6c5124652b6b20081e91d6d5" style="width: 100.0%; height: 100.0%;"><b>Junction 2339297860</b><br>Avg distance: 191.0 km<br>Max distance: 373.9 km<br>Reachable junctions: 82</div>`)[0];
+                popup_97011f008f40b346903bb9830cc59594.setContent(html_d1e2d6dd6c5124652b6b20081e91d6d5);
+            
+        
+
+        circle_marker_e4f18f279d13ff82aabbcece040cf866.bindPopup(popup_97011f008f40b346903bb9830cc59594)
+        ;
+
+        
+    
+    
+            var circle_marker_f3d05e1c75735e99cb3b6f1f4018ab1d = L.circleMarker(
+                [6.712324, 79.907542],
+                {"bubblingMouseEvents": true, "color": "#dcf08f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dcf08f", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_7754213b8df0a69e0bc2a48cf0be00ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b4d3910d3b4fa1f2792ea13b615e0bd = $(`<div id="html_6b4d3910d3b4fa1f2792ea13b615e0bd" style="width: 100.0%; height: 100.0%;"><b>Junction 2339297862</b><br>Avg distance: 191.0 km<br>Max distance: 374.0 km<br>Reachable junctions: 82</div>`)[0];
+                popup_7754213b8df0a69e0bc2a48cf0be00ae.setContent(html_6b4d3910d3b4fa1f2792ea13b615e0bd);
+            
+        
+
+        circle_marker_f3d05e1c75735e99cb3b6f1f4018ab1d.bindPopup(popup_7754213b8df0a69e0bc2a48cf0be00ae)
+        ;
+
+        
+    
+    
+            var circle_marker_58c830d094cc88a343518f49e5a9da9c = L.circleMarker(
+                [7.874077, 80.651088],
+                {"bubblingMouseEvents": true, "color": "#006837", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006837", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_0d6cc7b8486568464dfff93cf477d683 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0817c8a6ffcc8ead8db668985340d0f2 = $(`<div id="html_0817c8a6ffcc8ead8db668985340d0f2" style="width: 100.0%; height: 100.0%;"><b>Junction 6289622879</b><br>Avg distance: 130.4 km<br>Max distance: 285.8 km<br>Reachable junctions: 82</div>`)[0];
+                popup_0d6cc7b8486568464dfff93cf477d683.setContent(html_0817c8a6ffcc8ead8db668985340d0f2);
+            
+        
+
+        circle_marker_58c830d094cc88a343518f49e5a9da9c.bindPopup(popup_0d6cc7b8486568464dfff93cf477d683)
+        ;
+
+        
+    
+    
+            var circle_marker_c9e29991c4f00f7e4d3edd05baed38be = L.circleMarker(
+                [7.322305, 80.624861],
+                {"bubblingMouseEvents": true, "color": "#0e8245", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0e8245", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_bc94ef95d75f61dad37a255a1903287c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4ce0d7c36ad5ddfdc9b81c3216d9ab4 = $(`<div id="html_b4ce0d7c36ad5ddfdc9b81c3216d9ab4" style="width: 100.0%; height: 100.0%;"><b>Junction 3088508709</b><br>Avg distance: 138.8 km<br>Max distance: 304.9 km<br>Reachable junctions: 82</div>`)[0];
+                popup_bc94ef95d75f61dad37a255a1903287c.setContent(html_b4ce0d7c36ad5ddfdc9b81c3216d9ab4);
+            
+        
+
+        circle_marker_c9e29991c4f00f7e4d3edd05baed38be.bindPopup(popup_bc94ef95d75f61dad37a255a1903287c)
+        ;
+
+        
+    
+    
+            var circle_marker_a3b585d377d641c110ca89216fd3fbbb = L.circleMarker(
+                [7.322347, 80.624795],
+                {"bubblingMouseEvents": true, "color": "#0e8245", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0e8245", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_b4c1f2731381351b3ccd34be733cc152 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ec3dc370dd8216e6258b09502392fac = $(`<div id="html_3ec3dc370dd8216e6258b09502392fac" style="width: 100.0%; height: 100.0%;"><b>Junction 3088508720</b><br>Avg distance: 138.8 km<br>Max distance: 304.9 km<br>Reachable junctions: 82</div>`)[0];
+                popup_b4c1f2731381351b3ccd34be733cc152.setContent(html_3ec3dc370dd8216e6258b09502392fac);
+            
+        
+
+        circle_marker_a3b585d377d641c110ca89216fd3fbbb.bindPopup(popup_b4c1f2731381351b3ccd34be733cc152)
+        ;
+
+        
+    
+    
+            var circle_marker_3362205427521e78a5f9b0e4f51f7687 = L.circleMarker(
+                [6.934009, 79.846439],
+                {"bubblingMouseEvents": true, "color": "#a7d96b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a7d96b", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_1e6e75290ed92485507417b64e61d003 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_491dbd97e346ed2539ce88b4b6207598 = $(`<div id="html_491dbd97e346ed2539ce88b4b6207598" style="width: 100.0%; height: 100.0%;"><b>Junction 3136385191</b><br>Avg distance: 175.2 km<br>Max distance: 348.6 km<br>Reachable junctions: 82</div>`)[0];
+                popup_1e6e75290ed92485507417b64e61d003.setContent(html_491dbd97e346ed2539ce88b4b6207598);
+            
+        
+
+        circle_marker_3362205427521e78a5f9b0e4f51f7687.bindPopup(popup_1e6e75290ed92485507417b64e61d003)
+        ;
+
+        
+    
+    
+            var circle_marker_24cb9f3bc817b2ed1f18ae77b025129c = L.circleMarker(
+                [8.759459, 80.499991],
+                {"bubblingMouseEvents": true, "color": "#9dd569", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9dd569", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_73f74433c484998746f778f99fe6a57c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fddc9f331f8d8275f31b1490e79cf6f0 = $(`<div id="html_fddc9f331f8d8275f31b1490e79cf6f0" style="width: 100.0%; height: 100.0%;"><b>Junction 3237363036</b><br>Avg distance: 173.3 km<br>Max distance: 387.0 km<br>Reachable junctions: 82</div>`)[0];
+                popup_73f74433c484998746f778f99fe6a57c.setContent(html_fddc9f331f8d8275f31b1490e79cf6f0);
+            
+        
+
+        circle_marker_24cb9f3bc817b2ed1f18ae77b025129c.bindPopup(popup_73f74433c484998746f778f99fe6a57c)
+        ;
+
+        
+    
+    
+            var circle_marker_349606990a5d29f2efbad2521c5a45c2 = L.circleMarker(
+                [8.75946, 80.50015],
+                {"bubblingMouseEvents": true, "color": "#9dd569", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9dd569", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_b238d7a198abd594d40e7de3422a6747 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e45fb030d16b14056c1f90997423773 = $(`<div id="html_3e45fb030d16b14056c1f90997423773" style="width: 100.0%; height: 100.0%;"><b>Junction 3237363045</b><br>Avg distance: 173.3 km<br>Max distance: 387.1 km<br>Reachable junctions: 82</div>`)[0];
+                popup_b238d7a198abd594d40e7de3422a6747.setContent(html_3e45fb030d16b14056c1f90997423773);
+            
+        
+
+        circle_marker_349606990a5d29f2efbad2521c5a45c2.bindPopup(popup_b238d7a198abd594d40e7de3422a6747)
+        ;
+
+        
+    
+    
+            var circle_marker_e5486e21ea438fbd157ec038bcba2dbf = L.circleMarker(
+                [8.759301, 80.500075],
+                {"bubblingMouseEvents": true, "color": "#9dd569", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9dd569", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_e0f4cba155cbf823196a80602f88e2eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c56aa2aed3151243a75b345971204ac = $(`<div id="html_5c56aa2aed3151243a75b345971204ac" style="width: 100.0%; height: 100.0%;"><b>Junction 4137095171</b><br>Avg distance: 173.3 km<br>Max distance: 387.0 km<br>Reachable junctions: 82</div>`)[0];
+                popup_e0f4cba155cbf823196a80602f88e2eb.setContent(html_5c56aa2aed3151243a75b345971204ac);
+            
+        
+
+        circle_marker_e5486e21ea438fbd157ec038bcba2dbf.bindPopup(popup_e0f4cba155cbf823196a80602f88e2eb)
+        ;
+
+        
+    
+    
+            var circle_marker_2a90ccd5c530e742d2f61d839b3ff063 = L.circleMarker(
+                [9.662146, 80.08162],
+                {"bubblingMouseEvents": true, "color": "#a50026", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a50026", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_700c2ca51133e387b889e6ddc074a1da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b77e0b6d74660c758794b23c0d69b484 = $(`<div id="html_b77e0b6d74660c758794b23c0d69b484" style="width: 100.0%; height: 100.0%;"><b>Junction 3474422106</b><br>Avg distance: 278.9 km<br>Max distance: 512.2 km<br>Reachable junctions: 82</div>`)[0];
+                popup_700c2ca51133e387b889e6ddc074a1da.setContent(html_b77e0b6d74660c758794b23c0d69b484);
+            
+        
+
+        circle_marker_2a90ccd5c530e742d2f61d839b3ff063.bindPopup(popup_700c2ca51133e387b889e6ddc074a1da)
+        ;
+
+        
+    
+    
+            var circle_marker_21f84f71c62a2b89f4208ee35871ecfd = L.circleMarker(
+                [9.661981, 80.081524],
+                {"bubblingMouseEvents": true, "color": "#a50026", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a50026", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_61e9fbfb08d7063e0ecdc1463db45dfe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a77b1e5cdc718eabc2f65547b4ac39fc = $(`<div id="html_a77b1e5cdc718eabc2f65547b4ac39fc" style="width: 100.0%; height: 100.0%;"><b>Junction 4136824662</b><br>Avg distance: 278.9 km<br>Max distance: 512.2 km<br>Reachable junctions: 82</div>`)[0];
+                popup_61e9fbfb08d7063e0ecdc1463db45dfe.setContent(html_a77b1e5cdc718eabc2f65547b4ac39fc);
+            
+        
+
+        circle_marker_21f84f71c62a2b89f4208ee35871ecfd.bindPopup(popup_61e9fbfb08d7063e0ecdc1463db45dfe)
+        ;
+
+        
+    
+    
+            var circle_marker_421868eacd7c8ed93c55ba5bce7da8ff = L.circleMarker(
+                [8.320851, 80.381474],
+                {"bubblingMouseEvents": true, "color": "#33a456", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#33a456", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_e72c18b9cd459877b5a297e9c414849b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b94763248cbf67f0854f0198b70ecad = $(`<div id="html_2b94763248cbf67f0854f0198b70ecad" style="width: 100.0%; height: 100.0%;"><b>Junction 4137349478</b><br>Avg distance: 150.3 km<br>Max distance: 328.9 km<br>Reachable junctions: 82</div>`)[0];
+                popup_e72c18b9cd459877b5a297e9c414849b.setContent(html_2b94763248cbf67f0854f0198b70ecad);
+            
+        
+
+        circle_marker_421868eacd7c8ed93c55ba5bce7da8ff.bindPopup(popup_e72c18b9cd459877b5a297e9c414849b)
+        ;
+
+        
+    
+    
+            var circle_marker_c35a333f9064421d85a1e9757194f55d = L.circleMarker(
+                [8.581856, 81.18929],
+                {"bubblingMouseEvents": true, "color": "#c1e57b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c1e57b", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_a620e9ba993a21e81cec644ebbb451e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45c89176d78d948d0cfdb8a33db15e21 = $(`<div id="html_45c89176d78d948d0cfdb8a33db15e21" style="width: 100.0%; height: 100.0%;"><b>Junction 6537569535</b><br>Avg distance: 183.1 km<br>Max distance: 387.7 km<br>Reachable junctions: 82</div>`)[0];
+                popup_a620e9ba993a21e81cec644ebbb451e1.setContent(html_45c89176d78d948d0cfdb8a33db15e21);
+            
+        
+
+        circle_marker_c35a333f9064421d85a1e9757194f55d.bindPopup(popup_a620e9ba993a21e81cec644ebbb451e1)
+        ;
+
+        
+    
+    
+            var circle_marker_29718193e73778c40773165dfa35b6eb = L.circleMarker(
+                [7.085983, 80.033362],
+                {"bubblingMouseEvents": true, "color": "#60ba62", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#60ba62", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_4f022bc5706367b9a440cacbd32fdc0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c271f548150676d6b0e0631cae3cccf = $(`<div id="html_1c271f548150676d6b0e0631cae3cccf" style="width: 100.0%; height: 100.0%;"><b>Junction 4963408994</b><br>Avg distance: 159.0 km<br>Max distance: 342.3 km<br>Reachable junctions: 82</div>`)[0];
+                popup_4f022bc5706367b9a440cacbd32fdc0b.setContent(html_1c271f548150676d6b0e0631cae3cccf);
+            
+        
+
+        circle_marker_29718193e73778c40773165dfa35b6eb.bindPopup(popup_4f022bc5706367b9a440cacbd32fdc0b)
+        ;
+
+        
+    
+    
+            var circle_marker_2368078f118d453b05a9212e006a2749 = L.circleMarker(
+                [7.487109, 80.365072],
+                {"bubblingMouseEvents": true, "color": "#07753e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#07753e", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_919ca40ffbd684a6f2a3eabac65d97d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fab77b0b47d483963b587fdcb9f78426 = $(`<div id="html_fab77b0b47d483963b587fdcb9f78426" style="width: 100.0%; height: 100.0%;"><b>Junction 9513937138</b><br>Avg distance: 134.7 km<br>Max distance: 293.6 km<br>Reachable junctions: 82</div>`)[0];
+                popup_919ca40ffbd684a6f2a3eabac65d97d7.setContent(html_fab77b0b47d483963b587fdcb9f78426);
+            
+        
+
+        circle_marker_2368078f118d453b05a9212e006a2749.bindPopup(popup_919ca40ffbd684a6f2a3eabac65d97d7)
+        ;
+
+        
+    
+    
+            var circle_marker_f44b70cd4f56d2bcc943db4ca5937757 = L.circleMarker(
+                [7.487073, 80.364967],
+                {"bubblingMouseEvents": true, "color": "#07753e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#07753e", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_41ef3a9482a6eb5f3b431cd08233b906 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e7c1e670080adf8675ef77302ef35b4 = $(`<div id="html_3e7c1e670080adf8675ef77302ef35b4" style="width: 100.0%; height: 100.0%;"><b>Junction 4944055508</b><br>Avg distance: 134.7 km<br>Max distance: 293.7 km<br>Reachable junctions: 82</div>`)[0];
+                popup_41ef3a9482a6eb5f3b431cd08233b906.setContent(html_3e7c1e670080adf8675ef77302ef35b4);
+            
+        
+
+        circle_marker_f44b70cd4f56d2bcc943db4ca5937757.bindPopup(popup_41ef3a9482a6eb5f3b431cd08233b906)
+        ;
+
+        
+    
+    
+            var circle_marker_b831185367c1e45ee6b8b2a7fdb4d094 = L.circleMarker(
+                [7.487134, 80.364992],
+                {"bubblingMouseEvents": true, "color": "#07753e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#07753e", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_6a28492290be3a5daa70e9abdaa74f50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f038233503c8d308dc2c5b140b034d7b = $(`<div id="html_f038233503c8d308dc2c5b140b034d7b" style="width: 100.0%; height: 100.0%;"><b>Junction 4944055634</b><br>Avg distance: 134.7 km<br>Max distance: 293.6 km<br>Reachable junctions: 82</div>`)[0];
+                popup_6a28492290be3a5daa70e9abdaa74f50.setContent(html_f038233503c8d308dc2c5b140b034d7b);
+            
+        
+
+        circle_marker_b831185367c1e45ee6b8b2a7fdb4d094.bindPopup(popup_6a28492290be3a5daa70e9abdaa74f50)
+        ;
+
+        
+    
+    
+            var circle_marker_9bce3f38e23a7eed33baacb150f86270 = L.circleMarker(
+                [7.086046, 80.033431],
+                {"bubblingMouseEvents": true, "color": "#60ba62", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#60ba62", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_ee2631dd23cb8bdaeef84252a4dba3a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0994600048255739e6647382fe70397 = $(`<div id="html_d0994600048255739e6647382fe70397" style="width: 100.0%; height: 100.0%;"><b>Junction 4963408992</b><br>Avg distance: 159.0 km<br>Max distance: 342.3 km<br>Reachable junctions: 82</div>`)[0];
+                popup_ee2631dd23cb8bdaeef84252a4dba3a9.setContent(html_d0994600048255739e6647382fe70397);
+            
+        
+
+        circle_marker_9bce3f38e23a7eed33baacb150f86270.bindPopup(popup_ee2631dd23cb8bdaeef84252a4dba3a9)
+        ;
+
+        
+    
+    
+            var circle_marker_d10775868ddb2b4d8bc766bb7369a428 = L.circleMarker(
+                [6.911925, 79.855848],
+                {"bubblingMouseEvents": true, "color": "#a9da6c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a9da6c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_b32788f79559ba543c39adcc2d475483 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_329f8fea059e3b126465103e8de0ebb0 = $(`<div id="html_329f8fea059e3b126465103e8de0ebb0" style="width: 100.0%; height: 100.0%;"><b>Junction 6524681176</b><br>Avg distance: 175.9 km<br>Max distance: 350.5 km<br>Reachable junctions: 82</div>`)[0];
+                popup_b32788f79559ba543c39adcc2d475483.setContent(html_329f8fea059e3b126465103e8de0ebb0);
+            
+        
+
+        circle_marker_d10775868ddb2b4d8bc766bb7369a428.bindPopup(popup_b32788f79559ba543c39adcc2d475483)
+        ;
+
+        
+    
+    
+            var circle_marker_2c0c477e197b14121a2df2dfb467d89e = L.circleMarker(
+                [6.911911, 79.856155],
+                {"bubblingMouseEvents": true, "color": "#a9da6c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a9da6c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_02394731af8a1d6703bc91cbdf91e5a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9093b5106910e955d9f9ad9cce3347e = $(`<div id="html_e9093b5106910e955d9f9ad9cce3347e" style="width: 100.0%; height: 100.0%;"><b>Junction 9628046175</b><br>Avg distance: 175.9 km<br>Max distance: 350.4 km<br>Reachable junctions: 82</div>`)[0];
+                popup_02394731af8a1d6703bc91cbdf91e5a8.setContent(html_e9093b5106910e955d9f9ad9cce3347e);
+            
+        
+
+        circle_marker_2c0c477e197b14121a2df2dfb467d89e.bindPopup(popup_02394731af8a1d6703bc91cbdf91e5a8)
+        ;
+
+        
+    
+    
+            var circle_marker_43d6a585fd37fab1ce98cca35807ca8a = L.circleMarker(
+                [9.436156, 80.407662],
+                {"bubblingMouseEvents": true, "color": "#fca55d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fca55d", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_f20734ade5aafee8ca09087201e84e8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_629bfbadf32ae716577fe87bf00b53ef = $(`<div id="html_629bfbadf32ae716577fe87bf00b53ef" style="width: 100.0%; height: 100.0%;"><b>Junction 7042347623</b><br>Avg distance: 236.5 km<br>Max distance: 467.2 km<br>Reachable junctions: 82</div>`)[0];
+                popup_f20734ade5aafee8ca09087201e84e8e.setContent(html_629bfbadf32ae716577fe87bf00b53ef);
+            
+        
+
+        circle_marker_43d6a585fd37fab1ce98cca35807ca8a.bindPopup(popup_f20734ade5aafee8ca09087201e84e8e)
+        ;
+
+        
+    
+    
+            var circle_marker_ae4a891726e243eb9edbb93bdb5cde0b = L.circleMarker(
+                [8.127311, 80.562666],
+                {"bubblingMouseEvents": true, "color": "#0e8245", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0e8245", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_3e994a358d6a326e29767dc4976813b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b9162154060f13556df0d070f240d8a = $(`<div id="html_6b9162154060f13556df0d070f240d8a" style="width: 100.0%; height: 100.0%;"><b>Junction 8014319682</b><br>Avg distance: 138.7 km<br>Max distance: 316.1 km<br>Reachable junctions: 82</div>`)[0];
+                popup_3e994a358d6a326e29767dc4976813b6.setContent(html_6b9162154060f13556df0d070f240d8a);
+            
+        
+
+        circle_marker_ae4a891726e243eb9edbb93bdb5cde0b.bindPopup(popup_3e994a358d6a326e29767dc4976813b6)
+        ;
+
+        
+    
+    
+            var circle_marker_5cd473eb49a71bbcfdd7aee1395c0692 = L.circleMarker(
+                [8.358495, 80.511664],
+                {"bubblingMouseEvents": true, "color": "#2aa054", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2aa054", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_9c222f0635628ca8e73b6e591f2430d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d9e6bcb69fcd19bbc36349f26e663fd = $(`<div id="html_3d9e6bcb69fcd19bbc36349f26e663fd" style="width: 100.0%; height: 100.0%;"><b>Junction 8032417737</b><br>Avg distance: 148.6 km<br>Max distance: 344.3 km<br>Reachable junctions: 82</div>`)[0];
+                popup_9c222f0635628ca8e73b6e591f2430d6.setContent(html_3d9e6bcb69fcd19bbc36349f26e663fd);
+            
+        
+
+        circle_marker_5cd473eb49a71bbcfdd7aee1395c0692.bindPopup(popup_9c222f0635628ca8e73b6e591f2430d6)
+        ;
+
+        
+    
+    
+            var circle_marker_0d9e0cdf19e0160c06f9a9f2a407dee5 = L.circleMarker(
+                [8.358426, 80.511792],
+                {"bubblingMouseEvents": true, "color": "#2aa054", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2aa054", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_59d4915b1a2aa396e598bffe431d266d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_393812df3abbd8b574cb89b54012da11 = $(`<div id="html_393812df3abbd8b574cb89b54012da11" style="width: 100.0%; height: 100.0%;"><b>Junction 8032417743</b><br>Avg distance: 148.6 km<br>Max distance: 344.3 km<br>Reachable junctions: 82</div>`)[0];
+                popup_59d4915b1a2aa396e598bffe431d266d.setContent(html_393812df3abbd8b574cb89b54012da11);
+            
+        
+
+        circle_marker_0d9e0cdf19e0160c06f9a9f2a407dee5.bindPopup(popup_59d4915b1a2aa396e598bffe431d266d)
+        ;
+
+        
+    
+    
+            var circle_marker_df6e91a7e013ce4fa3ffc8d52259bf53 = L.circleMarker(
+                [8.358516, 80.511777],
+                {"bubblingMouseEvents": true, "color": "#2aa054", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2aa054", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_ba711d446fb0112e8b27ccfe138b54b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8349d2976847e7e53d055f63faf1400f = $(`<div id="html_8349d2976847e7e53d055f63faf1400f" style="width: 100.0%; height: 100.0%;"><b>Junction 8032417746</b><br>Avg distance: 148.6 km<br>Max distance: 344.3 km<br>Reachable junctions: 82</div>`)[0];
+                popup_ba711d446fb0112e8b27ccfe138b54b7.setContent(html_8349d2976847e7e53d055f63faf1400f);
+            
+        
+
+        circle_marker_df6e91a7e013ce4fa3ffc8d52259bf53.bindPopup(popup_ba711d446fb0112e8b27ccfe138b54b7)
+        ;
+
+        
+    
+    
+            var circle_marker_62f43ca98a082b32c060b35d377a307c = L.circleMarker(
+                [8.358395, 80.511704],
+                {"bubblingMouseEvents": true, "color": "#2aa054", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2aa054", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_6bf63a44893ddb12f130a97bd1ffc07a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cfdbf6985d18411825d70a0b903127dc = $(`<div id="html_cfdbf6985d18411825d70a0b903127dc" style="width: 100.0%; height: 100.0%;"><b>Junction 8032417740</b><br>Avg distance: 148.6 km<br>Max distance: 344.3 km<br>Reachable junctions: 82</div>`)[0];
+                popup_6bf63a44893ddb12f130a97bd1ffc07a.setContent(html_cfdbf6985d18411825d70a0b903127dc);
+            
+        
+
+        circle_marker_62f43ca98a082b32c060b35d377a307c.bindPopup(popup_6bf63a44893ddb12f130a97bd1ffc07a)
+        ;
+
+        
+    
+    
+            var circle_marker_37b0b16c717905ac55b3ab3d686b9fe6 = L.circleMarker(
+                [7.487044, 80.365047],
+                {"bubblingMouseEvents": true, "color": "#07753e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#07753e", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_1a4607f9a7b6a27dc993423279aa2c82 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18609c59d9f2e579add3fab65da90d0d = $(`<div id="html_18609c59d9f2e579add3fab65da90d0d" style="width: 100.0%; height: 100.0%;"><b>Junction 9568699375</b><br>Avg distance: 134.7 km<br>Max distance: 293.6 km<br>Reachable junctions: 82</div>`)[0];
+                popup_1a4607f9a7b6a27dc993423279aa2c82.setContent(html_18609c59d9f2e579add3fab65da90d0d);
+            
+        
+
+        circle_marker_37b0b16c717905ac55b3ab3d686b9fe6.bindPopup(popup_1a4607f9a7b6a27dc993423279aa2c82)
+        ;
+
+        
+    
+    
+            var circle_marker_baabb9813c3f0b40296bcfea629d3523 = L.circleMarker(
+                [7.292818, 81.687044],
+                {"bubblingMouseEvents": true, "color": "#fdb365", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fdb365", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(map_a5288bc08f3c13515fa33d39aaa7c729);
+        
+    
+        var popup_b362ed79d1bc777413f3d80f9bc6df34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce67cf65b39b27ee7b91cef846702040 = $(`<div id="html_ce67cf65b39b27ee7b91cef846702040" style="width: 100.0%; height: 100.0%;"><b>Junction 11715824035</b><br>Avg distance: 232.7 km<br>Max distance: 410.3 km<br>Reachable junctions: 82</div>`)[0];
+                popup_b362ed79d1bc777413f3d80f9bc6df34.setContent(html_ce67cf65b39b27ee7b91cef846702040);
+            
+        
+
+        circle_marker_baabb9813c3f0b40296bcfea629d3523.bindPopup(popup_b362ed79d1bc777413f3d80f9bc6df34)
+        ;
+
+        
+    
+</script>
+</html>

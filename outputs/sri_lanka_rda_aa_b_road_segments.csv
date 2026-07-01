@@ -9,7 +9,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 33389466,250131591,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Tangalle Road,4824.890602888663
 35436490,258029156,A1,AA001,Colombo - Kandy,trunk,False,60,2,Colombo Road,192.31415942434043
 35436490,7094700078,A1,AA001,Colombo - Kandy,trunk,False,60,2,Colombo Road,18.0977895661637
-44265232,2610876638,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,"['Hambantota-Wellawaya Road', 'Kuda Oya Bridge', 'Tissa Road']",24937.559965107946
+44265232,2610876638,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,"['Tissa Road', 'Kuda Oya Bridge', 'Hambantota-Wellawaya Road']",24937.559965107946
 44265232,44265234,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Tissa Road,428.26964759668834
 44265234,13739751298,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,70,2,Wellawaya-Pottuvil Road,7.393315541458427
 44265234,1135398600,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,70,2,Wellawaya-Pottuvil Road,555.8492928618789
@@ -48,13 +48,13 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 59947552,6492867596,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Akuressa Road,1304.4375188705828
 59947552,8703211017,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,4,Matara Road,546.3724385768845
 59947552,309913698,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,4,Matara Road,188.50371828543953
-60654455,1231879141,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,60,"['4', '2']",Matara Road,6118.292848401263
+60654455,1231879141,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,60,"['2', '4']",Matara Road,6118.292848401263
 60654455,1675705732,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,60,4,Matara Road,243.06514426080494
 60797056,60797372,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,50,2,Galle Road,144.1291780472259
 60797372,1249801968,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,50,2,Galle Road,913.2093759407792
 60797439,10603977997,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,60,2,Galle Road,1906.126514105971
 60797607,1138325237,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,60,,Galle Road,199.3106675861649
-60797926,3090456359,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,"['50', '70']",2,Galle Road,6431.443333586588
+60797926,3090456359,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,"['70', '50']",2,Galle Road,6431.443333586588
 60797926,1781355217,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,"['4', '2']",Galle Road,1673.359310340018
 60798009,7085495071,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,60,3,Galle Road,1092.565359681876
 61802472,1431441533,A1,AA001,Colombo - Kandy,trunk,True,60,3,"['Baseline Road', 'Dr. Danister de Silva Mawatha']",634.05652534005
@@ -76,11 +76,11 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 91030247,7153699537,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,60,2,Galle Face Centre Road,202.43382226570338
 98554099,98554144,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Deniyaya Road,2551.310207965684
 98554099,252541774,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Deniyaya Road,8438.220214796665
-98554144,98554769,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,"['Deniyaya Road', 'Akuressa Road']",12228.575767434484
+98554144,98554769,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,"['Akuressa Road', 'Deniyaya Road']",12228.575767434484
 98554144,98554099,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Deniyaya Road,2551.3102079656837
 98554769,2164965693,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Deniyaya Road,99.23555392430535
-98554769,98554144,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,"['Deniyaya Road', 'Akuressa Road']",12228.57576743448
-98554769,1231840453,A24,AA024,Matara - Akuressa,trunk,False,"['72', '70']",2,"['Matara Road', 'Matara-Akuressa Road']",9075.628777470327
+98554769,98554144,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,"['Akuressa Road', 'Deniyaya Road']",12228.57576743448
+98554769,1231840453,A24,AA024,Matara - Akuressa,trunk,False,"['72', '70']",2,"['Matara-Akuressa Road', 'Matara Road']",9075.628777470327
 102737773,102737884,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Matara-Hambantota Road,50.55579977530333
 102737773,3256396052,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Matara-Hambantota Road,39.88064403954145
 102737846,3592218007,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Matara-Hambantota Road,432.4873255749472
@@ -88,13 +88,13 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 102737884,102737846,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Matara-Hambantota Road,54.83904716600031
 102737884,102737773,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Matara-Hambantota Road,50.55579977530333
 127658294,248608270,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,False,60,2,Horton Place,419.7904369353131
-127658294,4798976659,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,False,60,2,"['Horton Place', 'Dudley Senanayake Mawatha']",589.0864614214894
+127658294,4798976659,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,False,60,2,"['Dudley Senanayake Mawatha', 'Horton Place']",589.0864614214894
 127658312,191792898,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,60,4,Galle Road,393.49623176918766
 127659606,191856851,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,60,2,Yatiyantota Road,5453.6356650867
 127659606,3095525776,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,60,2,"['Talduwa Bridge', 'Yatiyantota Road']",1381.500348793711
 127660871,2247695861,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,50,2,H. Sri Nassanka Mawatha (High Level Road),207.61067836565033
 127660889,10771363400,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,50,2,High Level Road,480.88447920840866
-129605583,1212770520,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['50', '70']",2,Horana Road,2630.4971084531153
+129605583,1212770520,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['70', '50']",2,Horana Road,2630.4971084531153
 129605583,256663997,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,50,2,Horana Road,399.2120778133854
 129607626,1723172770,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,1,High Level Road,464.7714684876607
 129607626,1697583102,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,1,High Level Road,61.51756094245445
@@ -119,7 +119,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 130445589,248048875,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,"['4', '2']",Galle Road,5841.741378795209
 130462216,1231879141,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,60,2,Matara Road,4202.630623823434
 138713219,5234940056,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,60,2,Colombo Road,44.044767751726624
-191792898,666903979,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,"['60', '70']",4,Galle Road,188.14636817703823
+191792898,666903979,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,"['70', '60']",4,Galle Road,188.14636817703823
 191794735,7081602427,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,60,2,Galle Face Centre Road,297.2191736547771
 191799826,6272039662,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,60,2,Ananda Coomaraswamy Mawatha,40.02475381936586
 191816795,269351942,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,4,Sir Ernest de Silva Mawatha,381.9370594635275
@@ -127,9 +127,9 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 191856851,127659606,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,60,2,Yatiyantota Road,5453.6356650867065
 198601066,3217150026,A21,AA021,Kegalle - Bulathkohupitiya - Karawanella,trunk,True,40,1,Kegalle-Bulathkohupitiya-Karawanella Road,36.65761657148429
 198601066,5153458214,A21,AA021,Kegalle - Bulathkohupitiya - Karawanella,trunk,False,60,2,Kegalle-Bulathkohupitiya-Karawanella Road,2853.293179883989
-198851718,248048875,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,"['4', '2']",Galle Road,5949.013666842821
-198851718,3090460083,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,"['50', '70']","['4', '2']",Galle Road,4466.136577000102
-206594633,127660871,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,50,2,"['H. Sri Nassanka Mawatha (Maya Avenue)', 'H. Sri Nassanka Mawatha (High Level Road)']",197.84751564682773
+198851718,248048875,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,"['2', '4']",Galle Road,5949.013666842821
+198851718,3090460083,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,"['70', '50']","['2', '4']",Galle Road,4466.136577000102
+206594633,127660871,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,50,2,"['H. Sri Nassanka Mawatha (High Level Road)', 'H. Sri Nassanka Mawatha (Maya Avenue)']",197.84751564682773
 206596162,1475773455,A3,AA003,Peliyagoda - Puttalam,trunk,True,60,2,Negombo Road,474.18491407964456
 206597309,3805872958,A3,AA003,Peliyagoda - Puttalam,trunk,True,60,2,Negombo Road,950.760219611758
 245519497,1446610199,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,50,2,Ratnapura Road,25.719062035215792
@@ -141,13 +141,13 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 247139339,5252242488,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,70,2,Hatton Road,7998.773326826268
 247139339,247139123,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,70,2,Hatton Road,5319.431763175384
 247140202,4108748760,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,70,2,Talawakelle Road,4187.921911825382
-247140202,4507913122,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,"['50', '70']",2,"['Talawakelle Road', 'Main Street']",5755.458720877075
+247140202,4507913122,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,"['70', '50']",2,"['Main Street', 'Talawakelle Road']",5755.458720877075
 247140495,247140995,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,70,2,Nanu Oya Road,10280.07102737902
 247140495,3517327762,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,70,2,Nanu Oya Road,6773.409854846212
-247140995,247141016,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,"['50', '70']",2,"['Main Street', 'Nanu Oya Road']",875.7626020622546
+247140995,247141016,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,"['70', '50']",2,"['Main Street', 'Nanu Oya Road']",875.7626020622546
 247140995,247140495,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,70,2,Nanu Oya Road,10280.071027379012
-247141016,247140995,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,"['50', '70']",2,"['Nanu Oya Road', 'Main Street']",875.7626020622546
-247141016,3390658487,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,70,2,"['Nanu Oya Road', 'Main Street']",4512.2642232096405
+247141016,247140995,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,"['70', '50']",2,"['Main Street', 'Nanu Oya Road']",875.7626020622546
+247141016,3390658487,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,70,2,"['Main Street', 'Nanu Oya Road']",4512.2642232096405
 248048875,130445589,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,"['4', '2']",Galle Road,5841.741378795212
 248048875,198851718,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,"['4', '2']",Galle Road,5949.01366684282
 248608270,127658294,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,False,60,2,Horton Place,419.7904369353131
@@ -158,17 +158,17 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 250131773,2155946168,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Tangalle Road,1231.615086941008
 250731003,13399644563,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,70,2,Sri Jayewardenepura Mawatha,194.5978892106902
 252541774,98554099,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Deniyaya Road,8438.220214796664
-252541774,2434214580,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,"['Deniyaya Road', 'Akuressa Road']",1335.56575268164
+252541774,2434214580,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,"['Akuressa Road', 'Deniyaya Road']",1335.56575268164
 253022446,4422642586,A1,AA001,Colombo - Kandy,trunk,True,60,3,Dr. Danister de Silva Mawatha,45.79910257605009
 253022456,324997824,A1,AA001,Colombo - Kandy,trunk,True,60,3,"['New Kelani Bridge Road', 'New Kelani Bridge']",725.6829789979121
 253022458,1431441535,A1,AA001,Colombo - Kandy,trunk,True,60,3,"['New Kelani Bridge Road', 'Baseline Road']",117.36681790209214
 253022461,253022458,A1,AA001,Colombo - Kandy,trunk,True,60,3,"['New Kelani Bridge Road', 'New Kelani Bridge']",672.5635543445587
-253718899,1796922853,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['50', '70']",2,Ratnapura Road,13020.355516633577
+253718899,1796922853,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['70', '50']",2,Ratnapura Road,13020.355516633577
 253718899,245519498,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,50,2,Ratnapura Road,371.69642207194715
 256663997,129605583,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,50,2,Horana Road,399.2120778133854
 256663997,245519497,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,50,2,Horana Road,355.8081136687123
 257926216,5693657962,A1,AA001,Colombo - Kandy,trunk,False,60,2,Sri Dalada Veediya,63.216586126728835
-258025225,3213759120,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,"['60', '50', '70']",2,Habarana-Trincomalee-Batticaloa Road,18362.741077875224
+258025225,3213759120,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,"['70', '60', '50']",2,Habarana-Trincomalee-Batticaloa Road,18362.741077875224
 258025517,1651774036,A9,AA009,Kandy - Jaffna,trunk,False,70,2,Kandy-Jaffna Road,280.2920990150264
 258025517,258049598,A9,AA009,Kandy - Jaffna,trunk,False,70,2,Kandy-Jaffna Road,17026.085197342418
 258029156,258029159,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,50,2,Gampola Road,424.8171791821777
@@ -189,13 +189,13 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 258049381,2083007820,A9,AA009,Kandy - Jaffna,trunk,False,50,2,Kandy Road,79.6258148428456
 258049396,258049381,A9,AA009,Kandy - Jaffna,trunk,True,60,2,Main Street (Trincomalee Street),1169.287596475904
 258049396,1980552001,A9,AA009,Kandy - Jaffna,trunk,False,70,,Kandy-Jaffna Road,410.0093253799701
-258049453,3710121977,A9,AA009,Kandy - Jaffna,trunk,False,70,,"['Nalanda Oya Bridge', 'Kandy-Jaffna Road']",20137.30721149442
+258049453,3710121977,A9,AA009,Kandy - Jaffna,trunk,False,70,,"['Kandy-Jaffna Road', 'Nalanda Oya Bridge']",20137.30721149442
 258049453,1980552001,A9,AA009,Kandy - Jaffna,trunk,False,70,,Kandy-Jaffna Road,5588.810016391812
 258049598,258025517,A9,AA009,Kandy - Jaffna,trunk,False,70,2,Kandy-Jaffna Road,17026.085197342407
 258049598,3710121977,A9,AA009,Kandy - Jaffna,trunk,False,70,,Kandy-Jaffna Road,1454.4645205201195
 258053453,6230885416,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,70,2,Sri Jayewardenepura Mawatha,102.74331506360572
 258523315,258523345,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,70,2,Habarana-Polonnaruwa-Batticaloa Road,1038.2913580164536
-258523315,1241520120,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,"['60', '70']",2,"['Habarana-Polonnaruwa-Batticaloa Road', 'Habarana-Trincomalee-Batticaloa Road']",10728.042220751511
+258523315,1241520120,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,"['70', '60']",2,"['Habarana-Trincomalee-Batticaloa Road', 'Habarana-Polonnaruwa-Batticaloa Road']",10728.042220751511
 258523345,258523315,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,70,2,Habarana-Polonnaruwa-Batticaloa Road,1038.2913580164534
 258523345,7734473410,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,True,50,2,Habarana-Polonnaruwa-Batticaloa Road,478.1119995077374
 258523358,258523345,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,True,50,2,Habarana-Polonnaruwa-Batticaloa Road,478.12973930488323
@@ -208,7 +208,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 263179584,1855322535,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,50,2,Meewatura Road,1680.9618925720654
 263179584,263155217,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,Kandy Road,3014.0291505740597
 268931354,1792664495,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,50,6,Sri Sambuddhatwa Jayanthi Mawatha (Havelock Road),24.081835659985433
-268931354,3742192428,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,"['50', '70']",2,Sri Sambuddhatwa Jayanthi Mawatha (Havelock Road),446.37725723287906
+268931354,3742192428,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,"['70', '50']",2,Sri Sambuddhatwa Jayanthi Mawatha (Havelock Road),446.37725723287906
 269202453,3355393382,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,60,3,Alexandra Roundabout,23.589783503531745
 269202456,3355393361,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,60,3,Alexandra Roundabout,6.311465138196319
 269351942,6524681178,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,4,Sir Ernest de Silva Mawatha,291.3436336561913
@@ -223,7 +223,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 309913698,3081634094,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,70,3,Matara Road,141.90421076674986
 310860950,3937837818,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,72,2,Colombo Road,2890.6165700517217
 310860950,5303300108,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,72,2,Colombo Road,128.13252458552097
-310860950,1797858594,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['50', '70']",2,Ratnapura Road,17821.801188926314
+310860950,1797858594,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['70', '50']",2,Ratnapura Road,17821.801188926314
 310863031,2152800310,A18,AA018,Pelmadulla - Embilipitiya - Nonagama,trunk,True,60,1,Pelmadulla-Embilipitiya Road,15.928074876251738
 311128308,1094458277,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Galle Road,1538.1200264014954
 311128308,1138480331,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Galle Road,13.811689563362455
@@ -251,7 +251,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 403899731,206596162,A3,AA003,Peliyagoda - Puttalam,trunk,True,60,2,Negombo Road,2976.385608115868
 403899740,8112505448,A3,AA003,Peliyagoda - Puttalam,trunk,True,60,2,Negombo Road,2973.6727650321686
 403899785,3577871618,A3,AA003,Peliyagoda - Puttalam,trunk,True,60,2,Negombo Road,507.9508578010118
-445260233,2087261005,A21,AA021,Kegalle - Bulathkohupitiya - Karawanella,trunk,False,60,2,"['Warawala New Bridge', 'Kegalle-Bulathkohupitiya-Karawanella Road']",1774.1057364962817
+445260233,2087261005,A21,AA021,Kegalle - Bulathkohupitiya - Karawanella,trunk,False,60,2,"['Kegalle-Bulathkohupitiya-Karawanella Road', 'Warawala New Bridge']",1774.1057364962817
 445260233,5153458215,A21,AA021,Kegalle - Bulathkohupitiya - Karawanella,trunk,False,60,2,Kegalle-Bulathkohupitiya-Karawanella Road,1797.4039743232447
 445969634,3591964802,A1,AA001,Colombo - Kandy,trunk,False,70,2,Colombo-Kandy Road,15.232435503127205
 445969634,570766494,A1,AA001,Colombo - Kandy,trunk,False,70,2,Colombo-Kandy Road,7497.275335918363
@@ -301,7 +301,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 610955288,2610876638,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Hambantota-Wellawaya Road,9404.737550035608
 610970078,13055938742,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Hambantota-Wellawaya Road,22.520256794110413
 610970078,3677422292,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Hambantota-Wellawaya Road,6040.490463872479
-615737752,2093611694,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['50', '70']",,Anuradhapura - Padeniya Road,17956.941244842907
+615737752,2093611694,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['70', '50']",,Anuradhapura - Padeniya Road,17956.941244842907
 615737752,2638058811,A28,AA028,Padeniya - Anuradhapura,trunk,False,50,,Anuradhapura - Padeniya Road,434.7543615542863
 617806916,5245953970,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,True,70,,Kurunegala - Kandy Road,51.27793507020702
 617806916,9513937134,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,50,4,Kurunegala - Kandy Road,89.83825020195857
@@ -345,12 +345,12 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 620529017,206597309,A3,AA003,Peliyagoda - Puttalam,trunk,True,60,2,Negombo Road,4606.569182994666
 621175136,4152530090,A1,AA001,Colombo - Kandy,trunk,True,60,2,Colombo-Kandy Road,226.34564877032108
 634172980,1146591926,A9,AA009,Kandy - Jaffna,trunk,False,60,,Kandy - Jaffna Road,92.33434624625478
-634172980,6538140529,A9,AA009,Kandy - Jaffna,trunk,False,"['60', '70']",,"['Kandy-Jaffna Road', 'Kandy - Jaffna Road']",21407.35103383117
+634172980,6538140529,A9,AA009,Kandy - Jaffna,trunk,False,"['70', '60']",,"['Kandy-Jaffna Road', 'Kandy - Jaffna Road']",21407.35103383117
 634172980,6286620951,A34,AA034,Mankulam - Mullaitivu,trunk,False,60,,Mankulam - Mullaitivu,23382.420017136887
 635079773,3822124809,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,70,4,Galle Road,255.08881483301303
-635111100,3808874254,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,"['trunk', 'secondary']",True,60,3,"['Philip Gunawardene Mawatha (Reid Avenue)', 'Philip Gunawardena Mawatha (Reid Avenue)']",196.8293557278303
+635111100,3808874254,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,"['secondary', 'trunk']",True,60,3,"['Philip Gunawardena Mawatha (Reid Avenue)', 'Philip Gunawardene Mawatha (Reid Avenue)']",196.8293557278303
 635117662,4798976659,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,60,2,Dudley Senanayake Mawatha (Castle Street),129.80434669981926
-635164747,7085690885,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,"['50', '70']",2,Galle Road,951.553682250559
+635164747,7085690885,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,"['70', '50']",2,Galle Road,951.553682250559
 635164975,910154883,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,3,High Level Road,13.96923130893299
 635166169,4692166467,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,60,3,Sri Jayewardenepura Mawatha,168.64101313512185
 635795993,2925773146,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,70,5,Galle Road,452.60270348379856
@@ -396,7 +396,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 667426156,324966462,A1,AA001,Colombo - Kandy,trunk,True,70,2,Colombo-Kandy Road,2425.729969044128
 667529248,667536145,A33,AA033,Ja-Ela - Ekala - Gampaha - Yakkala,trunk,False,50,2,Gampaha-Ja Ela Road,231.08497910986475
 667529248,637763018,A33,AA033,Ja-Ela - Ekala - Gampaha - Yakkala,trunk,False,"['60', '50']",2,Gampaha-Ja Ela Road,7111.099368477621
-667536145,3289420458,A33,AA033,Ja-Ela - Ekala - Gampaha - Yakkala,trunk,False,"['50', '70']",2,Gampaha-Ja Ela Road,2166.9011388413896
+667536145,3289420458,A33,AA033,Ja-Ela - Ekala - Gampaha - Yakkala,trunk,False,"['70', '50']",2,Gampaha-Ja Ela Road,2166.9011388413896
 667536145,667529248,A33,AA033,Ja-Ela - Ekala - Gampaha - Yakkala,trunk,False,50,2,Gampaha-Ja Ela Road,231.08497910986472
 678334663,678334730,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,30,,,25.907519740148754
 678334679,678335411,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,,Sri Sambuddhatwa Jayanthi Mawatha (Havelock Road),45.442908028392495
@@ -417,7 +417,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 847851287,847851217,A9,AA009,Kandy - Jaffna,trunk,False,60,2,Kandy - Jaffna Road,1958.6717457335585
 847869821,4136868892,A9,AA009,Kandy - Jaffna,trunk,False,70,2,Kandy - Jaffna Road,29.284997192201917
 847869821,847851002,A9,AA009,Kandy - Jaffna,trunk,False,70,2,Kandy - Jaffna Road,293.6900471256494
-849189814,1141723502,A9,AA009,Kandy - Jaffna,trunk,False,"['50', '70']",2,Kandy - Jaffna Road,19619.722518019455
+849189814,1141723502,A9,AA009,Kandy - Jaffna,trunk,False,"['70', '50']",2,Kandy - Jaffna Road,19619.722518019455
 849189814,1148495443,A9,AA009,Kandy - Jaffna,trunk,False,70,2,Kandy - Jaffna Road,2754.907930651717
 849238535,1148494612,A9,AA009,Kandy - Jaffna,trunk,False,60,2,Kandy - Jaffna Road,2153.6158384134487
 849238535,2152817015,A9,AA009,Kandy - Jaffna,trunk,False,60,,Kandy - Jaffna Road,4415.9056776267735
@@ -434,7 +434,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 904233581,3064571973,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,True,70,2,Kurunegala-Dambulla Road,1126.7226147869221
 910154883,13682136255,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,"['3', '2']",High Level Road,1857.0099661909505
 912268077,4851065489,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,72,2,Ratunapura-Wellawaya Road,14509.573653307598
-912268077,1694691223,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,"['72', '60']",2,"['Warakatota New Bridge', 'CRWB', 'Main Street', 'Ratunapura-Wellawaya Road']",3202.956085987354
+912268077,1694691223,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,"['72', '60']",2,"['Main Street', 'Warakatota New Bridge', 'CRWB', 'Ratunapura-Wellawaya Road']",3202.956085987354
 937249756,2382076784,A26,AA026,Kandy - Mahiyangana - Padiyatalawa,trunk,False,60,2,Hewaheta Road,43.478087752794465
 937249756,4177584096,A26,AA026,Kandy - Mahiyangana - Padiyatalawa,trunk,False,60,2,Hewaheta Road,39.290080792142945
 937249756,2382152045,A26,AA026,Kandy - Mahiyangana - Padiyatalawa,trunk,False,60,2,Hewaheta Road,2425.6501816098544
@@ -469,11 +469,11 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 1139248145,7094563039,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,4,Matara Road,13.553421351741003
 1139248145,1674485421,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,4,Matara Road,9054.23237316863
 1141723502,1642975181,A9,AA009,Kandy - Jaffna,trunk,False,70,2,Kandy - Jaffna Road,18410.392583079436
-1141723502,849189814,A9,AA009,Kandy - Jaffna,trunk,False,"['50', '70']",2,Kandy - Jaffna Road,19619.722518019455
+1141723502,849189814,A9,AA009,Kandy - Jaffna,trunk,False,"['70', '50']",2,Kandy - Jaffna Road,19619.722518019455
 1146218640,2835617079,A12,AA012,Puttalam - Trincomalee,trunk,True,60,,Harischandra Mawatha,31.12616218829956
 1146218640,602759879,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,Harischandra Mawatha,504.4103833168944
 1146591926,634172980,A9,AA009,Kandy - Jaffna,trunk,False,60,,Kandy - Jaffna Road,92.33434624625478
-1146591926,2152832499,A9,AA009,Kandy - Jaffna,trunk,False,"['60', '70']",2,Kandy - Jaffna Road,29012.124724545785
+1146591926,2152832499,A9,AA009,Kandy - Jaffna,trunk,False,"['70', '60']",2,Kandy - Jaffna Road,29012.124724545785
 1147026886,1880354575,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,70,2,Pottuvil-Batticaloa Road,17489.757920804328
 1147026886,1883639101,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,2,New Kalmunai Road,637.7598656056505
 1147030351,1883639101,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,New Kalmunai Road,1352.7156246926274
@@ -492,29 +492,29 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 1190507161,247139123,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,70,2,Hatton Road,703.0620367899876
 1190507161,3215382447,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,70,2,Hatton Road,5105.832204294175
 1212770520,11765244590,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,70,2,Horana Road,9.122124580316804
-1212770520,129605583,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['50', '70']",2,Horana Road,2630.497108453115
+1212770520,129605583,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['70', '50']",2,Horana Road,2630.497108453115
 1231840374,1812292194,A24,AA024,Matara - Akuressa,trunk,False,60,,Matara-Akuressa Road,1254.0793509026942
 1231840374,3621305202,A24,AA024,Matara - Akuressa,trunk,False,60,,Matara-Akuressa Road,225.18611157032257
-1231840453,98554769,A24,AA024,Matara - Akuressa,trunk,False,"['72', '70']",2,"['Matara Road', 'Matara-Akuressa Road']",9075.628777470336
+1231840453,98554769,A24,AA024,Matara - Akuressa,trunk,False,"['70', '72']",2,"['Matara-Akuressa Road', 'Matara Road']",9075.628777470336
 1231840453,1812292194,A24,AA024,Matara - Akuressa,trunk,False,"['72', '60']",2,Matara-Akuressa Road,3122.8261447954706
-1231840774,12625589426,A24,AA024,Matara - Akuressa,trunk,True,"['50', '70']",2,Akuressa Road,1907.110793281838
+1231840774,12625589426,A24,AA024,Matara - Akuressa,trunk,True,"['70', '50']",2,Akuressa Road,1907.110793281838
 1231840785,1231840774,A24,AA024,Matara - Akuressa,trunk,True,70,2,Akuressa Road,151.77384022409814
 1231840826,1231840785,A24,AA024,Matara - Akuressa,trunk,True,70,2,Akuressa Road,409.88363495090346
 1231879141,60654455,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,60,"['4', '2']",Matara Road,6118.292848401267
 1231879141,130462216,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,60,2,Matara Road,4202.630623823433
 1233269778,1674509843,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,4,Matara Road,252.23076955059628
 1233269778,33389255,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,4,Matara Road,2614.2620851401903
-1235750064,635166169,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,"['60', '70']",3,Sri Jayewardenepura Mawatha,632.7827257460931
+1235750064,635166169,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,"['70', '60']",3,Sri Jayewardenepura Mawatha,632.7827257460931
 1235750071,1428448780,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,70,3,Dudley Senanayake Mawatha (Castle Street),34.78816243289144
 1235814824,2094947243,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,False,60,2,Kandy Road,10971.263995083209
 1235814824,4336068793,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,False,60,2,Kandy Road,32.72041266837245
 1239435066,2902101196,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,True,50,1,Kurunegala - Puttalam Road,34.5156560347308
 1239435066,1247060927,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,60,2,Kurunegala - Puttalam Road,512.0703957611063
 1239435069,2186928769,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,True,50,1,Kurunegala - Puttalam Road,20.71999770456564
-1239436241,1239436268,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,"['60', '70']",2,"['Kurunegala-Puttalam Road', 'Kurunegala - Puttalam Road']",4194.513358711815
-1239436241,3066364711,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,"['60', '70']",2,Kurunegala-Puttalam Road,4432.708354803903
+1239436241,1239436268,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,"['70', '60']",2,"['Kurunegala - Puttalam Road', 'Kurunegala-Puttalam Road']",4194.513358711815
+1239436241,3066364711,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,"['70', '60']",2,Kurunegala-Puttalam Road,4432.708354803903
 1239436268,1247060927,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,60,2,Kurunegala - Puttalam Road,5049.377388374281
-1239436268,1239436241,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,"['60', '70']",2,"['Kurunegala-Puttalam Road', 'Kurunegala - Puttalam Road']",4194.513358711815
+1239436268,1239436241,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,"['70', '60']",2,"['Kurunegala - Puttalam Road', 'Kurunegala-Puttalam Road']",4194.513358711815
 1239489670,3174892783,A19,AA019,Polgahawela - Kegalle,trunk,True,,,Polgahawela-Kegalle Road,28.28291674137889
 1239489675,1239489670,A19,AA019,Polgahawela - Kegalle,trunk,True,60,,Polgahawela-Kegalle Road,37.50427713475828
 1239489675,5319762817,A19,AA019,Polgahawela - Kegalle,trunk,False,60,2,Polgahawela-Kegalle Road,75.10648442357866
@@ -522,17 +522,17 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 1239489717,3174892783,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,True,70,2,Ambepussa-Kurunegala Road,10.246291409061305
 1239489717,1239489695,A19,AA019,Polgahawela - Kegalle,trunk,True,60,,Polgahawela-Kegalle Road,36.07036730523605
 1239568660,6511383104,A28,AA028,Padeniya - Anuradhapura,trunk,True,40,,Anuradhapura - Padeniya Road,37.34566046815818
-1239568660,1239651798,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['50', '70']",2,Anuradhapura - Padeniya Road,19416.159051118077
-1239651798,1239568660,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['50', '70']",2,Anuradhapura - Padeniya Road,19416.15905111807
-1239651798,1239725256,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['50', '70']",,Anuradhapura - Padeniya Road,11455.455031019339
-1239725256,2638058713,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['50', '70']",2,Anuradhapura - Padeniya Road,8956.297760310526
-1239725256,1239651798,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['50', '70']",,Anuradhapura - Padeniya Road,11455.455031019343
-1241520120,258523315,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,"['60', '70']",2,"['Habarana-Polonnaruwa-Batticaloa Road', 'Habarana-Trincomalee-Batticaloa Road']",10728.042220751498
+1239568660,1239651798,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['70', '50']",2,Anuradhapura - Padeniya Road,19416.159051118077
+1239651798,1239568660,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['70', '50']",2,Anuradhapura - Padeniya Road,19416.15905111807
+1239651798,1239725256,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['70', '50']",,Anuradhapura - Padeniya Road,11455.455031019339
+1239725256,2638058713,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['70', '50']",2,Anuradhapura - Padeniya Road,8956.297760310526
+1239725256,1239651798,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['70', '50']",,Anuradhapura - Padeniya Road,11455.455031019343
+1241520120,258523315,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,"['70', '60']",2,"['Habarana-Trincomalee-Batticaloa Road', 'Habarana-Polonnaruwa-Batticaloa Road']",10728.042220751498
 1241520120,1241520208,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,70,2,Habarana-Trincomalee-Batticaloa Road,221.80703530921633
 1241520208,1241520120,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,70,2,Habarana-Trincomalee-Batticaloa Road,221.80703530921636
 1241520208,2285202897,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,70,2,Habarana-Trincomalee-Batticaloa Road,6621.404027800603
 1241527366,9322671515,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,50,2,Habarana-Polonnaruwa-Batticaloa Road,41.53874159279151
-1241527366,2304485540,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,"['60', '50', '70', '30']",2,"['Habarana-Polonnaruwa-Batticaloa Road', 'Manampitiya Bridge']",10205.402798293522
+1241527366,2304485540,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,"['70', '30', '60', '50']",2,"['Manampitiya Bridge', 'Habarana-Polonnaruwa-Batticaloa Road']",10205.402798293522
 1241527372,9322671515,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,50,2,Habarana-Polonnaruwa-Batticaloa Road,1686.4785045138483
 1241527372,9394230354,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,50,2,Habarana-Polonnaruwa-Batticaloa Road,644.7937383080227
 1242694031,4139418521,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,False,60,2,Kandy Road,34.73972859174893
@@ -556,7 +556,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 1242795139,4139440649,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,False,60,2,Kandy Road,174.41311616070558
 1242795139,4062727240,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,False,60,2,Kandy Road,980.7248748377955
 1245043305,4136824661,A32,AA032,Navakkuli - Kerativu - Mannar,trunk,False,70,,Navatkuli-Karaitivu-Mannar Road,8122.292352329173
-1245043305,4137314888,A32,AA032,Navakkuli - Kerativu - Mannar,trunk,False,70,2,"['Navatkuli-Keraitivu-Mannar Road', 'Navatkuli-Karaitivu-Mannar Road', 'Sangupiddi Causeway']",18254.426943875624
+1245043305,4137314888,A32,AA032,Navakkuli - Kerativu - Mannar,trunk,False,70,2,"['Sangupiddi Causeway', 'Navatkuli-Keraitivu-Mannar Road', 'Navatkuli-Karaitivu-Mannar Road']",18254.426943875624
 1247060927,1239435066,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,60,2,Kurunegala - Puttalam Road,512.0703957611063
 1247060927,1239436268,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,60,2,Kurunegala - Puttalam Road,5049.377388374281
 1249801968,3774582589,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,"['60', '50']",2,Galle Road,397.957620894051
@@ -564,7 +564,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 1249855906,50422936,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,60,"['3', '2']",Galle Road,1556.327541053004
 1268335758,2155584783,A3,AA003,Peliyagoda - Puttalam,trunk,True,70,2,Negombo Road,563.0451653299131
 1269994723,4087054265,A3,AA003,Peliyagoda - Puttalam,trunk,True,60,2,Negombo Road,700.7722575290566
-1274137040,665214512,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,"['60', '70']","['3', '4']",Galle Road,24.144065850340994
+1274137040,665214512,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,"['70', '60']","['3', '4']",Galle Road,24.144065850340994
 1278003886,599347546,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,60,3,Galle Road,1548.9245304308583
 1278003887,2361900638,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,50,3,Galle Road,819.4447029326735
 1278079600,3164356590,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,60,3,Alexandra Roundabout,25.95504240033646
@@ -587,7 +587,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 1331893829,3820002302,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,50,1,Kandy Road,52.65909617483237
 1331893829,3815809876,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,50,2,Kandy Road,392.20002306410305
 1331893829,2035811614,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,50,1,Kandy Road,53.3158192735346
-1340667695,1428650220,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,"['4', '2']",Matara-Hambantota Road,1003.1066786816169
+1340667695,1428650220,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,"['2', '4']",Matara-Hambantota Road,1003.1066786816169
 1340667695,77379011,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,4,Matara-Hambantota Road,11499.342150467852
 1346379037,1280044917,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,"['60', '50']",3,Ananda Coomaraswamy Mawatha,41.795167844016696
 1364655117,1640240442,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,4,Matara Road,2275.8774523265006
@@ -623,8 +623,8 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 1418994146,665685929,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk_link,False,50,,,9.109201766437913
 1418994146,1425700953,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,50,3,Galle Road,936.6055659807123
 1420351659,1614298412,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Galle Road,1523.5707288165327
-1420351659,1420351935,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,"['60', '70']",2,Galle Road,2160.7117308583775
-1420351935,1420351659,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,"['60', '70']",2,Galle Road,2160.7117308583775
+1420351659,1420351935,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,"['70', '60']",2,Galle Road,2160.7117308583775
+1420351935,1420351659,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,"['70', '60']",2,Galle Road,2160.7117308583775
 1420351935,2083533106,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,60,,Galle Road,2049.9881261564706
 1425700952,3448778696,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,"['60', '50']","['3', '2']",Galle Road,865.1378303813706
 1425700953,1278003887,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,50,3,Galle Road,21.742200576359973
@@ -644,9 +644,9 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 1430578050,129615686,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,,High Level Road,1612.9135343327318
 1430578050,3379393108,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,,High Level Road,918.107750994151
 1431441533,61802550,A1,AA001,Colombo - Kandy,trunk,True,60,3,Baseline Road,91.02903861291011
-1431441535,665686664,A1,AA001,Colombo - Kandy,trunk,True,60,3,"['Dr. Danister de Silva Mawatha', 'Baseline Road']",563.9323598899387
-1446610177,2079215806,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['50', '70']",2,Horana Road,6351.806636442795
-1446610177,11765244590,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['50', '70']",2,Horana Road,5316.135421980932
+1431441535,665686664,A1,AA001,Colombo - Kandy,trunk,True,60,3,"['Baseline Road', 'Dr. Danister de Silva Mawatha']",563.9323598899387
+1446610177,2079215806,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['70', '50']",2,Horana Road,6351.806636442795
+1446610177,11765244590,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['70', '50']",2,Horana Road,5316.135421980932
 1446610199,245519497,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,50,2,Ratnapura Road,25.719062035215792
 1446610199,245519498,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,50,2,Ratnapura Road,134.17202951218877
 1453000665,4136994000,A35,AA035,Paranthan - Kachchai - Mullaitivu,trunk,True,60,,Paranthan-Mullaittivu Road,120.31008449926692
@@ -660,11 +660,11 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 1478609150,4693290695,A3,AA003,Peliyagoda - Puttalam,trunk,True,70,2,Colombo-Puttalam Road,1583.3470253414916
 1506183874,3377393479,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,60,2,Colombo Road,199.46808438023047
 1535398426,3064572227,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,60,,Kurunegala - Puttalam Road,1680.1596738100138
-1535398426,3066364582,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,60,,"['Kurunegala-Puttalam Road', 'Kurunegala - Puttalam Road']",2563.0693843373247
+1535398426,3066364582,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,60,,"['Kurunegala - Puttalam Road', 'Kurunegala-Puttalam Road']",2563.0693843373247
 1535398451,4067964375,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,70,,Kurunegala - Kandy Road,336.9318298458183
 1535398451,4067967894,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,70,,Kurunegala - Kandy Road,1718.9134485905704
 1541715354,2382030363,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,True,50,2,Trincomalee Road,309.12543487672446
-1545169133,3316015809,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,2,"['Kaliyodai Bridge', 'Pottuvil-Batticaloa Road']",9284.687942743409
+1545169133,3316015809,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,2,"['Pottuvil-Batticaloa Road', 'Kaliyodai Bridge']",9284.687942743409
 1545169133,3302172264,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,2,Pottuvil-Batticaloa Road,1961.7003676876147
 1571011417,3289420458,A33,AA033,Ja-Ela - Ekala - Gampaha - Yakkala,trunk,True,30,1,Gampaha-Ja Ela Road,28.71727143515827
 1599036622,3279700971,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,60,2,Matara Road,1753.5449039686468
@@ -729,7 +729,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 1685488386,1877385011,A25,AA025,Siyambalanduwa - Damana - Ampara,trunk,False,60,2,Siyambalanduwa-Damana-Ampara Road,18775.617553243206
 1685598193,1981159934,A9,AA009,Kandy - Jaffna,trunk,False,60,,Jaffna-Kandy Road,2470.2158650203473
 1685598193,1732790481,A9,AA009,Kandy - Jaffna,trunk,False,60,,Jaffna-Kandy Road,9230.153053856833
-1685802576,7051044595,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,"['Ralkuli Bridge', 'Gangai Bridge', 'Trincomalee-Batticaloa Road', 'Upparu Bridge']",12090.477226038935
+1685802576,7051044595,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,"['Trincomalee-Batticaloa Road', 'Gangai Bridge', 'Upparu Bridge', 'Ralkuli Bridge']",12090.477226038935
 1685802576,13914032191,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,True,60,1,Trincomalee-Batticaloa Road,16.942320527101288
 1685803214,9394245013,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,Trincomalee-Batticaloa Road,21.60735731641902
 1685803214,3377492839,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,Trincomalee-Batticaloa Road,2379.9925456303636
@@ -737,14 +737,14 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 1692793167,1651774036,A9,AA009,Kandy - Jaffna,trunk,False,70,2,Kandy-Jaffna Road,800.9346692860976
 1692793167,4911274821,A9,AA009,Kandy - Jaffna,trunk,True,70,2,Kandy-Jaffna Road,500.7483221665037
 1694691156,5300884107,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,72,2,Colombo Road,236.06647268741418
-1694691223,912268077,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,"['72', '60']",2,"['Warakatota New Bridge', 'Ratunapura-Wellawaya Road', 'Main Street', 'CRWB']",3202.9560859873523
+1694691223,912268077,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,"['72', '60']",2,"['Main Street', 'Warakatota New Bridge', 'CRWB', 'Ratunapura-Wellawaya Road']",3202.9560859873523
 1694691223,1694695673,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,72,2,Main Street,357.9651416462715
 1694695673,1694691223,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,72,2,Main Street,357.96514164627143
 1694695673,5299485480,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,72,2,Main Street,246.87676250302792
-1697437102,129610044,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,"['2', '1']",High Level Road,5120.462948047062
+1697437102,129610044,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,"['1', '2']",High Level Road,5120.462948047062
 1697437102,1723172770,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,1,High Level Road,77.38784509196975
 1697583102,129607626,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,1,High Level Road,61.51756094245445
-1697583102,619883043,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,"['2', '1']",High Level Road,6609.443887265691
+1697583102,619883043,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,"['1', '2']",High Level Road,6609.443887265691
 1708349295,1828234049,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,50,2,Main Street,350.79799038423386
 1708349295,1708349377,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,50,2,Main Street,70.87024359495118
 1708349356,4891891444,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,72,2,Ratunapura-Wellawaya Road,8.121135192890925
@@ -786,14 +786,14 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 1725061816,9567743870,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,Trincomalee Road,1601.1628089535636
 1725061816,1725061828,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,Trincomalee Road,90.51665167344993
 1725061828,1725061816,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,Trincomalee Road,90.51665167344993
-1725061828,3377492839,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,"['Batticaloa-Trincomalee Road', 'Panichchankeni Bridge', 'Trincomalee-Batticaloa Road', 'Verugal Aru Bridge']",50639.865621903125
+1725061828,3377492839,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,"['Trincomalee-Batticaloa Road', 'Panichchankeni Bridge', 'Batticaloa-Trincomalee Road', 'Verugal Aru Bridge']",50639.865621903125
 1727358941,3813344287,A9,AA009,Kandy - Jaffna,trunk,False,60,2,Matale Road,772.5292378925122
 1727358941,258049267,A9,AA009,Kandy - Jaffna,trunk,False,60,2,Matale Road,2671.0327318817635
 1728748120,3753591917,A9,AA009,Kandy - Jaffna,trunk,True,60,,Kandy - Jaffna Road,53.422182086394166
 1728748206,5156577888,A29,AA029,Vavuniya - Horowopotana,trunk,False,60,,Vavuniya-Horowpotana Road,23650.15674909614
 1728748206,3753591216,A29,AA029,Vavuniya - Horowopotana,trunk,False,60,,Vavuniya-Horowpotana Road,337.0934014193801
 1728838958,7085505934,A9,AA009,Kandy - Jaffna,trunk,False,60,,Kandy-Jaffna Road,20.571084286209057
-1728838958,6538140524,A9,AA009,Kandy - Jaffna,trunk,False,"['60', '70']",,"['Jaffna-Kandy Road', 'Kandy - Jaffna Road', 'Kandy-Jaffna Road']",23729.926632968734
+1728838958,6538140524,A9,AA009,Kandy - Jaffna,trunk,False,"['70', '60']",,"['Kandy-Jaffna Road', 'Kandy - Jaffna Road', 'Jaffna-Kandy Road']",23729.926632968734
 1728838995,1728838958,A30,AA030,Vavuniya - Parayanalankulam,trunk,True,60,,Mannar-Vavuniya Road,66.09916600517931
 1728838995,1729992697,A30,AA030,Vavuniya - Parayanalankulam,trunk,False,60,,Vavuniya - Parayanalankulam,1005.2314288097626
 1729992697,6661265112,A30,AA030,Vavuniya - Parayanalankulam,trunk,False,60,,Vavuniya - Parayanalankulam,3289.7203625728193
@@ -822,7 +822,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 1737618827,4851072866,A18,AA018,Pelmadulla - Embilipitiya - Nonagama,trunk,True,,1,Pelmadulla-Embilipitiya Road,21.304596961369324
 1740742111,5576657112,A12,AA012,Puttalam - Trincomalee,trunk,False,50,,Puttalam-Anuradhapura-Trincomalee Road,129.08186779728842
 1740742111,3492721845,A29,AA029,Vavuniya - Horowopotana,trunk,False,60,,Vavuniya-Horowpotana Road,18180.852386889823
-1740742111,2093935801,A12,AA012,Puttalam - Trincomalee,trunk,False,"['60', '50', '70']",,Puttalam-Anuradhapura-Trincomalee Road,11783.019957570632
+1740742111,2093935801,A12,AA012,Puttalam - Trincomalee,trunk,False,"['70', '60', '50']",,Puttalam-Anuradhapura-Trincomalee Road,11783.019957570632
 1744448774,13055938742,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Hambantota-Wellawaya Road,18.427190930241963
 1744448774,13689191650,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Hambantota-Wellawaya Road,4907.281445220159
 1745895523,1813587322,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Tangalle Road,9876.97251735543
@@ -844,7 +844,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 1780055679,2017404189,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Ratnapura Road,17583.600943960213
 1780055690,1750869639,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Ratnapura Road,12331.015522067024
 1780055690,1780055679,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Ratnapura Road,44.436565769519646
-1781355217,60797926,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,"['4', '2']",Galle Road,1673.3593103400183
+1781355217,60797926,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,"['2', '4']",Galle Road,1673.3593103400183
 1781355217,54398901,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,4,Galle Road,1065.94419479047
 1783942571,4814119812,A26,AA026,Kandy - Mahiyangana - Padiyatalawa,trunk,True,50,2,Kandy-Mahiyanganaya-Padiyatalawa Road,28.577089767910557
 1783942571,1783942945,A26,AA026,Kandy - Mahiyangana - Padiyatalawa,trunk,False,60,,Kandy-Mahiyanganaya-Padiyatalawa Road,8042.899723052878
@@ -855,7 +855,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 1791337297,1979375863,A22,AA022,Passara - Moneragala,trunk,False,70,2,Passara-Moneragala Road,6858.5329480956325
 1791337297,1945675344,A22,AA022,Passara - Moneragala,trunk,True,50,1,Passara-Moneragala Road,32.64976933628951
 1792664495,268931354,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,50,6,Sri Sambuddhatwa Jayanthi Mawatha (Havelock Road),24.081835659985433
-1792664495,4011682730,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,"['60', '50']","['3', '5', '6']",Sri Sambuddhatwa Jayanthi Mawatha (Havelock Road),416.49391091799254
+1792664495,4011682730,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,"['60', '50']","['6', '5', '3']",Sri Sambuddhatwa Jayanthi Mawatha (Havelock Road),416.49391091799254
 1792802761,1684534499,A31,AA031,Karativu - Ampara,trunk,False,70,2,Karativu-Ampara Road,7212.829270734348
 1792802761,2902881148,A31,AA031,Karativu - Ampara,trunk,False,70,2,Karativu-Ampara Road,6561.953724171682
 1792802797,1792802798,A31,AA031,Karativu - Ampara,trunk,False,70,2,Karativu-Ampara Road,1460.4401679661964
@@ -869,15 +869,15 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 1795322023,2079240023,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,70,,Galle Road,92.61290561913802
 1795322086,2347147693,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,70,,Galle Road,14.922330460222213
 1796922853,2079537942,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,50,2,Ratnapura Road,42.88341402539773
-1796922853,253718899,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['50', '70']",2,Ratnapura Road,13020.355516633586
+1796922853,253718899,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['70', '50']",2,Ratnapura Road,13020.355516633586
 1796922874,2079537942,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,70,2,Ratnapura Road,1030.5039444526285
 1796922874,5264919265,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,70,2,Ratnapura Road,15328.977556365713
 1797858594,5264919265,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,70,2,Ratnapura Road,1097.6216299271
-1797858594,310860950,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['50', '70']",2,Ratnapura Road,17821.80118892629
+1797858594,310860950,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['70', '50']",2,Ratnapura Road,17821.80118892629
 1797964180,1803663804,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,2,Colombo Road,154.4918498767295
 1797964180,3491135824,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,60,2,Yatiyantota Road,26.572622027013615
 1797964206,1803663804,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,1,Colombo Road,83.90317217302277
-1797964206,2141873197,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,"['1', '2']","['Colombo Road', 'High Level Road']",3842.199081018821
+1797964206,2141873197,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,"['1', '2']","['High Level Road', 'Colombo Road']",3842.199081018821
 1803663804,1797964180,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,2,Colombo Road,154.4918498767295
 1803663804,1797964206,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,1,Colombo Road,83.90317217302277
 1807810047,4959610635,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,70,2,Badulla-Chenkaladi Road,40128.90246631225
@@ -903,7 +903,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 1828217445,1708349359,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,"['72', '50']",2,"['Main Street', 'Ratunapura-Wellawaya Road']",93.95052080968992
 1828234049,1708349295,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,50,2,Main Street,350.79799038423386
 1830490073,5273425373,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,T. B. Panabokke Mawatha (Gangasiri Road),573.3261088470248
-1830490073,4142250033,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,"['Nuwara Eliya Road', 'Gampola Bridge']",149.50222424316323
+1830490073,4142250033,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,"['Gampola Bridge', 'Nuwara Eliya Road']",149.50222424316323
 1834922625,1834981477,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,Nuwara Eliya Road,9410.655324042395
 1834922625,49378902,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,Nuwara Eliya Road,12237.541873641998
 1834981477,1834922625,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,Nuwara Eliya Road,9410.655324042404
@@ -913,7 +913,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 1841475983,3592218007,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Matara-Hambantota Road,314.9885980934355
 1847947584,3658420115,A3,AA003,Peliyagoda - Puttalam,trunk,True,70,2,Colombo-Puttalam Road,12.974060506591508
 1855322535,263179584,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,50,2,Meewatura Road,1680.9618925720652
-1855322535,13625281401,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,50,2,"['Penideniya Road', 'Penideniya Bridge']",254.60154747268842
+1855322535,13625281401,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,50,2,"['Penideniya Bridge', 'Penideniya Road']",254.60154747268842
 1856812802,6209749472,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,False,70,2,Ambepussa-Kurunegala Road,142.2929194718175
 1856812802,2083007739,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,False,70,2,Ambepussa-Kurunegala Road,20.703150765142066
 1862815981,1862815989,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,2,High Level Road,16.034770914738107
@@ -951,7 +951,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 1886079221,13749558430,A9,AA009,Kandy - Jaffna,trunk,False,70,,Kandy-Jaffna Road,23.032291752149572
 1886079221,1732790481,A9,AA009,Kandy - Jaffna,trunk,False,60,,Jaffna-Kandy Road,1704.5208727249585
 1886079226,13749558417,A20,AA020,Anuradhapura - Rambewa,trunk,True,60,1,Jaffna Road,22.37316144462252
-1886464452,2093613917,A32,AA032,Navakkuli - Kerativu - Mannar,trunk,False,60,,"['Navakkuli - Kerativu - Mannar Road', 'Navatkuli-Keraitivu-Mannar Road', 'Karaitivu-Mannar Road', 'Navatkuli - Kerativu-Mannar Road']",25911.10159948341
+1886464452,2093613917,A32,AA032,Navakkuli - Kerativu - Mannar,trunk,False,60,,"['Navatkuli - Kerativu-Mannar Road', 'Karaitivu-Mannar Road', 'Navakkuli - Kerativu - Mannar Road', 'Navatkuli-Keraitivu-Mannar Road']",25911.10159948341
 1886464452,2079870063,A32,AA032,Navakkuli - Kerativu - Mannar,trunk,False,60,,Navakkuli - Kerativu - Mannar Road,10224.041876791167
 1889362399,3649878436,A3,AA003,Peliyagoda - Puttalam,trunk,False,70,2,Colombo-Puttalam Road,5521.317788996045
 1889362399,1889362430,A3,AA003,Peliyagoda - Puttalam,trunk,False,70,2,Colombo-Puttalam Road,6044.816363194001
@@ -967,10 +967,10 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 1912464464,3354483657,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,70,"['3', '2']",Sri Jayewardenepura Mawatha,275.2859615691293
 1924772358,3664895152,A3,AA003,Peliyagoda - Puttalam,trunk,True,60,2,Kandy Road,59.93345543503031
 1924772358,325009601,A3,AA003,Peliyagoda - Puttalam,trunk,False,60,4,Kandy Road,374.710984261841
-1945604950,1945605121,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,"['60', '70']",2,"['Passara Road', 'Badulla-Passara Road']",14678.940149443213
+1945604950,1945605121,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,"['70', '60']",2,"['Passara Road', 'Badulla-Passara Road']",14678.940149443213
 1945604950,3298069926,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,Passara Road,897.6424650441119
 1945605121,13872342556,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,70,2,Badulla-Passara Road,3340.483088675497
-1945605121,1945604950,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,"['60', '70']",2,"['Passara Road', 'Badulla-Passara Road']",14678.940149443224
+1945605121,1945604950,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,"['70', '60']",2,"['Passara Road', 'Badulla-Passara Road']",14678.940149443224
 1945644699,13872342556,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,70,2,Badulla-Chenkaladi Road,16.862810462038738
 1945644699,3527283166,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,70,2,Badulla-Chenkaladi Road,2575.5535506353035
 1945675344,1809805397,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,70,2,Wellawaya-Pottuvil Road,21.384596808274992
@@ -1006,13 +1006,13 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 1981147403,7599684152,A9,AA009,Kandy - Jaffna,trunk,False,70,2,,8.159719420650056
 1981147403,7927509189,A9,AA009,Kandy - Jaffna,trunk,False,70,2,Anuradhapura Road,6742.264875877117
 1981147403,904233239,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,True,40,1,Dambulla-Habarana Road,66.84998140233017
-1981147409,3518425514,A9,AA009,Kandy - Jaffna,trunk,True,"['60', '40']",,Anuradhapura Road,179.34543642072228
+1981147409,3518425514,A9,AA009,Kandy - Jaffna,trunk,True,"['40', '60']",,Anuradhapura Road,179.34543642072228
 1981159934,4137378450,A9,AA009,Kandy - Jaffna,trunk,True,60,,Jaffna-Kandy Road,30.477104751494775
 1981159934,1685598193,A9,AA009,Kandy - Jaffna,trunk,False,60,,Jaffna-Kandy Road,2470.2158650203464
 1981159938,4137378456,A14,AA014,Medawachchiya - Mannar - Talaimannar,trunk,True,60,,Medawachchiya-Talaimannar Road,41.65124700664496
 1981159938,1732649294,A14,AA014,Medawachchiya - Mannar - Talaimannar,trunk,False,60,,Medawachchiya-Talaimannar Road,15785.732090310583
 1981159944,4137378462,A9,AA009,Kandy - Jaffna,trunk,True,60,,Jaffna-Kandy Road,35.807743347539464
-1981159944,7085697362,A9,AA009,Kandy - Jaffna,trunk,False,60,,"['Kandy - Jaffna Road', 'Kandy-Jaffna Road']",22469.119654223286
+1981159944,7085697362,A9,AA009,Kandy - Jaffna,trunk,False,60,,"['Kandy-Jaffna Road', 'Kandy - Jaffna Road']",22469.119654223286
 1981183266,7085505934,A9,AA009,Kandy - Jaffna,trunk,False,60,,Kandy-Jaffna Road,36.02449456202579
 1981183266,2407760102,A9,AA009,Kandy - Jaffna,trunk,False,60,,Kandy-Jaffna Road,172.20160772601193
 1981468985,2835617074,A12,AA012,Puttalam - Trincomalee,trunk,True,60,,Maithripala Senanayake Mawatha (Main Street),27.099809415557562
@@ -1030,7 +1030,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 2001999485,4959610635,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,70,2,Badulla-Chenkaladi Road,2920.0528845068425
 2011981296,5190957525,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,Badulla Road,118.88299045569867
 2011981296,2145571047,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,Nuwara Eliya Road,9269.214063399553
-2011981296,10166776387,A16,AA016,Beragala - Hali-Ela,trunk,False,"['50', '70']",2,"['Badulla-Bandarawela Road', 'Bandarawela Road']",3638.194823905239
+2011981296,10166776387,A16,AA016,Beragala - Hali-Ela,trunk,False,"['70', '50']",2,"['Bandarawela Road', 'Badulla-Bandarawela Road']",3638.194823905239
 2015265415,6509327434,A21,AA021,Kegalle - Bulathkohupitiya - Karawanella,trunk,True,40,1,Kegalle-Bulathkohupitiya-Karawanella Road,38.15188349783376
 2015265415,3514826047,A21,AA021,Kegalle - Bulathkohupitiya - Karawanella,trunk,False,60,2,Kegalle-Bulathkohupitiya-Karawanella Road,4807.631434322453
 2015265450,2021573972,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,60,2,Yatiyantota Road,1610.4247255045948
@@ -1086,11 +1086,11 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 2078611991,49368092,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,Nuwara Eliya-Badulla Road,6026.814144401003
 2078611991,2026114935,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,Nuwara Eliya-Badulla Road,249.96530331209127
 2078972805,2078949382,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,Baily Road,228.27007141922405
-2079053667,1541715354,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,True,50,2,"['Trincomalee Road', 'Koddamunai Bridge']",128.10310911863547
+2079053667,1541715354,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,True,50,2,"['Koddamunai Bridge', 'Trincomalee Road']",128.10310911863547
 2079053698,12119430734,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,40,2,Fort Road,328.170012478375
-2079053698,2364192267,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,40,2,"['Chapel Street', 'Bazaar Street']",268.2665301945252
-2079215806,2339285633,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['50', '70']",2,Horana Road,3395.2417954464913
-2079215806,1446610177,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['50', '70']",2,Horana Road,6351.806636442794
+2079053698,2364192267,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,40,2,"['Bazaar Street', 'Chapel Street']",268.2665301945252
+2079215806,2339285633,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['70', '50']",2,Horana Road,3395.2417954464913
+2079215806,1446610177,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['70', '50']",2,Horana Road,6351.806636442794
 2079240021,12109482771,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,50,4,Galle Road,49.7938656606064
 2079240021,2337340596,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,50,2,Galle Road,842.9156831001916
 2079240023,2340036296,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,70,,Galle Road,109.16270743661266
@@ -1119,15 +1119,15 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 2087260972,8169922827,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,60,2,Yatiyantota Road,14.139150794278082
 2087260972,2021573972,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,60,2,Yatiyantota Road,4352.897709726696
 2087261005,5841721869,A21,AA021,Kegalle - Bulathkohupitiya - Karawanella,trunk,True,40,1,Kegalle-Bulathkohupitiya-Karawanella Road,27.185963028165997
-2087261005,445260233,A21,AA021,Kegalle - Bulathkohupitiya - Karawanella,trunk,False,60,2,"['Warawala New Bridge', 'Kegalle-Bulathkohupitiya-Karawanella Road']",1774.1057364962817
+2087261005,445260233,A21,AA021,Kegalle - Bulathkohupitiya - Karawanella,trunk,False,60,2,"['Kegalle-Bulathkohupitiya-Karawanella Road', 'Warawala New Bridge']",1774.1057364962817
 2093606919,2025020177,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,False,70,2,Kurunegala-Dambulla Road,1811.9784851224608
 2093606919,7770372639,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,False,70,2,Kurunegala-Dambulla Road,9618.028956462353
 2093608214,2093608215,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,True,70,2,Kurunegala-Dambulla Road,512.2851001127619
 2093608215,3522149875,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,True,70,2,Kurunegala-Dambulla Road,19.231373465700496
 2093610826,2959495457,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,Puttalam-Anuradhapura-Trincomalee Road,12850.668807167396
 2093610826,5270751465,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,Puttalam-Anuradhapura-Trincomalee Road,4556.110306760647
-2093611694,2840975728,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['50', '70']",,Anuradhapura - Padeniya Road,1238.774299440712
-2093611694,615737752,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['50', '70']",,Anuradhapura - Padeniya Road,17956.941244842918
+2093611694,2840975728,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['70', '50']",,Anuradhapura - Padeniya Road,1238.774299440712
+2093611694,615737752,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['70', '50']",,Anuradhapura - Padeniya Road,17956.941244842918
 2093612347,2093612506,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,Puttalam-Anuradhapura-Trincomalee Road,5219.792456885824
 2093612347,2959495457,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,Puttalam-Anuradhapura-Trincomalee Road,10751.10426931201
 2093612506,1990178209,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,Puttalam-Anuradhapura-Trincomalee Road,11494.775979774027
@@ -1137,15 +1137,15 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 2093612778,3204549182,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,Puttalam-Anuradhapura-Trincomalee Road,1679.1833903178085
 2093612778,3204562797,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,Puttalam-Anuradhapura-Trincomalee Road,6987.3149192086
 2093613917,4137314869,A32,AA032,Navakkuli - Kerativu - Mannar,trunk,False,60,,Navatkuli-Keraitivu-Mannar Road,36755.12799486394
-2093613917,1886464452,A32,AA032,Navakkuli - Kerativu - Mannar,trunk,False,60,,"['Navakkuli - Kerativu - Mannar Road', 'Navatkuli-Keraitivu-Mannar Road', 'Karaitivu-Mannar Road', 'Navatkuli - Kerativu-Mannar Road']",25911.101599483398
+2093613917,1886464452,A32,AA032,Navakkuli - Kerativu - Mannar,trunk,False,60,,"['Navatkuli - Kerativu-Mannar Road', 'Karaitivu-Mannar Road', 'Navakkuli - Kerativu - Mannar Road', 'Navatkuli-Keraitivu-Mannar Road']",25911.101599483398
 2093935572,8032417733,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,Puttalam-Anuradhapura-Trincomalee Road,1255.116852844144
 2093935572,3204562797,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,Puttalam-Anuradhapura-Trincomalee Road,19799.688339561533
 2093935800,13749558419,A9,AA009,Kandy - Jaffna,trunk,False,70,,Kandy-Jaffna Road,1627.750470492456
 2093935800,1880627815,A9,AA009,Kandy - Jaffna,trunk,False,70,,Kandy-Jaffna Road,7624.019843103922
 2093935801,1242703950,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,Puttalam-Anuradhapura-Trincomalee Road,29411.17158520803
-2093935801,1740742111,A12,AA012,Puttalam - Trincomalee,trunk,False,"['60', '50', '70']",,Puttalam-Anuradhapura-Trincomalee Road,11783.019957570627
-2094554407,2837518575,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['50', '70']",,Anuradhapura - Padeniya Road,2642.8969754137074
-2094554407,2840975747,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['50', '70']",,Anuradhapura - Padeniya Road,7604.711651889651
+2093935801,1740742111,A12,AA012,Puttalam - Trincomalee,trunk,False,"['70', '60', '50']",,Puttalam-Anuradhapura-Trincomalee Road,11783.019957570627
+2094554407,2837518575,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['70', '50']",,Anuradhapura - Padeniya Road,2642.8969754137074
+2094554407,2840975747,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['70', '50']",,Anuradhapura - Padeniya Road,7604.711651889651
 2094947243,1242786013,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,False,60,2,Kandy Road,7030.063987436613
 2094947243,1235814824,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,False,60,2,Kandy Road,10971.26399508322
 2105382093,5372968715,A1,AA001,Colombo - Kandy,trunk,True,60,2,Olcott Mawatha,1123.606736035613
@@ -1154,7 +1154,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 2131510192,3343547728,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,70,2,Galagedara Road,1736.2575075293873
 2131510192,570765771,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,70,2,Galagedara Road,897.3271114997514
 2131864641,1235750071,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,70,3,Dudley Senanayake Mawatha (Castle Street),602.283607178725
-2141873197,1797964206,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,"['1', '2']","['Colombo Road', 'High Level Road']",3842.199081018821
+2141873197,1797964206,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,"['1', '2']","['High Level Road', 'Colombo Road']",3842.199081018821
 2141873197,1862815981,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,"['1', '2']",High Level Road,11785.812590283049
 2145042656,10166776387,A16,AA016,Beragala - Hali-Ela,trunk,False,70,2,Badulla-Bandarawela Road,4862.206379938496
 2145042656,49364356,A16,AA016,Beragala - Hali-Ela,trunk,False,70,2,Badulla-Bandarawela Road,4930.730258955187
@@ -1175,8 +1175,8 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 2152800360,1751015081,A18,AA018,Pelmadulla - Embilipitiya - Nonagama,trunk,False,60,,Pelmadulla-Embilipitiya Road,1296.2834528087255
 2152817015,849238535,A9,AA009,Kandy - Jaffna,trunk,False,60,,Kandy - Jaffna Road,4415.905677626777
 2152817015,849241788,A9,AA009,Kandy - Jaffna,trunk,False,60,,Kandy - Jaffna Road,1553.6779235548047
-2152832499,1146591926,A9,AA009,Kandy - Jaffna,trunk,False,"['60', '70']",2,Kandy - Jaffna Road,29012.12472454576
-2152832499,8626940908,A9,AA009,Kandy - Jaffna,trunk,True,70,"['2', '1']",Kandy - Jaffna Road,2717.355284134215
+2152832499,1146591926,A9,AA009,Kandy - Jaffna,trunk,False,"['70', '60']",2,Kandy - Jaffna Road,29012.12472454576
+2152832499,8626940908,A9,AA009,Kandy - Jaffna,trunk,True,70,"['1', '2']",Kandy - Jaffna Road,2717.355284134215
 2155579750,2155634707,A3,AA003,Peliyagoda - Puttalam,trunk,True,60,2,Negombo Road,4608.420144489349
 2155579905,3851226779,A3,AA003,Peliyagoda - Puttalam,trunk,True,60,2,Negombo Road,731.6705131963646
 2155580074,12509374263,A3,AA003,Peliyagoda - Puttalam,trunk,True,60,2,Negombo Road,3266.647684831791
@@ -1197,14 +1197,14 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 2155672282,3203084587,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Deniyaya Road,1426.623788265155
 2155827775,3203084587,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Deniyaya Road,7835.938972666726
 2155827775,3211908158,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Deniyaya Road,11125.789326314085
-2155827812,4267522204,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,"['Ratnapura Road', 'Deniyaya Road']",7810.734301318371
+2155827812,4267522204,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,"['Deniyaya Road', 'Ratnapura Road']",7810.734301318371
 2155827812,2155672282,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Deniyaya Road,828.5878781615232
 2155946168,250131773,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Tangalle Road,1231.6150869410083
 2155946168,1650097492,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,60,2,New Tangalle Road,815.066049456444
 2164965693,2190965493,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Deniyaya Road,1101.0579871979621
 2164965693,98554769,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Deniyaya Road,99.23555392430534
 2186928769,1239435091,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,True,50,1,Kurunegala - Puttalam Road,20.380668936637115
-2186928769,6511383114,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,"['60', '50']",2,"['Katugastota-Kurunegala-Puttalam Road', 'Kurunegala - Puttalam Road']",4799.252535092286
+2186928769,6511383114,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,"['60', '50']",2,"['Kurunegala - Puttalam Road', 'Katugastota-Kurunegala-Puttalam Road']",4799.252535092286
 2190932692,3211908158,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Deniyaya Road,998.3062527741167
 2190932692,3445493696,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Deniyaya Road,13300.088863971325
 2190965493,2190965800,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Deniyaya Road,129.41277937460262
@@ -1219,21 +1219,21 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 2279244474,9394230350,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,True,50,2,Habarana-Polonnaruwa-Batticaloa Road,548.3748348731588
 2279244474,7024993693,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,50,2,Habarana-Polonnaruwa-Batticaloa Road,280.83485500647123
 2285202897,1241520208,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,70,2,Habarana-Trincomalee-Batticaloa Road,6621.404027800605
-2285202897,3213759120,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,"['60', '70']",2,Habarana-Trincomalee-Batticaloa Road,3430.376177828795
+2285202897,3213759120,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,"['70', '60']",2,Habarana-Trincomalee-Batticaloa Road,3430.376177828795
 2288824399,258523358,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,True,"['60', '50']",2,Habarana-Polonnaruwa-Batticaloa Road,195.0687759007772
-2304485540,6685478661,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,"['60', '50', '70']",2,Habarana-Polonnaruwa-Batticaloa Road,44091.63416687226
-2304485540,1241527366,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,"['60', '50', '70', '30']",2,"['Habarana-Polonnaruwa-Batticaloa Road', 'Manampitiya Bridge']",10205.40279829353
+2304485540,6685478661,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,"['70', '60', '50']",2,Habarana-Polonnaruwa-Batticaloa Road,44091.63416687226
+2304485540,1241527366,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,"['70', '30', '60', '50']",2,"['Manampitiya Bridge', 'Habarana-Polonnaruwa-Batticaloa Road']",10205.40279829353
 2334261008,937250000,A26,AA026,Kandy - Mahiyangana - Padiyatalawa,trunk,False,70,2,Kandy-Mahiyanganaya Road,9581.621707339096
-2334261008,3203303832,A26,AA026,Kandy - Mahiyangana - Padiyatalawa,trunk,False,"['60', '70']",2,"['Oruthota Bridge', 'Kandy-Mahiyanganaya Road']",17343.71732834953
+2334261008,3203303832,A26,AA026,Kandy - Mahiyangana - Padiyatalawa,trunk,False,"['70', '60']",2,"['Oruthota Bridge', 'Kandy-Mahiyanganaya Road']",17343.71732834953
 2337340596,2340032516,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Galle Road,1687.8423751581695
 2337340596,2079240021,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,50,2,Galle Road,841.7112198064469
-2337932210,3226211756,A1,AA001,Colombo - Kandy,trunk,False,60,,"['Mawanella Bridge', 'Main Street', 'Old Colombo Road']",382.29427768287013
+2337932210,3226211756,A1,AA001,Colombo - Kandy,trunk,False,60,,"['Mawanella Bridge', 'Old Colombo Road', 'Main Street']",382.29427768287013
 2337932210,3224668762,A1,AA001,Colombo - Kandy,trunk,False,60,,Old Colombo Road,910.6474594919171
 2338839291,3718488871,A1,AA001,Colombo - Kandy,trunk,False,60,,Main Street,355.05242619338605
 2338839291,3226211756,A1,AA001,Colombo - Kandy,trunk,False,60,,Main Street,114.77950026479348
 2339285632,2339297860,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,50,2,Galle Road,186.32694317578407
 2339285633,2339297862,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,True,50,1,Horana Road,91.92479644828643
-2339285633,2079215806,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['50', '70']",2,Horana Road,3395.241795446491
+2339285633,2079215806,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['70', '50']",2,Horana Road,3395.241795446491
 2339297860,2339297862,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,50,2,Galle Road,12.539498486853624
 2339297860,2339285633,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,True,50,1,Horana Road,91.83165205243046
 2339297862,7037793029,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,50,2,Galle Road,184.2706695053704
@@ -1270,7 +1270,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 2361900649,652384089,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,60,3,Galle Road,818.0911055398965
 2362937346,3785620361,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,False,70,2,Ambepussa-Kurunegala Road,5109.314933368285
 2362937346,3064600110,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,False,70,2,Ambepussa-Kurunegala Road,4304.5107249823495
-2364192267,2079053698,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,40,2,"['Chapel Street', 'Bazaar Street']",268.2665301945253
+2364192267,2079053698,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,40,2,"['Bazaar Street', 'Chapel Street']",268.2665301945253
 2364192267,2079053722,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,True,40,1,Bazaar Street,40.159824856514675
 2364192275,2364192267,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,True,40,1,Bazaar Street,35.58896195953844
 2366743826,4693290694,A3,AA003,Peliyagoda - Puttalam,trunk,True,70,2,Colombo-Puttalam Road,824.6834581880555
@@ -1301,7 +1301,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 2418603889,3622789896,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,70,2,Wellawaya-Pottuvil Road,6454.072033059849
 2418603897,4071257599,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,50,1,Wellawaya-Pottuvil Road,20.201628982076844
 2418603897,1809805500,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,70,2,Wellawaya-Pottuvil Road,90.77193161003892
-2434214580,252541774,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,"['Deniyaya Road', 'Akuressa Road']",1335.5657526816403
+2434214580,252541774,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,"['Akuressa Road', 'Deniyaya Road']",1335.5657526816403
 2434214580,1636603514,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Akuressa Road,6706.69503415646
 2499038749,2068162856,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,,High Level Road,610.2735947731326
 2499283524,5216483982,A3,AA003,Peliyagoda - Puttalam,trunk,True,60,2,Negombo Road,43.5017557989963
@@ -1325,14 +1325,14 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 2568176828,2568176881,A24,AA024,Matara - Akuressa,trunk,True,60,2,Matara-Akuressa Road,13.554550152604705
 2568176862,3398081271,A24,AA024,Matara - Akuressa,trunk,True,60,2,Akuressa Road,28.62083585524825
 2568176881,12625589425,A24,AA024,Matara - Akuressa,trunk,True,"['60', '50']",2,Akuressa Road,638.3916414048448
-2568225710,7409403107,A14,AA014,Medawachchiya - Mannar - Talaimannar,trunk,False,"['60', '25']",,Medawachchiya-Talaimannar Road,30186.7385577914
+2568225710,7409403107,A14,AA014,Medawachchiya - Mannar - Talaimannar,trunk,False,"['25', '60']",,Medawachchiya-Talaimannar Road,30186.7385577914
 2608995079,2828629366,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,50,2,Main Street,23.020053551690737
-2608995079,3517327762,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,"['50', '70']",2,"['Nanu Oya Road', 'Main Street']",3864.121893171222
-2610876638,44265232,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,"['Hambantota-Wellawaya Road', 'Kuda Oya Bridge', 'Tissa Road']",24937.55996510796
+2608995079,3517327762,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,"['70', '50']",2,"['Main Street', 'Nanu Oya Road']",3864.121893171222
+2610876638,44265232,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,"['Tissa Road', 'Kuda Oya Bridge', 'Hambantota-Wellawaya Road']",24937.55996510796
 2610876638,610955288,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Hambantota-Wellawaya Road,9404.737550035608
 2638058705,8279649724,A28,AA028,Padeniya - Anuradhapura,trunk,True,40,,Anuradhapura - Padeniya Road,32.36344369250063
 2638058705,2638058713,A28,AA028,Padeniya - Anuradhapura,trunk,False,50,,Anuradhapura - Padeniya Road,181.94620542822713
-2638058713,1239725256,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['50', '70']",2,Anuradhapura - Padeniya Road,8956.297760310525
+2638058713,1239725256,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['70', '50']",2,Anuradhapura - Padeniya Road,8956.297760310525
 2638058713,2638058705,A28,AA028,Padeniya - Anuradhapura,trunk,False,50,,Anuradhapura - Padeniya Road,181.94620542822716
 2638058811,4396503415,A28,AA028,Padeniya - Anuradhapura,trunk,True,40,,Anuradhapura - Padeniya Road,41.13720328134568
 2638058811,615737752,A28,AA028,Padeniya - Anuradhapura,trunk,False,50,,Anuradhapura - Padeniya Road,434.7543615542862
@@ -1356,7 +1356,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 2732633603,5202667325,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,False,70,2,Dambulla-Habarana Road,64.21261576307927
 2732633603,2051320917,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,False,70,2,Dambulla-Habarana Road,7170.387378606545
 2822277593,7024993693,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,50,2,Habarana-Polonnaruwa-Batticaloa Road,1150.673053488887
-2823998635,2854966358,A1,AA001,Colombo - Kandy,trunk,True,70,2,"['Attanagalu Oya Bridge', 'Galtota Oya Bridge', 'Colombo-Kandy Road']",1184.3732662878726
+2823998635,2854966358,A1,AA001,Colombo - Kandy,trunk,True,70,2,"['Colombo-Kandy Road', 'Galtota Oya Bridge', 'Attanagalu Oya Bridge']",1184.3732662878726
 2828629366,2608995079,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,50,2,Main Street,23.020053551690737
 2828629366,4507913122,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,50,2,Main Street,333.3496681498412
 2833604324,2833604333,A12,AA012,Puttalam - Trincomalee,trunk,True,60,,Puttalam-Anuradhapura-Trincomalee Road,54.30472274365615
@@ -1366,20 +1366,20 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 2833604333,1971623281,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,Puttalam-Anuradhapura-Trincomalee Road,6061.994181129244
 2833604338,2833604332,A12,AA012,Puttalam - Trincomalee,trunk,True,70,,,43.145164715166516
 2833604877,1886079226,A20,AA020,Anuradhapura - Rambewa,trunk,True,60,1,Jaffna Road,6309.976899256772
-2833834344,5785122163,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,"['Nivatthakachethiya Mawatha', 'Nivatthakachetiya Mawatha']",1758.853424189086
+2833834344,5785122163,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,"['Nivatthakachetiya Mawatha', 'Nivatthakachethiya Mawatha']",1758.853424189086
 2833834344,5055655450,A12,AA012,Puttalam - Trincomalee,trunk,True,60,,Nivatthakachetiya Mawatha,26.406806079039242
 2833834360,4137371245,A20,AA020,Anuradhapura - Rambewa,trunk,True,60,1,Jaffna Road,45.28662050773834
 2833834360,11593705874,A20,AA020,Anuradhapura - Rambewa,trunk,False,70,2,Jaffna Road,1026.5340213679794
 2835617071,1146218640,A12,AA012,Puttalam - Trincomalee,trunk,True,60,,Harischandra Mawatha,30.157055039693066
 2835617079,1981468985,A12,AA012,Puttalam - Trincomalee,trunk,True,60,,Maithripala Senanayake Mawatha (Main Street),26.535059905721397
 2837518575,9041600946,A28,AA028,Padeniya - Anuradhapura,trunk,True,40,,Anuradhapura - Padeniya Road,34.59159044084592
-2837518575,2094554407,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['50', '70']",,Anuradhapura - Padeniya Road,2642.896975413708
+2837518575,2094554407,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['70', '50']",,Anuradhapura - Padeniya Road,2642.896975413708
 2837518594,9041600940,A28,AA028,Padeniya - Anuradhapura,trunk,True,40,,Anuradhapura - Padeniya Road,30.33139212789229
-2837518594,13564710647,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['50', '70']",,"['Anuradhapura - Padeniya Road', 'Padeniya-Anuradhapura Road']",10335.336395074788
-2840975728,2093611694,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['50', '70']",,Anuradhapura - Padeniya Road,1238.774299440712
+2837518594,13564710647,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['70', '50']",,"['Anuradhapura - Padeniya Road', 'Padeniya-Anuradhapura Road']",10335.336395074788
+2840975728,2093611694,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['70', '50']",,Anuradhapura - Padeniya Road,1238.774299440712
 2840975728,12815082889,A28,AA028,Padeniya - Anuradhapura,trunk,True,40,,Anuradhapura - Padeniya Road,35.785509859403895
 2840975747,12815082884,A28,AA028,Padeniya - Anuradhapura,trunk,True,40,,Anuradhapura - Padeniya Road,37.26134142650887
-2840975747,2094554407,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['50', '70']",,Anuradhapura - Padeniya Road,7604.711651889652
+2840975747,2094554407,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['70', '50']",,Anuradhapura - Padeniya Road,7604.711651889652
 2842889275,1889362430,A3,AA003,Peliyagoda - Puttalam,trunk,False,70,2,Colombo-Puttalam Road,1590.2515428804907
 2842889275,3658572657,A3,AA003,Peliyagoda - Puttalam,trunk,False,70,2,Colombo-Puttalam Road,6466.6587170122375
 2854966358,3270476305,A1,AA001,Colombo - Kandy,trunk,True,70,2,Colombo-Kandy Road,952.322346369691
@@ -1408,12 +1408,12 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 2966142476,3345071368,A1,AA001,Colombo - Kandy,trunk,True,60,2,Colombo-Kandy Road,242.45028460226212
 2966142485,13662447481,A1,AA001,Colombo - Kandy,trunk,True,60,2,Colombo-Kandy Road,238.20227104886465
 2966142501,4784496254,A1,AA001,Colombo - Kandy,trunk,True,60,2,Colombo-Kandy Road,29.71614559512043
-3021911951,3218446414,A9,AA009,Kandy - Jaffna,trunk,False,60,,"['D. S. Senanayake Veediya (Trincomalee Street)', 'Katugastota Road']",995.488990505548
+3021911951,3218446414,A9,AA009,Kandy - Jaffna,trunk,False,60,,"['Katugastota Road', 'D. S. Senanayake Veediya (Trincomalee Street)']",995.488990505548
 3021911951,5693657962,A9,AA009,Kandy - Jaffna,trunk,True,60,2,"['Sri Dalada Veediya', 'D. S. Senanayake Veediya (Trincomalee Street)']",709.05739438643
 3033937981,3033937986,A1,AA001,Colombo - Kandy,trunk,True,60,2,Sirimavo Bandaranaike Mawatha (Peradeniya Road),9.111510673821497
 3033937986,3810784671,A1,AA001,Colombo - Kandy,trunk,True,60,2,Sirimavo Bandaranaike Mawatha (Peradeniya Road),202.16606848500874
 3064234194,4394543338,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,70,2,Kurunegala Road,37.291327203833006
-3064234194,5239569079,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,70,2,"['Kurunegala Road', 'Galagedara Road']",4033.6266255995797
+3064234194,5239569079,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,70,2,"['Galagedara Road', 'Kurunegala Road']",4033.6266255995797
 3064234503,3064234504,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,70,2,Kurunegala - Kandy Road,26.66091113608313
 3064234503,3586058707,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,70,2,Kurunegala - Kandy Road,11915.074495419623
 3064234504,3064234503,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,70,2,Kurunegala - Kandy Road,26.66091113608313
@@ -1425,10 +1425,10 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 3064572227,617806943,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,True,50,,Kurunegala - Puttalam Road,297.3105494138804
 3064600110,2362937346,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,False,70,2,Ambepussa-Kurunegala Road,4304.5107249823495
 3064600110,9562328827,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,True,70,2,Ambepussa-Kurunegala Road,1390.5157269209435
-3066364582,1535398426,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,60,,"['Kurunegala-Puttalam Road', 'Kurunegala - Puttalam Road']",2563.0693843373247
+3066364582,1535398426,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,60,,"['Kurunegala - Puttalam Road', 'Kurunegala-Puttalam Road']",2563.0693843373247
 3066364582,3066364711,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,60,,Kurunegala-Puttalam Road,697.7853539014093
 3066364711,3066364582,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,60,,Kurunegala-Puttalam Road,697.7853539014094
-3066364711,1239436241,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,"['60', '70']",2,Kurunegala-Puttalam Road,4432.708354803901
+3066364711,1239436241,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,"['70', '60']",2,Kurunegala-Puttalam Road,4432.708354803901
 3073676023,4577768759,A1,AA001,Colombo - Kandy,trunk,True,60,2,Olcott Mawatha,18.078459171987575
 3078591002,324994643,A1,AA001,Colombo - Kandy,trunk,True,60,2,Colombo-Kandy Road,1750.0188966992653
 3081634069,6266871671,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,70,3,Matara Road,8.113021190577104
@@ -1456,10 +1456,10 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 3090078667,3090559903,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,72,2,Colombo-Ratnapura Road,391.25883593947
 3090078667,309033793,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,72,2,Colombo-Ratnapura Road,12430.393449969246
 3090456359,3090460074,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,50,2,Galle Road,58.22283213954621
-3090456359,60797926,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,"['50', '70']",2,Galle Road,6431.443333586592
+3090456359,60797926,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,"['70', '50']",2,Galle Road,6431.443333586592
 3090460074,3090460083,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,50,2,Galle Road,50.00417022297897
 3090460074,3090456359,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,50,2,Galle Road,58.22283213954621
-3090460083,198851718,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,"['50', '70']","['4', '2']",Galle Road,4466.136577000103
+3090460083,198851718,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,"['70', '50']","['4', '2']",Galle Road,4466.136577000103
 3090460083,3090460074,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,50,2,Galle Road,50.00417022297897
 3090559903,8421010097,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,72,2,"['Colombo-Ratnapura Road', 'Kuru Ganga Bridge', 'Colombo Road']",15373.941235043842
 3090559903,3090078667,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,72,2,Colombo-Ratnapura Road,391.25883593947
@@ -1474,7 +1474,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 3129331583,2015265450,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,True,40,1,Yatiyantota Road,31.259924186736196
 3136299955,259648440,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,Sir Chittampalam A. Gardiner Mawatha,583.1750123662018
 3136385191,3141171382,A1,AA001,Colombo - Kandy,trunk,True,60,2,Chatham Street,46.093643293467295
-3136385191,3136385193,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,"['Lotus Road', 'Chatham Street']",67.72326660930904
+3136385191,3136385193,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,"['Chatham Street', 'Lotus Road']",67.72326660930904
 3136385193,1280869013,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,50,4,Lotus Road,87.42783708986516
 3136385196,1863456297,A1,AA001,Colombo - Kandy,trunk,True,60,2,Olcott Mawatha,751.0550992773241
 3141171382,3136385196,A1,AA001,Colombo - Kandy,trunk,True,60,2,Olcott Mawatha,31.94231911754258
@@ -1507,18 +1507,18 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 3199600250,7291030424,A33,AA033,Ja-Ela - Ekala - Gampaha - Yakkala,trunk,True,60,2,Gampaha-Ja Ela Road,1907.8304093148947
 3203084587,2155672282,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Deniyaya Road,1426.6237882651549
 3203084587,2155827775,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Deniyaya Road,7835.938972666733
-3203303832,2334261008,A26,AA026,Kandy - Mahiyangana - Padiyatalawa,trunk,False,"['60', '70']",2,"['Oruthota Bridge', 'Kandy-Mahiyanganaya Road']",17343.717328349532
+3203303832,2334261008,A26,AA026,Kandy - Mahiyangana - Padiyatalawa,trunk,False,"['70', '60']",2,"['Oruthota Bridge', 'Kandy-Mahiyanganaya Road']",17343.717328349532
 3203303832,2055564960,A26,AA026,Kandy - Mahiyangana - Padiyatalawa,trunk,False,60,,"['Kandy-Mahiyanganaya-Padiyatalawa Road', 'Kandy-Mahiyanganaya Road']",34864.5392044376
 3204336187,2902101194,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,True,50,1,Kurunegala - Puttalam Road,18.12471096160458
-3204549182,3557522184,A12,AA012,Puttalam - Trincomalee,trunk,False,"['60', '70']",,Puttalam-Anuradhapura-Trincomalee Road,11258.294451820988
+3204549182,3557522184,A12,AA012,Puttalam - Trincomalee,trunk,False,"['70', '60']",,Puttalam-Anuradhapura-Trincomalee Road,11258.294451820988
 3204549182,2093612778,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,Puttalam-Anuradhapura-Trincomalee Road,1679.1833903178085
 3204562797,2093612778,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,Puttalam-Anuradhapura-Trincomalee Road,6987.314919208599
 3204562797,2093935572,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,Puttalam-Anuradhapura-Trincomalee Road,19799.688339561533
 3206095333,4789587325,A1,AA001,Colombo - Kandy,trunk,True,70,2,Colombo-Kandy Road,1591.6717682251742
 3211908158,2155827775,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Deniyaya Road,11125.789326314096
 3211908158,2190932692,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Deniyaya Road,998.3062527741166
-3213759120,2285202897,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,"['60', '70']",2,Habarana-Trincomalee-Batticaloa Road,3430.3761778287962
-3213759120,258025225,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,"['60', '50', '70']",2,Habarana-Trincomalee-Batticaloa Road,18362.741077875216
+3213759120,2285202897,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,"['70', '60']",2,Habarana-Trincomalee-Batticaloa Road,3430.3761778287962
+3213759120,258025225,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,"['70', '60', '50']",2,Habarana-Trincomalee-Batticaloa Road,18362.741077875216
 3215382447,1190507161,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,70,2,Hatton Road,5105.832204294173
 3215382447,3215585621,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,70,2,"['Colombo Road', 'Gingathena Road']",9775.77132286711
 3215585621,3216973603,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,70,2,Gingathena Road,23825.75165697038
@@ -1534,7 +1534,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 3217232039,2015265415,A21,AA021,Kegalle - Bulathkohupitiya - Karawanella,trunk,True,40,1,Kegalle-Bulathkohupitiya-Karawanella Road,35.72724167116916
 3217407684,3169826275,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,Nuwara Eliya Road,2504.515586813284
 3217407684,49378902,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,Nuwara Eliya Road,1393.4015711438205
-3218446414,3021911951,A9,AA009,Kandy - Jaffna,trunk,False,60,,"['D. S. Senanayake Veediya (Trincomalee Street)', 'Katugastota Road']",995.4889905055479
+3218446414,3021911951,A9,AA009,Kandy - Jaffna,trunk,False,60,,"['Katugastota Road', 'D. S. Senanayake Veediya (Trincomalee Street)']",995.4889905055479
 3218446414,4019244695,A9,AA009,Kandy - Jaffna,trunk,True,60,,Katugastota Road,30.143829622276865
 3219884852,3803143155,A1,AA001,Colombo - Kandy,trunk,False,70,2,Colombo-Kandy Road,550.0531802954121
 3219884852,3224489753,A1,AA001,Colombo - Kandy,trunk,False,70,2,Colombo-Kandy Road,103.7553128707707
@@ -1565,7 +1565,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 3226211756,2338839291,A1,AA001,Colombo - Kandy,trunk,False,60,,Main Street,114.77950026479348
 3226211756,2337932210,A1,AA001,Colombo - Kandy,trunk,False,60,,"['Mawanella Bridge', 'Main Street', 'Old Colombo Road']",382.29427768287013
 3226275220,3237492320,A1,AA001,Colombo - Kandy,trunk,False,60,2,Colombo-Kandy Road,4024.159661374814
-3226275220,3718488870,A1,AA001,Colombo - Kandy,trunk,False,60,2,"['Kandy Road', 'Colombo-Kandy Road']",9122.140120383068
+3226275220,3718488870,A1,AA001,Colombo - Kandy,trunk,False,60,2,"['Colombo-Kandy Road', 'Kandy Road']",9122.140120383068
 3226356899,2907674340,A1,AA001,Colombo - Kandy,trunk,False,60,2,Colombo-Kandy Road,1785.2748819454976
 3226356899,3237492327,A1,AA001,Colombo - Kandy,trunk,False,60,2,Colombo-Kandy Road,510.3116583036436
 3237363036,2407760102,A9,AA009,Kandy - Jaffna,trunk,True,60,,Kandy-Jaffna Road,38.00832221704586
@@ -1579,14 +1579,14 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 3237492327,3226356899,A1,AA001,Colombo - Kandy,trunk,False,60,2,Colombo-Kandy Road,510.31165830364347
 3252971709,1278086605,A33,AA033,Ja-Ela - Ekala - Gampaha - Yakkala,trunk,True,50,2,Gampaha-Ja Ela Road,15.616144106341839
 3254670926,1834981477,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,Nuwara Eliya Road,2657.5856767534274
-3254670926,3584750699,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,"['Nuwara Eliya Road', 'Kandy Road']",20790.350960383254
+3254670926,3584750699,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,"['Kandy Road', 'Nuwara Eliya Road']",20790.350960383254
 3256396052,1750306782,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,"['Matara-Hambantota Road', 'Tangalle Road']",7389.583990578506
 3256396052,102737773,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Matara-Hambantota Road,39.88064403954145
 3268563914,3268563916,A3,AA003,Peliyagoda - Puttalam,trunk,True,60,2,Negombo Road,86.62868382768058
 3268563915,2508106197,A3,AA003,Peliyagoda - Puttalam,trunk,True,60,2,Negombo Road,55.75186646587801
 3268563916,1269994723,A3,AA003,Peliyagoda - Puttalam,trunk,True,60,2,Negombo Road,4275.820557241231
 3270476305,324969585,A1,AA001,Colombo - Kandy,trunk,True,70,2,Colombo-Kandy Road,687.6516848978741
-3271092634,3302172264,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,"['60', '70']",2,Pottuvil-Batticaloa Road,423.2543774740991
+3271092634,3302172264,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,"['70', '60']",2,Pottuvil-Batticaloa Road,423.2543774740991
 3279650333,3279650334,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Tangalle Road,15.849890822568891
 3279650333,250131591,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Tangalle Road,332.7302011272334
 3279650334,3279650333,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Tangalle Road,15.849890822568891
@@ -1597,7 +1597,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 3279700971,1599036622,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,60,2,Matara Road,1753.5449039686464
 3289420399,3797644308,A33,AA033,Ja-Ela - Ekala - Gampaha - Yakkala,trunk,True,30,1,Gampaha-Ja Ela Road,30.237485268397332
 3289420458,3289420454,A33,AA033,Ja-Ela - Ekala - Gampaha - Yakkala,trunk,True,30,1,Gampaha-Ja Ela Road,29.124606371616228
-3289420458,667536145,A33,AA033,Ja-Ela - Ekala - Gampaha - Yakkala,trunk,False,"['50', '70']",2,Gampaha-Ja Ela Road,2166.9011388413887
+3289420458,667536145,A33,AA033,Ja-Ela - Ekala - Gampaha - Yakkala,trunk,False,"['70', '50']",2,Gampaha-Ja Ela Road,2166.9011388413887
 3293925970,2057041156,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,True,60,2,Badulla Road,87.253003155122
 3293925970,2057046125,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,Bandarawela Road,2504.0688730004795
 3298069926,1945604950,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,Passara Road,897.6424650441119
@@ -1605,7 +1605,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 3302140241,7103763193,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,70,2,Pottuvil-Batticaloa Road,283.03236881170955
 3302172264,1545169133,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,2,Pottuvil-Batticaloa Road,1961.7003676876154
 3302172264,11765584301,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,Pottuvil-Batticaloa Road,422.35694245653144
-3316015809,1545169133,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,2,"['Kaliyodai Bridge', 'Pottuvil-Batticaloa Road']",9284.687942743405
+3316015809,1545169133,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,2,"['Pottuvil-Batticaloa Road', 'Kaliyodai Bridge']",9284.687942743405
 3316015809,2920465482,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,2,Pottuvil-Batticaloa Road,5187.78824642944
 3316122451,3316122459,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,,Pottuvil-Batticaloa Road,23.340937045819977
 3316122451,1879056356,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,2,Pottuvil-Batticaloa Road,4222.499723398149
@@ -1633,12 +1633,12 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 3355393375,10682149765,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,60,2,Horton Place,247.3544818679681
 3355393375,269202456,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,60,3,Alexandra Roundabout,14.737979758315205
 3355393382,3355393375,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,60,3,Alexandra Roundabout,3.7754321476227117
-3364860604,970058024,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,40,2,"['Tangalle Road', 'Mahaanaama Bridge', 'Anagarika Dharmapala Mawatha']",358.644187823156
+3364860604,970058024,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,40,2,"['Mahaanaama Bridge', 'Anagarika Dharmapala Mawatha', 'Tangalle Road']",358.644187823156
 3364864049,3410002327,A24,AA024,Matara - Akuressa,trunk,True,70,2,Akuressa Road,23.258803062725217
 3364883416,374112182,A24,AA024,Matara - Akuressa,trunk,True,70,2,Akuressa Road,516.3713636514107
 3365313019,1640240442,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,4,Matara Road,14.686239287617566
 3365313019,10575124012,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,4,Matara Road,852.1762308761522
-3377492839,1725061828,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,"['Batticaloa-Trincomalee Road', 'Panichchankeni Bridge', 'Trincomalee-Batticaloa Road', 'Verugal Aru Bridge']",50639.86562190315
+3377492839,1725061828,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,"['Trincomalee-Batticaloa Road', 'Panichchankeni Bridge', 'Batticaloa-Trincomalee Road', 'Verugal Aru Bridge']",50639.86562190315
 3377492839,1685803214,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,Trincomalee-Batticaloa Road,2379.9925456303636
 3379393108,619883043,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,2,High Level Road,1471.4195900450406
 3379393108,1430578050,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,,High Level Road,916.7595105447633
@@ -1652,7 +1652,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 3398081271,3398081272,A24,AA024,Matara - Akuressa,trunk,True,60,2,Matara-Akuressa Road,13.082009493974384
 3398081272,5771476347,A24,AA024,Matara - Akuressa,trunk,True,60,2,Matara-Akuressa Road,32.6799657667704
 3403175022,324997506,A1,AA001,Colombo - Kandy,trunk,True,60,2,Colombo-Kandy Road,34.584945026116756
-3422963193,5375634189,A26,AA026,Kandy - Mahiyangana - Padiyatalawa,"['primary', 'trunk']",False,"['60', '50', '70']",2,"['Sangaraja Mawatha', 'Weera Madduma Bandara Mawatha', 'Anagarika Dharmapala Mawatha']",1167.499429696583
+3422963193,5375634189,A26,AA026,Kandy - Mahiyangana - Padiyatalawa,"['primary', 'trunk']",False,"['70', '60', '50']",2,"['Anagarika Dharmapala Mawatha', 'Weera Madduma Bandara Mawatha', 'Sangaraja Mawatha']",1167.499429696583
 3422963193,13676334893,A26,AA026,Kandy - Mahiyangana - Padiyatalawa,trunk,False,60,2,Anagarika Dharmapala Mawatha,19.54804986943897
 3431855593,4621924226,A1,AA001,Colombo - Kandy,trunk,True,60,2,Colombo-Kandy Road,440.01277822277507
 3431855654,3431855630,A1,AA001,Colombo - Kandy,trunk,True,60,2,Colombo-Kandy Road,148.92339031673117
@@ -1684,7 +1684,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 3514813026,3120470733,A21,AA021,Kegalle - Bulathkohupitiya - Karawanella,trunk,False,60,2,Kegalle-Bulathkohupitiya-Karawanella Road,3487.879698449874
 3514826047,2015265415,A21,AA021,Kegalle - Bulathkohupitiya - Karawanella,trunk,False,60,2,Kegalle-Bulathkohupitiya-Karawanella Road,4807.631434322453
 3514826047,5153486366,A21,AA021,Kegalle - Bulathkohupitiya - Karawanella,trunk,False,60,2,Kegalle-Bulathkohupitiya-Karawanella Road,5045.141135893115
-3517327762,2608995079,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,"['50', '70']",2,"['Main Street', 'Nanu Oya Road']",3864.121893171224
+3517327762,2608995079,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,"['70', '50']",2,"['Main Street', 'Nanu Oya Road']",3864.121893171224
 3517327762,247140495,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,70,2,Nanu Oya Road,6773.409854846219
 3518417590,1880627813,A9,AA009,Kandy - Jaffna,trunk,False,70,2,Kandy-Jaffna Road,9359.640588605884
 3518417590,3518418201,A9,AA009,Kandy - Jaffna,trunk,True,70,,Kandy-Jaffna Road,33.69859423693312
@@ -1703,21 +1703,21 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 3527283166,2398934524,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,70,2,Badulla-Chenkaladi Road,30026.20756784539
 3527283166,1945644699,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,70,2,Badulla-Chenkaladi Road,2575.5535506353035
 3527283166,2400768904,A22,AA022,Passara - Moneragala,trunk,False,70,2,Passara-Moneragala Road,16350.201982772052
-3538149112,619227153,A1,AA001,Colombo - Kandy,primary,True,60,"['3', '2']","['Sri Sangaraja Mawatha', 'Panchikawatte Road']",75.46416618833499
+3538149112,619227153,A1,AA001,Colombo - Kandy,primary,True,60,"['3', '2']","['Panchikawatte Road', 'Sri Sangaraja Mawatha']",75.46416618833499
 3538149112,619227137,A1,AA001,Colombo - Kandy,trunk,True,60,2,Sri Sangaraja Mawatha,33.11964171390482
 3538150718,3538180787,A1,AA001,Colombo - Kandy,trunk,True,60,2,Olcott Mawatha,12.206551464421045
 3538180787,10268955041,A1,AA001,Colombo - Kandy,trunk,True,60,2,Sri Sangaraja Mawatha,18.640250588389993
 3556443371,3799736775,A1,AA001,Colombo - Kandy,"['primary', 'trunk']",True,60,2,"['Olcott Mawatha', 'Orabi Pasha Mawatha']",207.0950925091512
-3556443371,3556443375,A1,AA001,Colombo - Kandy,"['primary', 'trunk']",True,60,"['4', '2']","['Sri Sangaraja Mawatha', 'Orabi Pasha Mawatha']",47.61761537315616
+3556443371,3556443375,A1,AA001,Colombo - Kandy,"['primary', 'trunk']",True,60,"['2', '4']","['Orabi Pasha Mawatha', 'Sri Sangaraja Mawatha']",47.61761537315616
 3556443375,3538149112,A1,AA001,Colombo - Kandy,trunk,True,60,4,Sri Sangaraja Mawatha,562.6836587998164
 3557474363,6540075345,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,60,2,Maradankadawala-Habarana Road,15267.57303482075
-3557522184,5576657112,A12,AA012,Puttalam - Trincomalee,trunk,False,"['50', '70']",,Puttalam-Anuradhapura-Trincomalee Road,1222.9774279647122
-3557522184,3204549182,A12,AA012,Puttalam - Trincomalee,trunk,False,"['60', '70']",,Puttalam-Anuradhapura-Trincomalee Road,11258.29445182099
+3557522184,5576657112,A12,AA012,Puttalam - Trincomalee,trunk,False,"['70', '50']",,Puttalam-Anuradhapura-Trincomalee Road,1222.9774279647122
+3557522184,3204549182,A12,AA012,Puttalam - Trincomalee,trunk,False,"['70', '60']",,Puttalam-Anuradhapura-Trincomalee Road,11258.29445182099
 3574703794,250731003,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,70,2,Sri Jayewardenepura Mawatha,12.22011254754298
 3575249194,5248343532,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,True,70,2,Ambepussa-Kurunegala Road,20.564412711417166
 3577871618,403899740,A3,AA003,Peliyagoda - Puttalam,trunk,True,60,2,Negombo Road,718.9887357568614
 3584750699,49371992,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,Kandy Road,552.0827390859298
-3584750699,3254670926,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,"['Nuwara Eliya Road', 'Kandy Road']",20790.35096038325
+3584750699,3254670926,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,"['Kandy Road', 'Nuwara Eliya Road']",20790.35096038325
 3586058707,3064234503,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,70,2,Kurunegala - Kandy Road,11915.07449541963
 3586058707,4394543338,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,70,,Kurunegala - Kandy Road,280.7936761390316
 3591084262,263155120,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,Kandy Road,3715.249965668684
@@ -1733,7 +1733,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 3616502607,1980552009,A9,AA009,Kandy - Jaffna,trunk,False,60,2,Matale Road,1015.208702273814
 3617768739,127658312,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,60,4,Galle Road,486.2763242089684
 3618872658,3780823908,A1,AA001,Colombo - Kandy,trunk,True,60,2,Sirimavo Bandaranaike Mawatha (Peradeniya Road),21.955710035081708
-3618872658,3810784671,A1,AA001,Colombo - Kandy,trunk,False,60,"['4', '2']",Sirimavo Bandaranaike Mawatha (Peradeniya Road),1175.8403731081837
+3618872658,3810784671,A1,AA001,Colombo - Kandy,trunk,False,60,"['2', '4']",Sirimavo Bandaranaike Mawatha (Peradeniya Road),1175.8403731081837
 3620006922,258049379,A9,AA009,Kandy - Jaffna,trunk,False,60,2,Kandy Road,2092.5428335391075
 3620006922,3645486728,A9,AA009,Kandy - Jaffna,trunk,False,60,2,Kandy Road,1101.3050221886917
 3621305202,1231840374,A24,AA024,Matara - Akuressa,trunk,False,60,,Matara-Akuressa Road,225.18611157032257
@@ -1782,7 +1782,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 3679319579,1457319623,A34,AA034,Mankulam - Mullaitivu,trunk,False,60,,Mankulam - Mullaitivu,17818.877859698354
 3679319579,6286620946,A34,AA034,Mankulam - Mullaitivu,trunk,True,60,,Mankulam - Mullaitivu,20.341393313284133
 3682574805,49368092,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,Nuwara Eliya-Badulla Road,7809.7673670896
-3682574805,3390636008,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,"['Badulla Road', 'Nuwara Eliya-Badulla Road']",9794.598901188663
+3682574805,3390636008,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,"['Nuwara Eliya-Badulla Road', 'Badulla Road']",9794.598901188663
 3693930754,1877385011,A25,AA025,Siyambalanduwa - Damana - Ampara,trunk,False,60,2,Siyambalanduwa-Damana-Ampara Road,12324.840930069244
 3693930754,2145219371,A25,AA025,Siyambalanduwa - Damana - Ampara,trunk,False,60,2,Siyambalanduwa-Damana-Ampara Road,15109.881270879823
 3697145064,13695148146,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,60,2,New Tangalle Road,120.4143061509348
@@ -1792,7 +1792,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 3699494976,1818583225,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Matara-Hambantota Road,7.03936094435123
 3699494976,1428650220,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Matara-Hambantota Road,5584.115236390617
 3710121977,258049598,A9,AA009,Kandy - Jaffna,trunk,False,70,,Kandy-Jaffna Road,1454.4645205201195
-3710121977,258049453,A9,AA009,Kandy - Jaffna,trunk,False,70,,"['Nalanda Oya Bridge', 'Kandy-Jaffna Road']",20137.307211494415
+3710121977,258049453,A9,AA009,Kandy - Jaffna,trunk,False,70,,"['Kandy-Jaffna Road', 'Nalanda Oya Bridge']",20137.307211494415
 3718488870,3718488874,A1,AA001,Colombo - Kandy,trunk,True,50,1,Main Street,68.089612602032
 3718488870,3226275220,A1,AA001,Colombo - Kandy,trunk,False,60,2,"['Kandy Road', 'Colombo-Kandy Road']",9122.140120383065
 3718488871,2338839291,A1,AA001,Colombo - Kandy,trunk,False,60,,Main Street,355.052426193386
@@ -1867,7 +1867,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 3820002302,1331893829,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,50,1,Kandy Road,52.659096174832364
 3820002304,2035811429,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,50,,Queen Elizabeth Drive,18.192425923088088
 3820002325,2035811429,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,50,1,Queen Elizabeth Drive,19.097673312787347
-3822124809,635795993,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,70,"['4', '5']",Galle Road,371.92209289386784
+3822124809,635795993,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,70,"['5', '4']",Galle Road,371.92209289386784
 3822164769,1683151516,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,60,2,Galle Road,7.2950451548191895
 3822754793,1974694446,A26,AA026,Kandy - Mahiyangana - Padiyatalawa,trunk,False,60,,Kandy-Mahiyanganaya-Padiyatalawa Road,280.44286379771404
 3822754793,4814119777,A26,AA026,Kandy - Mahiyangana - Padiyatalawa,trunk,True,50,2,Kandy-Mahiyanganaya-Padiyatalawa Road,64.74369360224321
@@ -1920,7 +1920,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 4011680781,6260211179,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,70,2,H. Sri Nassanka Mawatha (Maya Avenue),40.56421615919217
 4011680781,1676479570,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,50,4,H. Sri Nassanka Mawatha (Maya Avenue),354.99846739522627
 4011682730,619195378,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,70,2,Sri Sambuddhatwa Jayanthi Mawatha (Havelock Road),51.048646666352965
-4011682730,1792664495,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,"['60', '50']","['3', '5', '6']",Sri Sambuddhatwa Jayanthi Mawatha (Havelock Road),416.49391091799254
+4011682730,1792664495,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,"['60', '50']","['6', '5', '3']",Sri Sambuddhatwa Jayanthi Mawatha (Havelock Road),416.49391091799254
 4019244692,8865864661,A9,AA009,Kandy - Jaffna,trunk,True,60,,Katugastota Road,324.310895121544
 4019244695,4019244692,A9,AA009,Kandy - Jaffna,trunk,True,60,,Katugastota Road,12.403940737448975
 4019244724,3218446414,A9,AA009,Kandy - Jaffna,trunk,True,60,,Katugastota Road,51.26836004133523
@@ -1956,7 +1956,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 4136868892,1148495443,A9,AA009,Kandy - Jaffna,trunk,False,70,2,Kandy - Jaffna Road,4141.07900018841
 4136994000,6538060317,A35,AA035,Paranthan - Kachchai - Mullaitivu,trunk,True,60,,Paranthan-Mullaittivu Road,30.25989904394792
 4136994005,1453000665,A35,AA035,Paranthan - Kachchai - Mullaitivu,trunk,True,60,,Paranthan-Mullaitivu Road,147.21976873481464
-4136994008,7042347643,A35,AA035,Paranthan - Kachchai - Mullaitivu,trunk,False,"['60', '50', '70']",,"['Paranthan-Mullaitivu Highway', 'Paranthan-Mullaittivu Road', 'Paranthan - Mullaitivu']",35565.39676999346
+4136994008,7042347643,A35,AA035,Paranthan - Kachchai - Mullaitivu,trunk,False,"['70', '60', '50']",,"['Paranthan-Mullaittivu Road', 'Paranthan - Mullaitivu', 'Paranthan-Mullaitivu Highway']",35565.39676999346
 4136994008,6545546146,A35,AA035,Paranthan - Kachchai - Mullaitivu,trunk,True,60,,Paranthan-Mullaitivu Road,267.1997195513077
 4137095171,3237363036,A29,AA029,Vavuniya - Horowopotana,trunk,True,60,,Vavuniya-Horowpotana Road,19.776176819483254
 4137095171,6266383664,A9,AA009,Kandy - Jaffna,trunk,True,60,,Kandy - Jaffna Road,21.64068868900845
@@ -1969,7 +1969,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 4137314871,4137314869,A32,AA032,Navakkuli - Kerativu - Mannar,trunk,True,70,,Navatkuli-Karaitivu-Mannar Road,34.186311118402024
 4137314881,4137314888,A32,AA032,Navakkuli - Kerativu - Mannar,trunk,True,70,,Navatkuli-Karaitivu-Mannar Road,33.3130593286985
 4137314888,4137314887,A32,AA032,Navakkuli - Kerativu - Mannar,trunk,True,70,,Navatkuli-Karaitivu-Mannar Road,34.452546621966796
-4137314888,1245043305,A32,AA032,Navakkuli - Kerativu - Mannar,trunk,False,70,2,"['Navatkuli-Keraitivu-Mannar Road', 'Navatkuli-Karaitivu-Mannar Road', 'Sangupiddi Causeway']",18254.42694387563
+4137314888,1245043305,A32,AA032,Navakkuli - Kerativu - Mannar,trunk,False,70,2,"['Sangupiddi Causeway', 'Navatkuli-Karaitivu-Mannar Road', 'Navatkuli-Keraitivu-Mannar Road']",18254.42694387563
 4137349471,13564710647,A28,AA028,Padeniya - Anuradhapura,trunk,True,40,,Padeniya-Anuradhapura Road,31.325715133554247
 4137349478,13564710682,A12,AA012,Puttalam - Trincomalee,trunk,True,,,Puttalam Road,28.216849636478106
 4137349486,4137353395,A12,AA012,Puttalam - Trincomalee,trunk,True,70,,Puttalam Road,50.35959614939564
@@ -1979,7 +1979,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 4137359438,11743149450,A13,AA013,Galkulama - Anuradhapura,trunk,False,70,,Bandaranaike Mawatha,523.0422173566874
 4137359440,8795417511,A12,AA012,Puttalam - Trincomalee,trunk,True,60,,Jayanthi Mawatha,42.445969870147934
 4137359440,602759879,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,Jayanthi Mawatha,610.4144991870897
-4137371245,5055655462,A20,AA020,Anuradhapura - Rambewa,trunk,True,"['60', '70']",,Anuradhapura Road,123.25459514024517
+4137371245,5055655462,A20,AA020,Anuradhapura - Rambewa,trunk,True,"['70', '60']",,Anuradhapura Road,123.25459514024517
 4137378452,1981159938,A14,AA014,Medawachchiya - Mannar - Talaimannar,trunk,True,60,,Medawachchiya-Talaimannar Road,44.457558512270154
 4137378455,1981159934,A9,AA009,Kandy - Jaffna,trunk,True,70,,,30.547599778125583
 4137378458,1981159944,A9,AA009,Kandy - Jaffna,trunk,True,70,,,39.73881381681905
@@ -1997,12 +1997,12 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 4140943337,1400433850,A12,AA012,Puttalam - Trincomalee,trunk,True,60,,Anuradhapura Road,35.34382907885565
 4140943337,4140943341,A12,AA012,Puttalam - Trincomalee,trunk,True,70,,,20.363261432516772
 4140943341,618605190,A12,AA012,Puttalam - Trincomalee,trunk,True,70,,,13.578657866058329
-4140943341,618605190,A12,AA012,Puttalam - Trincomalee,trunk,True,"['60', '70']",,Puttalam-Anuradhapura-Trincomalee Road,55.54122346148087
+4140943341,618605190,A12,AA012,Puttalam - Trincomalee,trunk,True,"['70', '60']",,Puttalam-Anuradhapura-Trincomalee Road,55.54122346148087
 4140985755,1731470200,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,60,,Katugastota-Kurunegala-Puttalam Road,19.386885722721903
 4140985755,6509597375,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,60,,Katugastota-Kurunegala-Puttalam Road,6789.090941593922
 4140985756,5169879067,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,True,40,,Katugastota-Kurunegala-Puttalam Road,35.58729107987981
 4140985756,1731470200,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,60,,Katugastota-Kurunegala-Puttalam Road,1805.9612157623787
-4142250033,1830490073,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,"['Nuwara Eliya Road', 'Gampola Bridge']",149.50222424316323
+4142250033,1830490073,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,"['Gampola Bridge', 'Nuwara Eliya Road']",149.50222424316323
 4142250033,4142250035,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,Nuwara Eliya Road,18.253714736443637
 4142250035,4142250033,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,Nuwara Eliya Road,18.253714736443637
 4142250035,3169826275,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,Nuwara Eliya Road,1917.6616391273685
@@ -2017,7 +2017,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 4212767857,1807810047,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,True,60,1,Badulla-Chenkaladi Road,37.34371966561451
 4231244458,637763018,A33,AA033,Ja-Ela - Ekala - Gampaha - Yakkala,trunk,True,70,2,Gampaha-Ja Ela Road,36.50031377663801
 4267522204,2017404189,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,Ratnapura Road,34529.02903584017
-4267522204,2155827812,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,"['Ratnapura Road', 'Deniyaya Road']",7810.734301318377
+4267522204,2155827812,A17,AA017,Galle - Deniyaya - Madampe,trunk,False,70,2,"['Deniyaya Road', 'Ratnapura Road']",7810.734301318377
 4336068793,1235814824,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,False,60,2,Kandy Road,32.72041266837245
 4336068793,901010009,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,False,60,2,Kandy Road,3352.3365347442914
 4365280289,13850088952,A16,AA016,Beragala - Hali-Ela,trunk,True,60,1,Main Street,39.508689752962496
@@ -2031,7 +2031,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 4426787286,5216483990,A3,AA003,Peliyagoda - Puttalam,trunk,True,60,2,Negombo Road,1093.364254191295
 4426797157,2499283525,A3,AA003,Peliyagoda - Puttalam,trunk,True,60,2,Negombo Road,1042.8544453342988
 4476504845,3780516705,A1,AA001,Colombo - Kandy,trunk,True,60,2,Colombo-Kandy Road,193.01932991999735
-4507913122,247140202,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,"['50', '70']",2,"['Talawakelle Road', 'Main Street']",5755.458720877072
+4507913122,247140202,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,"['70', '50']",2,"['Main Street', 'Talawakelle Road']",5755.458720877072
 4507913122,2828629366,A7,AA007,Avissawella - Hatton - Nuwara Eliya,trunk,False,50,2,Main Street,333.34966814984114
 4515020714,620384473,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,60,2,Galle Road,325.1453590463906
 4515020715,669218019,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,60,"['4', '2']",Galle Road,255.3619079624061
@@ -2052,11 +2052,11 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 4692166486,7625469738,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,70,3,Sri Jayewardenepura Mawatha,177.42469260026533
 4693290694,2375441056,A3,AA003,Peliyagoda - Puttalam,trunk,True,70,2,Colombo-Puttalam Road,1579.9301917961625
 4693290695,6695505185,A3,AA003,Peliyagoda - Puttalam,trunk,True,70,2,Colombo-Puttalam Road,836.3557191668348
-4784496253,6536506696,A1,AA001,Colombo - Kandy,trunk,True,"['60', '70']",2,Colombo-Kandy Road,1331.2200952347007
+4784496253,6536506696,A1,AA001,Colombo - Kandy,trunk,True,"['70', '60']",2,Colombo-Kandy Road,1331.2200952347007
 4784496254,3600557544,A1,AA001,Colombo - Kandy,trunk,True,60,2,Colombo-Kandy Road,18.178778997462494
 4784496273,4784496253,A1,AA001,Colombo - Kandy,trunk,True,60,2,Colombo-Kandy Road,15.654086876294919
 4784496273,13662447481,A1,AA001,Colombo - Kandy,trunk,False,60,,Colombo-Kandy Road,67.90894321950637
-4785723709,2966142501,A1,AA001,Colombo - Kandy,trunk,True,"['60', '70']",2,Colombo-Kandy Road,1319.8792695065454
+4785723709,2966142501,A1,AA001,Colombo - Kandy,trunk,True,"['70', '60']",2,Colombo-Kandy Road,1319.8792695065454
 4785723991,4785723709,A1,AA001,Colombo - Kandy,trunk,True,70,2,Colombo-Kandy Road,176.9839879832246
 4785724017,4785723991,A1,AA001,Colombo - Kandy,trunk,True,70,2,Colombo-Kandy Road,27.089180314983324
 4787694002,4789587324,A1,AA001,Colombo - Kandy,trunk,True,70,2,Colombo-Kandy Road,2584.4350837669886
@@ -2073,7 +2073,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 4790030895,4790030894,A1,AA001,Colombo - Kandy,trunk,True,70,2,Colombo-Kandy Road,11.666902018144103
 4790030896,4790030893,A1,AA001,Colombo - Kandy,trunk,True,70,2,Colombo-Kandy Road,11.62808561049371
 4798976659,2066330708,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,60,2,Dudley Senanayake Mawatha (Castle Street),129.74613661769857
-4798976659,127658294,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,False,60,2,"['Horton Place', 'Dudley Senanayake Mawatha']",589.0864614214894
+4798976659,127658294,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,False,60,2,"['Dudley Senanayake Mawatha', 'Horton Place']",589.0864614214894
 4807150323,4807150339,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,True,50,2,Katugastota-Kurunegala-Puttalam Road,43.747301414245456
 4807150337,4807150338,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,True,50,2,Katugastota-Kurunegala-Puttalam Road,44.34584111838164
 4807150338,4807150328,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,True,50,2,Katugastota-Kurunegala-Puttalam Road,43.27008435151977
@@ -2193,7 +2193,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 5237485233,4929241610,A1,AA001,Colombo - Kandy,trunk,False,70,2,Colombo-Kandy Road,25.91117928906658
 5237485234,4929241606,A1,AA001,Colombo - Kandy,trunk,False,70,2,Colombo-Kandy Road,21.648487412918836
 5237485234,5237485233,A1,AA001,Colombo - Kandy,trunk,False,70,2,Colombo-Kandy Road,6.861041017937746
-5239569079,3064234194,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,70,2,"['Kurunegala Road', 'Galagedara Road']",4033.626625599576
+5239569079,3064234194,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,70,2,"['Galagedara Road', 'Kurunegala Road']",4033.626625599576
 5239569079,3343547728,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,70,2,Galagedara Road,982.7053134266886
 5245953959,617806916,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,True,70,,Kurunegala - Kandy Road,52.957227448742096
 5245953965,3064571979,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,True,70,,Kurunegala - Kandy Road,50.78786589450373
@@ -2212,7 +2212,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 5280287631,5280287630,A1,AA001,Colombo - Kandy,trunk,True,70,2,Colombo-Kandy Road,7.349610708306295
 5286754885,2398925514,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,70,2,Badulla-Chenkaladi Road,44.04825500487372
 5286754885,4837295492,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,70,2,Badulla-Chenkaladi Road,2308.200660709935
-5289221658,4959610635,A27,AA027,Ampara - Uhana - MahaOya,trunk,False,70,2,"['Ampara Road', 'Ampara-Uhana-Maha Oya Road']",44812.18670605855
+5289221658,4959610635,A27,AA027,Ampara - Uhana - MahaOya,trunk,False,70,2,"['Ampara-Uhana-Maha Oya Road', 'Ampara Road']",44812.18670605855
 5289221658,3649840867,A27,AA027,Ampara - Uhana - MahaOya,trunk,False,70,2,Ampara-Uhana-Maha Oya Road,2571.1974089021205
 5299485480,1694695673,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,72,2,Main Street,246.87676250302792
 5300884107,5300890594,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,72,1,Colombo Road,23.477249476739505
@@ -2249,20 +2249,20 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 5364431661,566569982,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,Jayanthi Mawatha,1168.5265192076108
 5364431661,13572508097,A12,AA012,Puttalam - Trincomalee,trunk,True,60,,Jayanthi Mawatha,201.55970432430635
 5372968715,3136385193,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,Lotus Road,38.30896492367225
-5375634189,3422963193,A26,AA026,Kandy - Mahiyangana - Padiyatalawa,"['primary', 'trunk']",False,"['60', '50', '70']",2,"['Anagarika Dharmapala Mawatha', 'Sangaraja Mawatha', 'Weera Madduma Bandara Mawatha']",1167.4994296965829
+5375634189,3422963193,A26,AA026,Kandy - Mahiyangana - Padiyatalawa,"['primary', 'trunk']",False,"['70', '60', '50']",2,"['Anagarika Dharmapala Mawatha', 'Weera Madduma Bandara Mawatha', 'Sangaraja Mawatha']",1167.4994296965829
 5445976497,849241788,A9,AA009,Kandy - Jaffna,trunk,False,40,,Jaffna - Kankesanthurai Road,532.014646370777
 5445976497,7098642099,A9,AA009,Kandy - Jaffna,trunk,True,40,,Jaffna - Kankesanthurai Road,55.802317605333215
 5559025503,2966142464,A1,AA001,Colombo - Kandy,trunk,True,60,2,Colombo-Kandy Road,18.614439538451467
 5565782276,619918508,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,50,,High Level Road,186.8598001318412
 5565782276,9676457521,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,50,,High Level Road,95.82802240864834
 5576657112,1740742111,A12,AA012,Puttalam - Trincomalee,trunk,False,50,,Puttalam-Anuradhapura-Trincomalee Road,129.08186779728842
-5576657112,3557522184,A12,AA012,Puttalam - Trincomalee,trunk,False,"['50', '70']",,Puttalam-Anuradhapura-Trincomalee Road,1222.9774279647124
+5576657112,3557522184,A12,AA012,Puttalam - Trincomalee,trunk,False,"['70', '50']",,Puttalam-Anuradhapura-Trincomalee Road,1222.9774279647124
 5693657962,257926216,A1,AA001,Colombo - Kandy,trunk,False,60,2,Sri Dalada Veediya,63.216586126728835
 5764078202,2083007739,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,False,70,2,Ambepussa-Kurunegala Road,6965.305742223588
 5764078202,7087535778,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,True,70,2,Ambepussa-Kurunegala Road,85.50355339113972
 5771476347,2722759262,A24,AA024,Matara - Akuressa,trunk,True,60,2,Matara-Akuressa Road,24.959370581135047
 5785122163,566574620,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,Maithripala Senanayake Mawatha (Main Street),78.60922146554856
-5785122163,2833834344,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,"['Nivatthakachethiya Mawatha', 'Nivatthakachetiya Mawatha']",1758.8534241890854
+5785122163,2833834344,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,"['Nivatthakachetiya Mawatha', 'Nivatthakachethiya Mawatha']",1758.8534241890854
 5804555891,313407297,A3,AA003,Peliyagoda - Puttalam,trunk,True,70,2,Colombo-Puttalam Road,4201.387136475753
 5804555894,2155584797,A3,AA003,Peliyagoda - Puttalam,trunk,True,70,2,Negombo Road,12.39809713723785
 5969036508,3914008960,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,High Level Road,38.3042913390656
@@ -2352,7 +2352,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 6495360843,2082215258,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,Bar Road,41.412132369739034
 6495398254,6495398255,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,Kalmunai Road,142.37724949904768
 6495398255,13740014577,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,"['Batticaloa Road', 'Kalmunai Road']",404.35316488239584
-6495398267,6495398254,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,"['New Kallady Bridge', 'Kalmunai Road']",640.9913552130678
+6495398267,6495398254,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,"['Kalmunai Road', 'New Kallady Bridge']",640.9913552130678
 6495398268,6495398199,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,Kalmunai Road,297.91431773726595
 6495398269,6495398268,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,Kalmunai Road,12.106588582129605
 6495398273,6495398267,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,Kalmunai Road,299.78798507316947
@@ -2378,7 +2378,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 6511383113,6509727158,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,60,,Katugastota-Kurunegala-Puttalam Road,10842.016287242326
 6511383113,6511383095,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,True,40,,Katugastota-Kurunegala-Puttalam Road,39.61809933402946
 6511383114,6511383112,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,True,40,,Katugastota-Kurunegala-Puttalam Road,39.079886379520126
-6511383114,2186928769,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,"['60', '50']",2,"['Katugastota-Kurunegala-Puttalam Road', 'Kurunegala - Puttalam Road']",4799.252535092285
+6511383114,2186928769,A10,AA010,Katugastota - Kurunegala - Puttalam,trunk,False,"['60', '50']",2,"['Kurunegala - Puttalam Road', 'Katugastota-Kurunegala-Puttalam Road']",4799.252535092285
 6511383115,1239568660,A28,AA028,Padeniya - Anuradhapura,trunk,True,40,,Anuradhapura - Padeniya Road,35.86055890777687
 6524681176,191799826,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,50,3,Ananda Coomaraswamy Mawatha,423.7235314786428
 6524681177,9628046175,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,50,3,Ananda Coomaraswamy Mawatha,45.38944838591913
@@ -2386,10 +2386,10 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 6524681178,269351942,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,60,4,Sir Ernest de Silva Mawatha,291.34363365619134
 6524681178,6524681176,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,,,Sir Ernest de Silva Mawatha,74.0851348570128
 6535741179,5197144862,A1,AA001,Colombo - Kandy,trunk,True,60,2,Colombo-Kandy Road,984.3289768304091
-6536495259,6536495261,A1,AA001,Colombo - Kandy,trunk,True,70,2,"['Uruwel Oya Bridge', 'Colombo-Kandy Road']",485.59721451647215
+6536495259,6536495261,A1,AA001,Colombo - Kandy,trunk,True,70,2,"['Colombo-Kandy Road', 'Uruwel Oya Bridge']",485.59721451647215
 6536495260,4790019634,A1,AA001,Colombo - Kandy,trunk,True,70,2,Colombo-Kandy Road,124.91087606298274
 6536495261,5316437630,A1,AA001,Colombo - Kandy,trunk,True,70,2,Colombo-Kandy Road,217.04859935880435
-6536495262,6536495260,A1,AA001,Colombo - Kandy,trunk,True,70,2,"['Uruwel Oya Bridge', 'Colombo-Kandy Road']",489.43944001652113
+6536495262,6536495260,A1,AA001,Colombo - Kandy,trunk,True,70,2,"['Colombo-Kandy Road', 'Uruwel Oya Bridge']",489.43944001652113
 6536506696,5280287631,A1,AA001,Colombo - Kandy,trunk,True,70,2,Colombo-Kandy Road,204.29912065270054
 6537213315,10268958222,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,4,Kumaran Ratnam Road,540.8624700695698
 6537569534,6537569535,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,False,60,2,Kandy Road,21.796240006405963
@@ -2402,9 +2402,9 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 6538060317,7034868585,A35,AA035,Paranthan - Kachchai - Mullaitivu,trunk,True,60,,Paranthan-Mullaittivu Road,9.11209616358648
 6538060317,6538060311,A35,AA035,Paranthan - Kachchai - Mullaitivu,trunk,True,60,,Paranthan-Mullaitivu Road,17.431603204413076
 6538140524,6538140529,A9,AA009,Kandy - Jaffna,trunk,False,70,,Kandy - Jaffna Road,35.44763798852624
-6538140524,1728838958,A9,AA009,Kandy - Jaffna,trunk,False,"['60', '70']",,"['Kandy-Jaffna Road', 'Jaffna-Kandy Road', 'Kandy - Jaffna Road']",23729.92663296873
+6538140524,1728838958,A9,AA009,Kandy - Jaffna,trunk,False,"['70', '60']",,"['Kandy-Jaffna Road', 'Kandy - Jaffna Road', 'Jaffna-Kandy Road']",23729.92663296873
 6538140529,6538140524,A9,AA009,Kandy - Jaffna,trunk,False,70,,Kandy - Jaffna Road,35.44763798852624
-6538140529,634172980,A9,AA009,Kandy - Jaffna,trunk,False,"['60', '70']",,"['Kandy-Jaffna Road', 'Kandy - Jaffna Road']",21407.351033831168
+6538140529,634172980,A9,AA009,Kandy - Jaffna,trunk,False,"['70', '60']",,"['Kandy-Jaffna Road', 'Kandy - Jaffna Road']",21407.351033831168
 6540075345,6540075346,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,60,,Maradankadawala-Habarana Road,26.50719429186671
 6540075345,3557474363,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,60,2,Maradankadawala-Habarana Road,15267.573034820758
 6540075346,6540075345,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,60,,Maradankadawala-Habarana Road,26.50719429186671
@@ -2421,13 +2421,13 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 6661265112,1729992697,A30,AA030,Vavuniya - Parayanalankulam,trunk,False,60,,Vavuniya - Parayanalankulam,3289.7203625728184
 6685173555,1979375863,A22,AA022,Passara - Moneragala,trunk,False,70,2,Passara-Moneragala Road,235.57901134095934
 6685173555,2400768904,A22,AA022,Passara - Moneragala,trunk,False,70,2,Passara-Moneragala Road,9944.652156880487
-6685420675,6495398269,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,"['New Kallady Bridge', 'Kalmunai Road']",626.3862407177311
+6685420675,6495398269,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,"['Kalmunai Road', 'New Kallady Bridge']",626.3862407177311
 6685474007,2565428392,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,True,40,1,Trincomalee Road,30.68129429603198
 6685474058,3109068245,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,Trincomalee Road,1548.2320326181932
 6685474058,13904633852,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,True,40,1,Trincomalee Road,23.41428170168863
 6685474058,5906022857,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,True,40,1,Trincomalee Road,25.879840113071985
 6685478660,9567743870,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,True,60,1,Trincomalee Road,49.63600979150073
-6685478661,2304485540,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,"['60', '50', '70']",2,Habarana-Polonnaruwa-Batticaloa Road,44091.63416687221
+6685478661,2304485540,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,False,"['70', '60', '50']",2,Habarana-Polonnaruwa-Batticaloa Road,44091.63416687221
 6685478667,1725061738,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,Trincomalee Road,2611.643452183469
 6688367855,5804555894,A3,AA003,Peliyagoda - Puttalam,trunk,True,70,2,Colombo-Puttalam Road,4197.540708515831
 6695208838,974346527,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,1,Wellawaya-Pottuvil Road,40.56610602931814
@@ -2450,7 +2450,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 7035050523,3336273920,A9,AA009,Kandy - Jaffna,trunk,True,60,,Anuradhapura Road,57.256317637189596
 7035050524,7035050523,A9,AA009,Kandy - Jaffna,trunk,True,60,,Anuradhapura Road,45.263775971678186
 7037556016,3170533571,A9,AA009,Kandy - Jaffna,trunk,True,60,4,Madawala Road,26.294523728442844
-7037556017,2558293072,A9,AA009,Kandy - Jaffna,trunk,True,60,"['4', '2']","['Katugastota Bridge', 'Katugastota Road']",2181.8114035421045
+7037556017,2558293072,A9,AA009,Kandy - Jaffna,trunk,True,60,"['4', '2']","['Katugastota Road', 'Katugastota Bridge']",2181.8114035421045
 7037741108,13684572988,A3,AA003,Peliyagoda - Puttalam,trunk,True,60,2,Negombo Road,4.940146160989257
 7037743601,7037743630,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,50,2,H. Sri Nassanka Mawatha (High Level Road),9.789527017237301
 7037743630,7037743638,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,50,2,"['H. Sri Nassanka Mawatha (High Level Road)', 'H. Sri Nassanka Mawatha (Maya Avenue)']",407.77437374106995
@@ -2470,9 +2470,9 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 7042347632,7042347623,A9,AA009,Kandy - Jaffna,trunk,False,70,2,Kandy - Jaffna Road,16.36028532746363
 7042347632,1735981103,A9,AA009,Kandy - Jaffna,trunk,False,70,2,Kandy - Jaffna Road,7.664957437378372
 7042347643,7042347625,A35,AA035,Paranthan - Kachchai - Mullaitivu,trunk,True,,,,9.020068989929609
-7042347643,4136994008,A35,AA035,Paranthan - Kachchai - Mullaitivu,trunk,False,"['60', '50', '70']",,"['Paranthan-Mullaitivu Highway', 'Paranthan - Mullaitivu', 'Paranthan-Mullaittivu Road']",35565.39676999351
+7042347643,4136994008,A35,AA035,Paranthan - Kachchai - Mullaitivu,trunk,False,"['70', '60', '50']",,"['Paranthan-Mullaittivu Road', 'Paranthan - Mullaitivu', 'Paranthan-Mullaitivu Highway']",35565.39676999351
 7051044595,7051044596,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,Trincomalee-Batticaloa Road,22.797384064716752
-7051044595,1685802576,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,"['Ralkuli Bridge', 'Gangai Bridge', 'Trincomalee-Batticaloa Road', 'Upparu Bridge']",12090.477226038935
+7051044595,1685802576,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,"['Trincomalee-Batticaloa Road', 'Gangai Bridge', 'Upparu Bridge', 'Ralkuli Bridge']",12090.477226038935
 7051044596,7051044595,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,Trincomalee-Batticaloa Road,22.797384064716752
 7051044596,904233493,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,"['Trincomalee-Batticaloa Road', 'Kinniya Bridge']",10738.195900467432
 7071757658,901010009,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,False,70,2,Kandy Road,28383.901985852248
@@ -2517,20 +2517,20 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 7153699537,7081602426,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,60,2,Galle Face Centre Road,730.2488924166898
 7185588314,4139586563,A12,AA012,Puttalam - Trincomalee,trunk,True,60,,Puttalam Road,64.8957794313027
 7185616200,13564859299,A12,AA012,Puttalam - Trincomalee,trunk,True,60,,Puttalam Road,131.31746281751754
-7227878082,3088508758,A9,AA009,Kandy - Jaffna,trunk,True,60,"['4', '2']","['Katugastota Bridge', 'Katugastota Road']",2223.8347737667073
+7227878082,3088508758,A9,AA009,Kandy - Jaffna,trunk,True,60,"['4', '2']","['Katugastota Road', 'Katugastota Bridge']",2223.8347737667073
 7262773169,6495594260,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,New Kalmunai Road,1392.6548399739504
 7262773170,1147030351,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,New Kalmunai Road,93.90440286465055
 7262802916,7262773169,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,New Kalmunai Road,95.48232035959123
 7291030424,651637344,A33,AA033,Ja-Ela - Ekala - Gampaha - Yakkala,trunk,False,60,2,Gampaha-Ja Ela Road,730.5555564818425
 7291030424,4231244456,A33,AA033,Ja-Ela - Ekala - Gampaha - Yakkala,trunk,True,60,2,Gampaha-Ja Ela Road,1900.2834390240828
 7409403107,4137198917,A14,AA014,Medawachchiya - Mannar - Talaimannar,trunk,True,70,,,54.67245018262208
-7409403107,2568225710,A14,AA014,Medawachchiya - Mannar - Talaimannar,trunk,False,"['60', '25']",,Medawachchiya-Talaimannar Road,30186.73855779135
+7409403107,2568225710,A14,AA014,Medawachchiya - Mannar - Talaimannar,trunk,False,"['25', '60']",,Medawachchiya-Talaimannar Road,30186.73855779135
 7599684152,1981147403,A9,AA009,Kandy - Jaffna,trunk,False,70,2,,8.159719420650056
-7599684152,2731988210,A9,AA009,Kandy - Jaffna,trunk,True,"['50', '70']",2,Kandy-Jaffna Road,1302.1825430700785
+7599684152,2731988210,A9,AA009,Kandy - Jaffna,trunk,True,"['70', '50']",2,Kandy-Jaffna Road,1302.1825430700785
 7621971271,13083883262,A1,AA001,Colombo - Kandy,trunk,True,70,2,Colombo-Kandy Road,537.7721847060836
 7621971279,7621986814,A1,AA001,Colombo - Kandy,trunk,True,70,2,Colombo-Kandy Road,1116.4184194938566
 7621986814,7621986858,A1,AA001,Colombo - Kandy,trunk,True,70,2,Colombo-Kandy Road,676.6179082646652
-7621986858,7621986929,A1,AA001,Colombo - Kandy,trunk,True,70,2,"['Attanagalu Oya Bridge', 'Galtota Oya Bridge', 'Colombo-Kandy Road']",2136.344051218873
+7621986858,7621986929,A1,AA001,Colombo - Kandy,trunk,True,70,2,"['Colombo-Kandy Road', 'Galtota Oya Bridge', 'Attanagalu Oya Bridge']",2136.344051218873
 7621986929,6721753073,A1,AA001,Colombo - Kandy,trunk,True,70,2,Colombo-Kandy Road,484.8926520348652
 7625469738,618514963,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,70,3,Sri Jayewardenepura Mawatha,648.3456599433264
 7734473410,6495594239,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,True,50,2,Habarana-Polonnaruwa-Batticaloa Road,184.1657380721384
@@ -2580,7 +2580,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 8279646115,2638058705,A28,AA028,Padeniya - Anuradhapura,trunk,True,40,,Anuradhapura - Padeniya Road,31.34879414486237
 8279649718,2638058811,A28,AA028,Padeniya - Anuradhapura,trunk,True,40,,Anuradhapura - Padeniya Road,36.45851506543307
 8421010097,8421010098,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,72,2,Colombo Road,15.907936858841964
-8421010097,3090559903,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,72,2,"['Kuru Ganga Bridge', 'Colombo Road', 'Colombo-Ratnapura Road']",15373.941235043832
+8421010097,3090559903,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,72,2,"['Colombo-Ratnapura Road', 'Kuru Ganga Bridge', 'Colombo Road']",15373.941235043832
 8421010098,2149942832,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,72,2,Colombo Road,3969.100227418431
 8421010098,8421010097,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,72,2,Colombo Road,15.907936858841964
 8605932100,2382152045,A26,AA026,Kandy - Mahiyangana - Padiyatalawa,trunk,False,60,2,Anagarika Dharmapala Mawatha,8.882390245078657
@@ -2615,7 +2615,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 9394245013,9428150314,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,Trincomalee-Batticaloa Road,22.245917692158162
 9394245013,1685803214,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,Trincomalee-Batticaloa Road,21.60735731641902
 9407052257,3618872658,A1,AA001,Colombo - Kandy,trunk,True,60,2,Sirimavo Bandaranaike Mawatha (Peradeniya Road),18.69893697049803
-9427844828,2079053659,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,True,50,2,"['Trincomalee Road', 'Koddamunai Bridge']",128.67599718768597
+9427844828,2079053659,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,True,50,2,"['Koddamunai Bridge', 'Trincomalee Road']",128.67599718768597
 9428150314,1880414150,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,"['Trincomalee-Batticaloa Road', 'Kiliveddi Bridge']",9029.107218825176
 9428150314,9394245013,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,60,2,Trincomalee-Batticaloa Road,22.24591769215816
 9429896951,9429896955,A11,AA011,Maradankadawela - Habarana - Tirikkondiadimadu,trunk,True,50,2,Habarana-Polonnaruwa-Batticaloa Road,53.02426066061398
@@ -2651,7 +2651,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 9676457521,5565782276,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,50,,High Level Road,95.82802240864834
 9676457522,9577055310,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,50,,High Level Road,26.184169673512432
 9676457522,6006772899,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,50,,High Level Road,380.5893659133328
-9795422576,250131881,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,"['60', '40']",2,"['Tangalle Road', 'New Tangalle Road', 'Mahanama Bridge', 'Anagarika Dharmapala Mawatha']",386.47662792908153
+9795422576,250131881,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,"['40', '60']",2,"['Mahanama Bridge', 'New Tangalle Road', 'Anagarika Dharmapala Mawatha', 'Tangalle Road']",386.47662792908153
 9924565830,13673393240,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,50,3,Cumaratunga Munidasa Mawatha,219.1754509155677
 9959089698,129615942,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,50,4,High Level Road,24.78476408691185
 9959089698,129615924,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,False,50,4,High Level Road,565.3707484888826
@@ -2683,7 +2683,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 10132667231,610955288,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Hambantota-Wellawaya Road,17.677736464247207
 10132667231,2544591508,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,70,2,Hambantota-Wellawaya Road,10759.972874243367
 10166776387,2145042656,A16,AA016,Beragala - Hali-Ela,trunk,False,70,2,Badulla-Bandarawela Road,4862.206379938495
-10166776387,2011981296,A16,AA016,Beragala - Hali-Ela,trunk,False,"['50', '70']",2,"['Badulla-Bandarawela Road', 'Bandarawela Road']",3638.1948239052394
+10166776387,2011981296,A16,AA016,Beragala - Hali-Ela,trunk,False,"['70', '50']",2,"['Bandarawela Road', 'Badulla-Bandarawela Road']",3638.1948239052394
 10219043311,3964896717,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,70,3,Dudley Senanayake Mawatha (Castle Street),607.0493343394483
 10268955041,3556443375,A1,AA001,Colombo - Kandy,trunk,True,60,2,Sri Sangaraja Mawatha,33.42711785848851
 10268958222,6258386252,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,4,Kumaran Ratnam Road,16.55826734650785
@@ -2693,7 +2693,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 10603977996,6388461497,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,60,2,Galle Road,1908.712071702839
 10603977997,10603977925,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,60,"['3', '2']",Galle Road,1387.747216668146
 10607575538,8736765754,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,60,2,Bandarawela Road,158.59931480993254
-10607575538,3884338673,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,True,"['50', '40']","['2', '1']","['Lower Street', 'Bandarawela Road']",621.1766932850453
+10607575538,3884338673,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,True,"['40', '50']","['1', '2']","['Lower Street', 'Bandarawela Road']",621.1766932850453
 10682149765,10682149766,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,60,2,Horton Place,6.812347439917892
 10682149766,248608270,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,60,2,Horton Place,20.77038189217402
 10682149772,269202456,A0,AA000,Kollupitiya - Sri Jayewardenepura,trunk,True,60,2,Horton Place,247.56991328072328
@@ -2726,7 +2726,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 11743149450,1401473074,A13,AA013,Galkulama - Anuradhapura,trunk,True,70,,Bandaranaike Mawatha,21.47605481371192
 11743149450,4137359438,A13,AA013,Galkulama - Anuradhapura,trunk,False,70,,Bandaranaike Mawatha,523.0422173566875
 11765244590,1212770520,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,70,2,Horana Road,9.122124580316804
-11765244590,1446610177,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['50', '70']",2,Horana Road,5316.135421980934
+11765244590,1446610177,A8,AA008,Panadura - Nambapana - Ratnapura,trunk,False,"['70', '50']",2,Horana Road,5316.135421980934
 11765584301,7103763199,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,60,2,Pottuvil-Batticaloa Road,942.0756883759493
 12109482770,12109482771,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,50,4,Galle Road,19.790343709477447
 12109482770,50415165,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,False,"['60', '50']",4,Galle Road,4154.12525690179
@@ -2738,7 +2738,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 12118609958,11572133444,A13,AA013,Galkulama - Anuradhapura,trunk,False,70,,Bandaranaike Mawatha,278.88171473042496
 12119430734,2079053698,A15,AA015,Batticaloa - Tirikkondiadimadu - Trincomalee,trunk,False,40,2,Fort Road,328.170012478375
 12126721593,7095171150,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,70,2,Galle Road,1197.0319711386512
-12126721597,12126721593,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,"['60', '70']",2,"['Colombo Road', 'Galle Road']",14.334627200413433
+12126721597,12126721593,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,"['70', '60']",2,"['Colombo Road', 'Galle Road']",14.334627200413433
 12328410054,3594147916,A2,AA002,Colombo - Galle - Hambantota - Wellawaya,trunk,True,60,2,New Tangalle Road,114.09959485662935
 12373680251,61802472,A1,AA001,Colombo - Kandy,trunk,True,60,3,Dr. Danister de Silva Mawatha,47.38540229991015
 12488644096,7765114184,A6,AA006,Ambepussa - Kurunegala - Trincomalee,trunk,True,70,2,Kurunegala-Dambulla Road,511.51496095747706
@@ -2746,7 +2746,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 12509374263,2155580113,A3,AA003,Peliyagoda - Puttalam,trunk,True,60,2,Negombo Road,465.9857939671251
 12620876473,13686682350,A3,AA003,Peliyagoda - Puttalam,trunk,False,70,2,Colombo-Puttalam Road,259.9574742984615
 12620876473,1731470195,A3,AA003,Peliyagoda - Puttalam,trunk,False,70,2,Colombo-Puttalam Road,5452.681835692102
-12625589425,5212490345,A24,AA024,Matara - Akuressa,trunk,True,"['50', '70']",2,Akuressa Road,1902.592893297175
+12625589425,5212490345,A24,AA024,Matara - Akuressa,trunk,True,"['70', '50']",2,Akuressa Road,1902.592893297175
 12625589426,2568176862,A24,AA024,Matara - Akuressa,trunk,True,"['60', '50']",2,Akuressa Road,613.3274491102701
 12741337236,7037743601,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,50,2,High Level Road,18.181222556187365
 12761661746,12761661750,A31,AA031,Karativu - Ampara,trunk,True,50,1,Karativu-Ampara Road,99.92083055442885
@@ -2773,7 +2773,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 13425538963,678334696,A4,AA004,Colombo - Ratnapura - Wellawaya - Batticaloa,trunk,True,50,,Sri Sambuddhatwa Jayanthi Mawatha (Havelock Road),21.275119520106767
 13431444639,3836856289,A26,AA026,Kandy - Mahiyangana - Padiyatalawa,trunk,True,60,1,Kandy-Mahiyanganaya-Padiyatalawa Road,16.77394975542974
 13431444645,1783974992,A26,AA026,Kandy - Mahiyangana - Padiyatalawa,trunk,True,60,1,Kandy-Mahiyanganaya-Padiyatalawa Road,21.43643613626764
-13564710647,2837518594,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['50', '70']",,"['Anuradhapura - Padeniya Road', 'Padeniya-Anuradhapura Road']",10335.336395074786
+13564710647,2837518594,A28,AA028,Padeniya - Anuradhapura,trunk,False,"['70', '50']",,"['Anuradhapura - Padeniya Road', 'Padeniya-Anuradhapura Road']",10335.336395074786
 13564710647,4137349478,A28,AA028,Padeniya - Anuradhapura,trunk,True,,,Padeniya-Anuradhapura Road,29.477258972502582
 13564710682,4137349482,A12,AA012,Puttalam - Trincomalee,trunk,True,,,Puttalam Road,28.737826211825396
 13564710682,13564859299,A12,AA012,Puttalam - Trincomalee,trunk,False,60,,Puttalam Road,2191.5899686760945
@@ -2791,7 +2791,7 @@ u,v,matched_ref,route_no,road_name,highway,oneway,maxspeed,lanes,name,segment_le
 13577179096,2833834360,A20,AA020,Anuradhapura - Rambewa,trunk,True,60,1,Jaffna Road,35.05754211050945
 13615512124,6324979463,A1,AA001,Colombo - Kandy,trunk,False,60,2,"['Sirimavo Bandaranaike Mawatha (Peradeniya Road)', 'Sri Dalada Veediya']",127.57840426376052
 13615512124,4004621090,A1,AA001,Colombo - Kandy,trunk,False,60,2,Sirimavo Bandaranaike Mawatha (Peradeniya Road),20.416929603160348
-13625281401,1855322535,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,50,2,"['Penideniya Road', 'Penideniya Bridge']",254.60154747268854
+13625281401,1855322535,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,50,2,"['Penideniya Bridge', 'Penideniya Road']",254.60154747268854
 13625281401,2078331482,A5,AA005,Peradeniya - Badulla - Chenkaladi,trunk,False,50,2,Penideniya Road,259.4040552487882
 13625464816,2910325921,A1,AA001,Colombo - Kandy,trunk,False,60,2,Colombo Road,309.3342379223255
 13625464816,7094700078,A1,AA001,Colombo - Kandy,trunk,False,60,2,Colombo Road,382.02804555463683
